@@ -59,7 +59,7 @@ const Footer = () => {
 		<div class="text-xm  font-sans font-normal text-center md:text-left text-secondary">IEEE SRM is a prolific student chapter that aims to inspire professionalism and empower students, help them learn and implement new skills and technologies, gain exemplary knowledge through various engaging workshops and webinars, experience in fields of interest.
 </div>
 </div>
-<div class="col-start-1 col-end-10 md:col-start-8 md:col-end-10 text-center md:text-left">
+<div class="col-start-1 col-end-10 md:col-start-7 md:col-end-10 text-center md:text-right md:pr-6">
 <a href="https://www.ieeesrmist.in/disclaimer">
 <button class="  font-sans font-normal  text-secondary hover:text-tertiary">Disclaimer</button>
 </a><br />
