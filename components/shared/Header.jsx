@@ -21,7 +21,7 @@ const Header = () => {
         className={
           openNav
             ? "transition-all duration-500 ease-in-out absolute left-0 top-32 flex flex-col mx-auto text-center py-4 bg-bgConcepto w-full gap-5"
-            : "hidden md:flex md:items-center gap-4 md:gap-8 text-gray-400"
+            : "hidden md:flex  gap-4 md:gap-8 md:items-center md:mt-4 text-gray-400"
         }
       >
         <Link href="/">
