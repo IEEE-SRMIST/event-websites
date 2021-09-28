@@ -9,6 +9,7 @@ module.exports = {
         primary: "#151515",
         secondary: "#888888",
         tertiary: "#E5E5E5",
+        cardbg: "#151515"
       },
     },
   },
