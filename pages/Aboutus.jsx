@@ -1,14 +1,13 @@
 import Layout from "../components/shared/Layout";
-import Speakers from "../components/shared/Speakers";
 
-const Home = () => {
+function Aboutus() {
   return (
     <div className="text-white bg-bgConcepto">
       <Layout>
-        <Speakers />
+        <h1>About Us</h1>
       </Layout>
     </div>
   );
-};
+}
 
-export default Home;
+export default Aboutus;

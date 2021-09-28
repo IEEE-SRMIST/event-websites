@@ -27,8 +27,8 @@ const Header = () => {
         <Link href="/">
           <a className={router.pathname == "/" ? "text-white" : ""}>Home</a>
         </Link>
-        <Link href="/About">
-          <a className={router.pathname == "/About" ? "text-white" : ""}>
+        <Link href="/Aboutus">
+          <a className={router.pathname == "/Aboutus" ? "text-white" : ""}>
             About
           </a>
         </Link>
