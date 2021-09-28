@@ -1,7 +1,12 @@
+import Image from "next/image";
+import glyph from "../../assets/Glyph.svg";
+
 function WatchLive() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col my-16 text-white">
-      <div className="text-4xl text-white text-center md:text-justify">Watch Live Stream</div>
+    <div className="max-w-7xl mx-auto flex flex-col my-16 text-white px-10">
+      <div className="text-3xl md:text-4xl text-white text-center md:text-justify">
+        Watch Live Stream
+      </div>
       <div className="flex flex-col md:flex-row justify-between mt-16">
         <div className="flex flex-col gap-5 text-gray-300 text-base md:w-1/2 mx-3">
           <div className="p-4 bg-cardbg rounded-md">
@@ -22,8 +27,11 @@ function WatchLive() {
             diverse panel of individuals. Embrace Erudition.
           </div>
         </div>
-        <div className="flex items-center mt-5 md:mt-0 justify-center">
-          <button className="border-2 py-3 px-6  border-red-600 rounded-md">
+        <div className="flex items-center my-20 md:mt-0 justify-center">
+          <div className="absolute sm:h-96 sm:w-96 sm:mt-40 md:mt-0 md:right-2   md:h-2/6 md:w-2/6">
+            <Image src={glyph} alt="glyph" className="rotate-180" />
+          </div>
+          <button className="border-2 py-3 px-6 border-red-600 hover:bg-red-600 cursor-pointer z-10 rounded-md">
             Watch YouTube Stream
           </button>
         </div>
