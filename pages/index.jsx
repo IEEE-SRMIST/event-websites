@@ -3,7 +3,7 @@ import Speakers from "../components/shared/Speakers";
 
 const Home = () => {
   return (
-    <div className="text-white bg-bgConcepto">
+    <div className=" bg-bgConcepto">
       <Layout>
         <Speakers />
       </Layout>
