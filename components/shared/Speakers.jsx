@@ -5,9 +5,9 @@ import image2 from "../../assets/Rakshit.jpg";
 
 function Speakers() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col mt-10">
-      <div className="text-4xl ml-5">Our Speakers</div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5 px-10">
+    <div className="max-w-7xl mx-auto flex flex-col my-16">
+      <div className="text-3xl md:text-4xl text-white text-center md:text-justify">Our Speakers</div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-7 px-5 md:px-10">
         {data.data.map((speaker) => (
           <div className="flex flex-col text-center gap-2">
             <div className="rounded-full">
