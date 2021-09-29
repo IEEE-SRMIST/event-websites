@@ -8,4 +8,8 @@
 	*::after {
 		font-family: "Roboto", sans-serif;
 	}
+	body {
+		@apply text-text-primary;
+		@apply bg-background-primary;
+	}
 }
