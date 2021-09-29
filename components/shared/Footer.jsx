@@ -101,7 +101,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</section>
-			<div className="text-center mb-">© 2021 Made with ❤️️ by IEEE SRM SB</div>
+			<div className="text-center">© 2021 Made with ❤️️ by IEEE SRM SB</div>
 		</footer>
 	);
 };
