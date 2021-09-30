@@ -11,6 +11,12 @@ module.exports = {
 					primary: "#E5E5E5",
 				},
 			},
+      backgroundImage: theme => ({
+      
+        'sponsor': "url('/sponsorbg.png')",
+        'hero': "url('/wave.svg')",
+       }),
+
 		},
 	},
 	variants: {

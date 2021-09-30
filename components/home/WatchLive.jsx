@@ -3,23 +3,23 @@ import glyph from "../../assets/Glyph.svg";
 
 function WatchLive() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col my-16 text-white px-10">
-      <div className="text-3xl md:text-4xl text-white text-center md:text-justify">
+    <div className="max-w-7xl mx-auto flex flex-col my-16 text-text-primary">
+      <div className="text-3xl md:text-4xl text-text-primary font-medium text-center md:text-justify">
         Watch Live Stream
       </div>
       <div className="flex flex-col md:flex-row justify-between mt-16">
-        <div className="flex flex-col gap-5 text-gray-300 text-base md:w-1/2 mx-3">
-          <div className="p-4 bg-cardbg rounded-md">
+        <div className="flex flex-col gap-5  text-text-secondary md:w-1/2 mx-3 text-center md:text-left text-sm md:text-lg p-2 md:p-0">
+          <div className="p-4 bg-cardbg rounded-md bg-background-secondary ">
             Innovation, Ideation and Creation, they are the three pillars of
             advancement. The quest for knowledge is crucial to actualizing these
             three pillars. To do this, knowledge should be shared.
           </div>
-          <div className="p-4 bg-cardbg rounded-md md:relative md:left-28">
+          <div className="p-4 bg-cardbg rounded-md md:relative md:left-28 bg-background-secondary">
             With the world, with anyone and everyone who might be on the same
             path as yourself. To make this ideology a reality, IEEE SRM SB
             introduce to you our flagship event CONCEPTO.
           </div>
-          <div className="p-4 bg-cardbg rounded-md">
+          <div className="p-4 bg-cardbg rounded-md bg-background-secondary">
             Learn from twelve brilliant speakers belonging to a diverse range of
             fields and industries such as Google and Morgan Stanley, to name
             just a few. Amass the knowledge that these Titans of experience and

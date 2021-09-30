@@ -5,8 +5,8 @@ import image2 from "../../assets/Rakshit.jpg";
 
 function Speakers() {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col my-16">
-      <div className="text-3xl md:text-4xl text-white text-center md:text-justify">Our Speakers</div>
+    <div className="max-w-7xl mx-auto flex flex-col my-16 ">
+      <div className="text-3xl md:text-4xl text-text-primary font-medium text-center md:text-justify">Our Speakers</div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-7 px-5 md:px-10">
         {data.data.map((speaker) => (
           <div className="flex flex-col text-center gap-2">
@@ -30,8 +30,8 @@ function Speakers() {
               )}
             </div>
             <div className="flex flex-col gap-3">
-              <h3 className="text-gray-300">{speaker.name}</h3>
-              <h4 className="text-gray-500">{speaker.designation}</h4>
+              <h3 className="text-text-primary font-normal">{speaker.name}</h3>
+              <h4 className="text-text-secondary font-light">{speaker.designation}</h4>
             </div>
           </div>
         ))}
