@@ -4,19 +4,21 @@ import About from "../components/home/About";
 import Speakers from "../components/home/Speakers";
 import WatchLive from "../components/home/WatchLive";
 import Sponsor from "../components/home/Sponsor";
+import Faq from "../components/home/Faq";
 
 const Home = () => {
-	return (
-		<div className=" bg-bgConcepto">
-			<Layout>
+  return (
+    <div className="">
+      <Layout>
         <Hero />
         <About />
-				<Speakers />
-				<WatchLive />
+        <Speakers />
+        <WatchLive />
         <Sponsor />
-			</Layout>
-		</div>
-	);
+        <Faq/>
+      </Layout>
+    </div>
+  );
 };
 
 export default Home;
