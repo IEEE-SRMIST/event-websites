@@ -1,36 +1,38 @@
 import tanay from "../public/images/speakers/tanay.png";
-import image1 from "../public/images/speakers/image1.png";
-import image2 from "../public/images/speakers/image2.png";
+import rakshit from "../public/images/speakers/rakshit.png";
+import priya from "../public/images/speakers/priya.png";
+import arjun from "../public/images/speakers/arjun.png";
+import arsh from "../public/images/speakers/arsh.png";
 
 export default [
 	{
-		image: image1,
-		name: "Emma White",
-		designation: "SDE, Google California",
+		image: rakshit,
+		name: "Rakshit Naidu",
+		designation: "Research Engineer at OpenMind",
 	},
 	{
-		image: image2,
-		name: "James Robert",
-		designation: "SDE, Google California",
-	},
-	{
-		image: tanay,
-		name: "Tanay Pratap",
-		designation: "SDE, Google California",
-	},
-	{
-		image: image1,
-		name: "Emma White",
-		designation: "SDE, Google California",
-	},
-	{
-		image: image2,
-		name: "James Robert",
-		designation: "SDE, Google California",
+		image: priya,
+		name: "Priya Vajpeyi",
+		designation: "Member of Tech staff at adobe",
 	},
 	{
 		image: tanay,
 		name: "Tanay Pratap",
-		designation: "SDE, Google California",
+		designation: "Senior software engineer at Microsoft",
+	},
+	{
+		image: arjun,
+		name: "Arjun Kalsy",
+		designation: "VP at Growth",
+	},
+	{
+		image: arsh,
+		name: "Arsh Goyal",
+		designation: "Senior software engineer at Samsung",
+	},
+	{
+		image: tanay,
+		name: "Tanay Pratap",
+		designation: "Senior software engineer at Microsoft",
 	},
 ];

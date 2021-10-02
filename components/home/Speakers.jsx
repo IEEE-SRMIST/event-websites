@@ -3,9 +3,9 @@ import data from "../../data/speakers";
 
 function Speakers() {
 	return (
-		<section className="px-4 md:px-8 mx-auto mb-24">
+		<section className="px-4 md:px-8 mb-24">
 			<div className="mx-auto max-w-7xl heading">Our Speakers</div>
-			<div className="mx-auto max-w-7xl grid grid-cols-1 xs:grid-cols-2 2md:grid-cols-3 gap-y-12 xs:gap-y-20 mt-12">
+			<div className="mx-auto max-w-7xl mt-12 grid grid-cols-1 xs:grid-cols-2 2md:grid-cols-3 gap-y-12 xs:gap-y-20">
 				{data.map((speaker, index) => (
 					<article
 						key={speaker.name}
@@ -24,6 +24,7 @@ function Speakers() {
 									height={400}
 									placeholder="blur"
 									layout="responsive"
+									objectFit="cover"
 								/>
 							</a>
 						</div>

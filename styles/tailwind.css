@@ -12,6 +12,10 @@
 		@apply text-text-primary;
 		@apply bg-background-primary;
 	}
+
+	a {
+		@apply text-blue-500 underline;
+	}
 }
 
 @layer utilities {
@@ -22,7 +26,7 @@
 		@apply border-2 text-lg py-3 px-8 border-liveButton hover:bg-liveButton cursor-pointer z-10 rounded-md transition-colors;
 	}
 	.navlink {
-		@apply text-2xl hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap 2md:text-text-secondary hover:text-text-primary transition-colors;
+		@apply text-2xl no-underline hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap text-text-secondary hover:text-text-primary transition-colors;
 	}
 }
 

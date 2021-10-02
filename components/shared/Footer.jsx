@@ -79,21 +79,21 @@ const Footer = () => {
 					<div className="flex flex-col items-center md:items-end gap-2">
 						<a
 							href="https://www.ieeesrmist.in/disclaimer"
-							className="whitespace-nowrap"
+							className="whitespace-nowrap text-text-secondary"
 							target="_blank"
 						>
 							Disclaimer
 						</a>
 						<a
 							href="https://www.ieeesrmist.in/codeofconduct"
-							className="whitespace-nowrap"
+							className="whitespace-nowrap text-text-secondary"
 							target="_blank"
 						>
 							Code of Conduct
 						</a>
 						<a
 							href="https://www.ieeesrmist.in/privacypolicy"
-							className="whitespace-nowrap"
+							className="whitespace-nowrap text-text-secondary"
 							target="_blank"
 						>
 							Privacy Policy

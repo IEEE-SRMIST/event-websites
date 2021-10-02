@@ -19,7 +19,7 @@ const NavLinks = ({ router }) => {
 			<Link href="/#speakers">
 				<a className="navlink">Speakers</a>
 			</Link>
-			<Link href="events">
+			<Link href="/events">
 				<a className="navlink">Events</a>
 			</Link>
 			<Link href="/#faq">
