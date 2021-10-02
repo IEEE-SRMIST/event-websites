@@ -13,3 +13,35 @@
 		@apply bg-background-primary;
 	}
 }
+
+@layer utilities {
+	.heading {
+		@apply text-3xl md:text-4xl text-text-primary font-medium;
+	}
+	.liveBtn {
+		@apply border-2 text-lg py-3 px-8 border-liveButton hover:bg-liveButton cursor-pointer z-10 rounded-md transition-colors;
+	}
+	.navlink {
+		@apply text-2xl hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap 2md:text-text-secondary hover:text-text-primary transition-colors;
+	}
+}
+
+.drawer-enter {
+	opacity: 0;
+}
+
+.drawer-enter-active,
+.drawer-enter-done {
+	opacity: 1;
+	transition: opacity 200ms;
+}
+
+.drawer-exit {
+	opacity: 1;
+}
+
+.drawer-exit-active,
+.drawer-exit-done {
+	opacity: 0;
+	transition: opacity 200ms;
+}

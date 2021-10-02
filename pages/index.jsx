@@ -7,18 +7,16 @@ import Sponsor from "../components/home/Sponsor";
 import Faq from "../components/home/Faq";
 
 const Home = () => {
-  return (
-    <div className="">
-      <Layout>
-        <Hero />
-        <About />
-        <Speakers />
-        <WatchLive />
-        <Sponsor />
-        <Faq/>
-      </Layout>
-    </div>
-  );
+	return (
+		<Layout>
+			<Hero />
+			<About />
+			<Speakers />
+			<WatchLive />
+			<Sponsor />
+			<Faq />
+		</Layout>
+	);
 };
 
 export default Home;

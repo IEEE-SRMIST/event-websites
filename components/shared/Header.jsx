@@ -1,48 +1,73 @@
-import Link from "next/link";
-import Image from "next/image";
-import Logo from "../../assets/concepto.png";
-import { useRouter } from "next/router";
-import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { CSSTransition } from "react-transition-group";
+
+import { FiMenu } from "react-icons/fi";
+import { IoCloseSharp } from "react-icons/io5";
+
+const NavLinks = ({ router }) => {
+	return (
+		<>
+			<Link href="/">
+				<a className="navlink">Home</a>
+			</Link>
+
+			<Link href="/#about">
+				<a className="navlink">About</a>
+			</Link>
+			<Link href="/#speakers">
+				<a className="navlink">Speakers</a>
+			</Link>
+			<Link href="events">
+				<a className="navlink">Events</a>
+			</Link>
+			<Link href="/#faq">
+				<a className="navlink">FAQs</a>
+			</Link>
+			<Link href="/#about-ieee">
+				<a className="navlink">About IEEE SRM</a>
+			</Link>
+		</>
+	);
+};
 
 const Header = () => {
 	const router = useRouter();
-	const [openNav, setOpenNav] = useState(false);
+	const [showDrawer, setShowDrawer] = useState(false);
+
 	return (
-		<header className="flex justify-between items-center px-4 pt-10 max-w-7xl m-auto">
-			<Image
-				src={Logo}
-				alt="logo"
-				width="280"
-				height="50"
-				className="object-content"
-			/>
-			<div
-				className={
-					openNav
-						? "transition-all duration-500 ease-in-out absolute left-0 top-32 z-20 flex flex-col mx-auto text-center py-4 bg-bgConcepto w-full gap-5 text-gray-400"
-						: "hidden md:flex  gap-4 md:gap-8 md:items-center md:mt-4 text-gray-400"
-				}
-			>
-				<Link href="/">
-					<a className={router.pathname == "/" ? "text-white" : ""}>Home</a>
-				</Link>
-				<Link href="/Aboutus">
-					<a className={router.pathname == "/Aboutus" ? "text-white" : ""}>
-						About
-					</a>
-				</Link>
-				<Link href="">Speakers</Link>
-				<Link href="">Events</Link>
-				<Link href="">Stickers</Link>
-				<Link href="">FAQs</Link>
-				<Link href="">About IEEE SRM</Link>
-			</div>
-			<div className="flex md:hidden mt-4 text-4xl text-white">
-				<button onClick={() => setOpenNav(!openNav)}>
-					<FiMenu />
+		<header className="2md:px-8 px-4 py-8">
+			<div className="max-w-7xl mx-auto flex justify-between items-center">
+				<img src="/concepto.png" alt="logo" className="h-10 -mt-3" />
+				<nav className={"hidden 2md:flex gap-8 items-center"}>
+					<NavLinks router={router} />
+				</nav>
+				<button
+					className="block 2md:hidden text-3xl transform-gpu hover:scale-110 active:scale-90 transition-transform text-white"
+					onClick={() => setShowDrawer(true)}
+				>
+					<FiMenu className="mx-4" />
 				</button>
 			</div>
+			<CSSTransition
+				in={showDrawer}
+				timeout={200}
+				classNames="drawer"
+				unmountOnExit
+			>
+				<nav className="fixed z-50 2md:hidden top-0 right-0 bottom-0 left-0 bg-background-secondary">
+					<div className="h-full relative flex flex-col items-center justify-center gap-6">
+						<button
+							onClick={() => setShowDrawer(false)}
+							className="absolute top-20 transform-gpu transition-transform hover:scale-125 active:scale-90"
+						>
+							<IoCloseSharp size="42" className="" />
+						</button>
+						<NavLinks router={router} />
+					</div>
+				</nav>
+			</CSSTransition>
 		</header>
 	);
 };

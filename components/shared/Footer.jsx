@@ -14,7 +14,7 @@ const Footer = () => {
 			<section className="max-w-7xl mx-auto mb-12">
 				<div className="flex items-start justify-center md:justify-between mb-12">
 					<img
-						class="h-10 hidden md:block"
+						className="h-10 hidden md:block"
 						src="/concepto.png"
 						alt="Concepto Logo"
 					/>
