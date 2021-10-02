@@ -1,5 +1,6 @@
 import Image from "next/image";
-import glyph from "../../assets/Glyph.svg";
+import glyph from "../../public/images/glyph.svg";
+
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { FaTelegramPlane } from "react-icons/fa";
 import { useState } from "react";
