@@ -32,8 +32,8 @@ module.exports = {
 					secondary: "#888888",
 					primary: "#E5E5E5",
 				},
-				telegramButton: "#3190FE",
-				liveButton: "#8685EF",
+				telegram: "#3190FE",
+				accent: "#8685EF",
 				speaker: {
 					1: "#EEBB4D",
 					2: "#71A0CE",

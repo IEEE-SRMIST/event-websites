@@ -3,7 +3,7 @@ import glyph from "../../public/images/glyph.svg";
 
 const WatchLive = () => {
 	return (
-		<section className="px-4 md:px-8 mx-auto mb-24">
+		<section className="px-4 md:px-8 mx-auto pt-4 pb-24">
 			<div className="mx-auto max-w-7xl heading">Watch Live Stream</div>
 			<div className="lg:grid grid-cols-7 gap-6 mt-12">
 				<div className="col-span-4 text-text-secondary">
@@ -25,19 +25,7 @@ const WatchLive = () => {
 						diverse panel of individuals. Embrace Erudition.
 					</div>
 				</div>
-				{/* <div className="col-span-3 grid relative place-items-center">
-					<div className="absolute w-full top-0 translate-y-1/4 translate-x-1/4 bottom-0 left-0">
-						<div className="w-full h-auto rotate-45">
-							<Image
-								src={glyph}
-								alt="glyph"
-								className="rotate-180"
-								layout="responsive"
-							/>
-						</div>
-					</div>
-					<button className="liveBtn">Watch YouTube Stream</button>
-				</div> */}
+
 				<div className="col-span-3 flex items-center my-20 lg:mt-0 justify-center">
 					<div className="absolute sm:h-96 sm:w-96 sm:mt-40 lg:mt-0 md:right-2 lg:h-2/6 lg:w-2/6">
 						<Image src={glyph} alt="glyph" className="rotate-180" />

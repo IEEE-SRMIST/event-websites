@@ -12,7 +12,6 @@ const NavLinks = ({ router }) => {
 			<Link href="/">
 				<a className="navlink">Home</a>
 			</Link>
-
 			<Link href="/#about">
 				<a className="navlink">About</a>
 			</Link>
@@ -25,9 +24,10 @@ const NavLinks = ({ router }) => {
 			<Link href="/#faq">
 				<a className="navlink">FAQs</a>
 			</Link>
-			<Link href="/#about-ieee">
-				<a className="navlink">About IEEE SRM</a>
-			</Link>
+
+			<a className="navlink" href="https://ieeesrmist.in" target="_blank">
+				About IEEE SRM
+			</a>
 		</>
 	);
 };

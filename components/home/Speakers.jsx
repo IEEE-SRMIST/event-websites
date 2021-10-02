@@ -3,7 +3,7 @@ import data from "../../data/speakers";
 
 function Speakers() {
 	return (
-		<section className="px-4 md:px-8 mb-24">
+		<section id="speakers" className="px-4 md:px-8 pt-4 mb-20">
 			<div className="mx-auto max-w-7xl heading">Our Speakers</div>
 			<div className="mx-auto max-w-7xl mt-12 grid grid-cols-1 xs:grid-cols-2 2md:grid-cols-3 gap-y-12 xs:gap-y-20">
 				{data.map((speaker, index) => (
@@ -35,6 +35,7 @@ function Speakers() {
 					</article>
 				))}
 			</div>
+			<button className="block liveBtn mx-auto mt-16">View Events</button>
 		</section>
 	);
 }

@@ -1,19 +1,18 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { FiChevronUp } from "react-icons/fi";
 import { FaTelegramPlane } from "react-icons/fa";
 
 import faqs from "../../data/faq";
 
-import glyph from "../../public/images/glyph.svg";
-import { CSSTransition, Transition } from "react-transition-group";
+import { Transition } from "react-transition-group";
 
-function Faq() {
+const Faq = () => {
 	const [activeQuestion, setActiveQuestion] = useState(faqs[0].question);
 
 	return (
-		<div className="px-4 md:px-8 mb-24">
+		<section id="faq" className="px-4 md:px-8 mb-24 pt-4">
 			<div className="mx-auto max-w-7xl heading">Have a question?</div>
 			<div className="rounded-md 2md:w-2/3 mx-auto my-20 p-10 bg-background-secondary bg-opacity-60">
 				{faqs.map((faq) => (
@@ -32,16 +31,16 @@ function Faq() {
 				<div className="text-sm md:text-lg">
 					Join our Telegram channel for updates
 				</div>
-				<button className="border-2 text-lg py-3 px-6 border-telegramButton hover:bg-telegramButton cursor-pointer rounded-md transition-colors">
+				<button className="border-2 text-lg py-3 px-6 border-telegram hover:bg-telegram cursor-pointer rounded-md transition-colors">
 					<div className="flex items-center gap-2 md:gap-4">
 						<FaTelegramPlane className="text-text-primary h-5 w-5" />
 						<div className="text-lg md:text-xl">Hop In!</div>
 					</div>
 				</button>
 			</div>
-		</div>
+		</section>
 	);
-}
+};
 
 export default Faq;
 
