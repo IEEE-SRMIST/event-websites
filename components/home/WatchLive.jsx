@@ -27,8 +27,16 @@ const WatchLive = () => {
 				</div>
 
 				<div className="col-span-3 flex items-center my-20 lg:mt-0 justify-center">
-					<div className="absolute sm:h-96 sm:w-96 sm:mt-40 lg:mt-0 md:right-2 lg:h-2/6 lg:w-2/6">
-						<Image src={glyph} alt="glyph" className="rotate-180" />
+					<div
+						className="absolute z-0 sm:h-96 sm:w-96 sm:mt-40 lg:mt-0 md:right-2 lg:h-2/6 lg:w-2/6"
+						style={{ zIndex: -1 }}
+					>
+						<img
+							src="/images/glyph.svg"
+							alt="glyph"
+							style={{ zIndex: -1 }}
+							className="rotate-180"
+						/>
 					</div>
 					<button className="liveBtn">Watch YouTube Stream</button>
 				</div>

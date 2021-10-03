@@ -37,7 +37,7 @@
 		@apply text-3xl md:text-4xl text-text-primary font-medium;
 	}
 	.liveBtn {
-		@apply border-2 text-lg py-3 px-8 border-accent hover:bg-accent cursor-pointer z-10 rounded-md transition-colors;
+		@apply border-2 text-lg py-3 px-8 border-accent hover:bg-accent cursor-pointer rounded-md transition-colors;
 	}
 	.navlink {
 		@apply text-2xl no-underline hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap transition-colors;

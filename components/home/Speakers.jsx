@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import data from "../../data/speakers";
 
 function Speakers() {
@@ -7,8 +9,10 @@ function Speakers() {
 			<div className="mx-auto max-w-7xl heading">Our Speakers</div>
 			<div className="mx-auto max-w-7xl mt-12 grid grid-cols-1 xs:grid-cols-2 2md:grid-cols-3 gap-y-12 xs:gap-y-20">
 				{data.map((speaker, index) => (
-					<article
+					<a
 						key={speaker.name}
+						href={speaker.url}
+						target="_blank"
 						className="flex flex-row items-start xs:flex-col xs:items-center"
 					>
 						<div
@@ -16,7 +20,7 @@ function Speakers() {
 								(index % 6) + 1
 							}`}
 						>
-							<a className="block grayscale hover:grayscale-0 transition duration-300">
+							<div className="block grayscale hover:grayscale-0 transition duration-300">
 								<Image
 									src={speaker.image}
 									alt={`${speaker.name} Mugshot`}
@@ -26,16 +30,22 @@ function Speakers() {
 									layout="responsive"
 									objectFit="cover"
 								/>
-							</a>
+							</div>
 						</div>
 						<div className="ml-6 py-4 min-w-0 flex-1 xs:ml-0 xs:py-0 xs:px-4 xs:mt-8 xs:text-center">
 							<h3 className="text-lg text-text-primary">{speaker.name}</h3>
 							<h4 className="text-text-secondary">{speaker.designation}</h4>
 						</div>
-					</article>
+					</a>
 				))}
 			</div>
-			<button className="block liveBtn mx-auto mt-16">View Events</button>
+			<Link href="/events">
+				<a>
+					<button className="block liveBtn mx-auto mt-16">
+						View All Events
+					</button>
+				</a>
+			</Link>
 		</section>
 	);
 }

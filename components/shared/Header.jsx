@@ -5,6 +5,7 @@ import { CSSTransition } from "react-transition-group";
 
 import { FiMenu } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
+import Headroom from "react-headroom";
 
 const NavLinks = ({ router, setShowDrawer }) => {
 	return (
@@ -71,23 +72,27 @@ const Header = () => {
 	const [showDrawer, setShowDrawer] = useState(false);
 
 	return (
-		<header className="2md:px-8 px-4 py-8">
-			<div className="max-w-7xl mx-auto flex justify-between items-center">
-				<Link href="/">
-					<a>
-						<img src="/concepto.png" alt="logo" className="h-10 -mt-3" />
-					</a>
-				</Link>
-				<nav className={"hidden 2md:flex gap-8 items-center"}>
-					<NavLinks setShowDrawer={setShowDrawer} router={router} />
-				</nav>
-				<button
-					className="block 2md:hidden text-3xl transform-gpu hover:scale-110 active:scale-90 transition-transform text-white"
-					onClick={() => setShowDrawer(true)}
-				>
-					<FiMenu className="mx-4" />
-				</button>
-			</div>
+		<>
+			<Headroom>
+				<header className="2md:px-8 px-4 py-8 bg-background-primary bg-opacity-60 backdrop-blur-lg">
+					<div className="max-w-7xl mx-auto flex justify-between items-center">
+						<Link href="/">
+							<a>
+								<img src="/concepto.png" alt="logo" className="h-10 -mt-3" />
+							</a>
+						</Link>
+						<nav className={"hidden 2md:flex gap-8 items-center"}>
+							<NavLinks setShowDrawer={setShowDrawer} router={router} />
+						</nav>
+						<button
+							className="block 2md:hidden text-3xl transform-gpu hover:scale-110 active:scale-90 transition-transform text-white"
+							onClick={() => setShowDrawer(true)}
+						>
+							<FiMenu className="mx-4" />
+						</button>
+					</div>
+				</header>
+			</Headroom>
 			<CSSTransition
 				in={showDrawer}
 				timeout={200}
@@ -106,7 +111,7 @@ const Header = () => {
 					</div>
 				</nav>
 			</CSSTransition>
-		</header>
+		</>
 	);
 };
 
