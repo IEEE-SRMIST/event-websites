@@ -33,7 +33,11 @@ export default [
 		answer: (
 			<>
 				Please email us at{" "}
-				<a className="text-blue-600" href="mailto:ieee@srmist.edu.in">
+				<a
+					className="text-blue-500 underline"
+					href="mailto:ieee@srmist.edu.in"
+					target="_blank"
+				>
 					ieee@srmist.edu.in
 				</a>{" "}
 				and we'll get back to you ASAP!

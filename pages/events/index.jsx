@@ -1,11 +1,21 @@
 import Layout from "../../components/shared/Layout";
+import EventsHero from "../../components/events/Events";
 
-const Events = () => {
+import eventsData from "../../data/events";
+import speakerData from "../../data/speakers";
+
+const Events = ({ events, speakers }) => {
 	return (
 		<Layout>
-			<main className="px-6">All Events</main>
+			<EventsHero events={events} speakers={speakers} />
 		</Layout>
 	);
 };
 
 export default Events;
+
+export function getStaticProps() {
+	return {
+		props: { events: eventsData, speakers: speakerData },
+	};
+}

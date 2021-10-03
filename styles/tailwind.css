@@ -7,6 +7,7 @@
 	*::before,
 	*::after {
 		font-family: "Roboto", sans-serif;
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	html {
@@ -16,10 +17,6 @@
 	body {
 		@apply text-text-primary;
 		@apply bg-background-primary;
-	}
-
-	a {
-		@apply text-blue-500 underline;
 	}
 
 	::-webkit-scrollbar {
