@@ -20,7 +20,7 @@ const EventsHero = ({ events, speakers }) => {
 									key={event.id}
 								>
 									<div
-										className={`w-24 h-24 -mr-12 mt-4 rounded-full overflow-hidden z-10 bg-speaker-${
+										className={`w-24 h-24 -mr-12 mt-4 rounded-full overflow-hidden z-0 bg-speaker-${
 											(index % 6) + 1
 										} border-2 border-event-${(index % 6) + 1}`}
 									>
@@ -35,6 +35,7 @@ const EventsHero = ({ events, speakers }) => {
 										/>
 									</div>
 									<div
+										style={{ zIndex: -1 }}
 										className={`self-stretch flex-1 min-w-0 p-6 pt-10 flex flex-col rounded-md border-2 border-event-${
 											(index % 6) + 1
 										}`}

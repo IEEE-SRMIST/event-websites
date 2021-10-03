@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import data from "../../data/speakers";
-
-function Speakers() {
+function Speakers({ speakers }) {
 	return (
 		<section id="speakers" className="px-4 md:px-8 pt-4 mb-20">
 			<div className="mx-auto max-w-7xl heading">Our Speakers</div>
 			<div className="mx-auto max-w-7xl mt-12 grid grid-cols-1 xs:grid-cols-2 2md:grid-cols-3 gap-y-12 xs:gap-y-20">
-				{data.map((speaker, index) => (
+				{speakers.map((speaker, index) => (
 					<a
 						key={speaker.name}
 						href={speaker.url}
