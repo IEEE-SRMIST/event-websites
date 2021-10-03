@@ -6,26 +6,60 @@ import { CSSTransition } from "react-transition-group";
 import { FiMenu } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
 
-const NavLinks = ({ router }) => {
+const NavLinks = ({ router, setShowDrawer }) => {
 	return (
 		<>
 			<Link href="/">
-				<a className="navlink">Home</a>
+				<a
+					onClick={(e) => setShowDrawer(false)}
+					className={`navlink text-text-secondary hover:text-text-primary ${
+						router.pathname === "/" ? "text-text-primary" : ""
+					}`}
+				>
+					Home
+				</a>
 			</Link>
 			<Link href="/#about">
-				<a className="navlink">About</a>
+				<a
+					onClick={(e) => setShowDrawer(false)}
+					className="navlink text-text-secondary hover:text-text-primary"
+				>
+					About
+				</a>
 			</Link>
 			<Link href="/#speakers">
-				<a className="navlink">Speakers</a>
+				<a
+					onClick={(e) => setShowDrawer(false)}
+					className="navlink text-text-secondary hover:text-text-primary"
+				>
+					Speakers
+				</a>
 			</Link>
 			<Link href="/events">
-				<a className="navlink">Events</a>
+				<a
+					onClick={(e) => setShowDrawer(false)}
+					className={`navlink hover:text-text-primary text-text-secondary ${
+						router.pathname === "/events" ? "text-text-primary" : ""
+					}`}
+				>
+					Events
+				</a>
 			</Link>
 			<Link href="/#faq">
-				<a className="navlink">FAQs</a>
+				<a
+					onClick={(e) => setShowDrawer(false)}
+					className="navlink text-text-secondary hover:text-text-primary"
+				>
+					FAQs
+				</a>
 			</Link>
 
-			<a className="navlink" href="https://ieeesrmist.in" target="_blank">
+			<a
+				onClick={(e) => setShowDrawer(false)}
+				className="navlink text-text-secondary hover:text-text-primary"
+				href="https://ieeesrmist.in"
+				target="_blank"
+			>
 				About IEEE SRM
 			</a>
 		</>
@@ -39,9 +73,13 @@ const Header = () => {
 	return (
 		<header className="2md:px-8 px-4 py-8">
 			<div className="max-w-7xl mx-auto flex justify-between items-center">
-				<img src="/concepto.png" alt="logo" className="h-10 -mt-3" />
+				<Link href="/">
+					<a>
+						<img src="/concepto.png" alt="logo" className="h-10 -mt-3" />
+					</a>
+				</Link>
 				<nav className={"hidden 2md:flex gap-8 items-center"}>
-					<NavLinks router={router} />
+					<NavLinks setShowDrawer={setShowDrawer} router={router} />
 				</nav>
 				<button
 					className="block 2md:hidden text-3xl transform-gpu hover:scale-110 active:scale-90 transition-transform text-white"
@@ -64,7 +102,7 @@ const Header = () => {
 						>
 							<IoCloseSharp size="42" className="" />
 						</button>
-						<NavLinks router={router} />
+						<NavLinks setShowDrawer={setShowDrawer} router={router} />
 					</div>
 				</nav>
 			</CSSTransition>

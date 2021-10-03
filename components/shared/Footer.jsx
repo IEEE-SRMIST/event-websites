@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
 	FaLinkedin,
 	FaGithub,
@@ -13,11 +14,15 @@ const Footer = () => {
 		<footer className="bg-background-secondary px-4 md:px-8 pt-10 pb-4">
 			<section className="max-w-7xl mx-auto mb-12">
 				<div className="flex items-start justify-center md:justify-between mb-12">
-					<img
-						className="h-10 hidden md:block"
-						src="/concepto.png"
-						alt="Concepto Logo"
-					/>
+					<Link href="/">
+						<a>
+							<img
+								className="h-10 hidden md:block"
+								src="/concepto.png"
+								alt="Concepto Logo"
+							/>
+						</a>
+					</Link>
 					<article>
 						<div className="flex gap-3 justify-center md:justify-end mb-2">
 							<a

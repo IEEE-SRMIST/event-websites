@@ -40,7 +40,7 @@
 		@apply border-2 text-lg py-3 px-8 border-accent hover:bg-accent cursor-pointer z-10 rounded-md transition-colors;
 	}
 	.navlink {
-		@apply text-2xl no-underline hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap text-text-secondary hover:text-text-primary transition-colors;
+		@apply text-2xl no-underline hover:underline 2md:hover:no-underline 2md:text-base whitespace-nowrap transition-colors;
 	}
 }
 

@@ -7,10 +7,11 @@ import moment from "moment";
 
 const EventsHero = ({ events, speakers }) => {
 	return (
-		<section className="px-4 md:px-8 mx-auto mb-16 ">
-			<div className="mx-auto max-w-6xl grid grid-cols-1 auto-rows-auto 2md:auto-rows-fr 2md:grid-cols-2 gap-x-16 lg:gap-x-40 gap-y-12 md:gap-y-20 p-4 xs:p-8 md:p-12">
+		<section className="px-4 md:px-8 mx-auto mb-16">
+			<div className="mx-auto max-w-6xl grid grid-cols-1 auto-rows-auto 2md:auto-rows-fr 2md:grid-cols-2 gap-x-16 lg:gap-x-40 gap-y-12 md:gap-y-20 pt-8 px-0 2md:px-4 lg:px-12">
 				{events.map((event, index) => {
 					const speaker = speakers.find((speaker) => speaker.eid === event.id);
+
 					return (
 						<article key={event.id}>
 							<Link href={`/events/${event.id}`}>
@@ -21,7 +22,7 @@ const EventsHero = ({ events, speakers }) => {
 									<div
 										className={`w-24 h-24 -mr-12 mt-4 rounded-full overflow-hidden z-10 bg-speaker-${
 											(index % 6) + 1
-										}`}
+										} border-2 border-event-${(index % 6) + 1}`}
 									>
 										<Image
 											src={speaker.image}

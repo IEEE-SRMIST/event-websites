@@ -1,5 +1,3 @@
-import event1 from "../public/images/events/event1.png";
-
 export default [
 	{
 		title: "How To Brand Yourself?",
@@ -7,7 +5,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 	{
@@ -16,7 +14,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 	{
@@ -25,7 +23,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 	{
@@ -34,7 +32,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 	{
@@ -43,7 +41,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 	{
@@ -52,7 +50,7 @@ export default [
 		description:
 			"Velit magna dolore do veniam. Excepteur minim cupidatat exercitation et sit velit dolore eu sit. Ut laboris laborum anim ex. Mollit id consequat aliqua sit minim incididunt eu reprehenderit. Do sit veniam Lorem labore adipisicing. Sint laborum aliquip adipisicing nulla incididunt sint est velit pariatur cupidatat Lorem labore. Ipsum deserunt nostrud voluptate tempor sunt nisi et reprehenderit officia. Deserunt aliquip dolor cupidatat qui consequat cillum in irure proident duis reprehenderit id dolore elit. Ea ut magna est tempor duis ullamco aliquip nulla cillum tempor. Incididunt fugiat eu duis velit mollit exercitation ex nulla ut irure ut enim. Nostrud sint ex sit nulla nulla minim culpa sint eu enim dolore aute minim consequat. Ad veniam ad velit proident pariatur consequat irure ea exercitation occaecat veniam ut. Labore deserunt voluptate officia non excepteur quis ex. Consequat ullamco aliqua non reprehenderit incididunt aliqua magna consequat ad exercitation. Culpa duis duis incididunt id nisi dolore mollit commodo adipisicing exercitation in excepteur velit anim.",
 		start: "2021-10-08T06:30:00.000Z",
-		poster: event1,
+		poster: "/images/events/event.jpg",
 		url: "https://google.com",
 	},
 ];

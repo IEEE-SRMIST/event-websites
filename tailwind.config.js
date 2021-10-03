@@ -12,6 +12,13 @@ module.exports = {
 			"bg-speaker-4",
 			"bg-speaker-5",
 			"bg-speaker-6",
+			"hover:bg-event-1",
+			"hover:bg-event-2",
+			"hover:bg-event-3",
+			"hover:bg-event-4",
+			"hover:bg-event-5",
+			"hover:bg-event-6",
+
 			"border-event-1",
 			"border-event-2",
 			"border-event-3",

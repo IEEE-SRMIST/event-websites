@@ -14,7 +14,7 @@ const Events = ({ events, speakers }) => {
 
 export default Events;
 
-export function getStaticProps() {
+export async function getStaticProps() {
 	return {
 		props: { events: eventsData, speakers: speakerData },
 	};
