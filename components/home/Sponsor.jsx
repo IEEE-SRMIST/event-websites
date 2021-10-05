@@ -12,7 +12,13 @@ const Sponsor = () => {
 						key={sponsor.name}
 						src={sponsor.image}
 						alt={`${sponsor.name} Logo`}
-						className="h-20 sm:h-28 rounded-full bg-text-primary"
+						className={`${
+							sponsor.size === "md"
+								? "h-14 sm:h-20"
+								: sponsor.size === "lg"
+								? "h-20 sm:h-28"
+								: "h-12 sm:h-16"
+						} ${sponsor.isDark ? "p-4 bg-text-primary rounded-md" : ""}`}
 					/>
 				))}
 			</div>
