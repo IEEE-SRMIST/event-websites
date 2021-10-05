@@ -1,3 +1,7 @@
+// id should match the eid property under ./speakers.js
+// it is used to map event to its speaker
+// use sensible id names like for event title "Tech-View", use eid = "techview"
+
 export default [
 	{
 		title: "How To Brand Yourself?",

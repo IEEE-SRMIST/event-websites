@@ -3,6 +3,11 @@ import rakshit from "../public/images/speakers/rakshit.png";
 import priya from "../public/images/speakers/priya.png";
 import arjun from "../public/images/speakers/arjun.png";
 import arsh from "../public/images/speakers/arsh.png";
+import tbd from "../public/images/speakers/tbd.png";
+
+// eid should match the id property under ./events.js
+// it is used to map speaker to their event
+// use sensible id names like for event title "Tech-View", use eid = "techview"
 
 export default [
 	{
@@ -41,10 +46,10 @@ export default [
 		url: "https://www.linkedin.com/in/arshgoyal/",
 	},
 	{
-		image: tanay,
-		name: "Tanay Pratap",
-		designation: "Senior software engineer at Microsoft",
-		eid: "event6",
-		url: "https://www.linkedin.com/in/tanaypratap/",
+		image: tbd,
+		name: "Revealing Soon...",
+		designation: "Stay Tuned!",
+		eid: null,
+		url: null,
 	},
 ];

@@ -9,7 +9,7 @@ function Speakers({ speakers }) {
 				{speakers.map((speaker, index) => (
 					<a
 						key={speaker.name}
-						href={speaker.url}
+						href={speaker.url ? speaker.url : "#"}
 						target="_blank"
 						className="flex flex-row items-start xs:flex-col xs:items-center"
 					>
