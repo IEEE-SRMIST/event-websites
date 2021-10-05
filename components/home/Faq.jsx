@@ -31,12 +31,14 @@ const Faq = () => {
 				<div className="text-sm md:text-lg">
 					Join our Telegram channel for updates
 				</div>
-				<button className="border-2 text-lg py-3 px-6 border-telegram hover:bg-telegram cursor-pointer rounded-md transition-colors">
-					<div className="flex items-center gap-2 md:gap-4">
-						<FaTelegramPlane className="text-text-primary h-5 w-5" />
-						<div className="text-lg md:text-xl">Hop In!</div>
-					</div>
-				</button>
+				<a href="https://t.me/IEEESRMSB" target="_blank">
+					<button className="border-2 text-lg py-3 px-6 border-telegram hover:bg-telegram cursor-pointer rounded-md transition-colors">
+						<div className="flex items-center gap-2 md:gap-4">
+							<FaTelegramPlane className="text-text-primary h-5 w-5" />
+							<div className="text-lg md:text-xl">Hop In!</div>
+						</div>
+					</button>
+				</a>
 			</div>
 		</section>
 	);
