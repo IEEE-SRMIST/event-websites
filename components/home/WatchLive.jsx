@@ -1,10 +1,10 @@
-import Image from "next/image";
-import glyph from "../../public/images/glyph.svg";
+import Link from "next/link";
 
 const WatchLive = () => {
 	return (
 		<section className="px-4 md:px-8 mx-auto pt-4 pb-24">
-			<div className="mx-auto max-w-7xl heading">Watch Live Stream</div>
+			{/* <div className="mx-auto max-w-7xl heading">Watch Live Stream</div> */}
+			<div className="mx-auto max-w-7xl heading">Excited? Register Now!</div>
 			<div className="lg:grid grid-cols-7 gap-6 mt-12">
 				<div className="col-span-4 text-text-secondary">
 					<div className="p-6 mb-6 max-w-xl rounded-md bg-background-secondary ">
@@ -38,7 +38,11 @@ const WatchLive = () => {
 							className="rotate-180"
 						/>
 					</div>
-					<button className="liveBtn">Watch YouTube Stream</button>
+					<Link href="/register">
+						<a>
+							<button className="liveBtn">Register Now!</button>
+						</a>
+					</Link>
 				</div>
 			</div>
 		</section>

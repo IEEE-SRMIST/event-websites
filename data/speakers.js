@@ -49,7 +49,7 @@ export default [
 		image: tbd,
 		name: "Revealing Soon...",
 		designation: "Stay Tuned!",
-		eid: null,
+		eid: "event6",
 		url: null,
 	},
 ];

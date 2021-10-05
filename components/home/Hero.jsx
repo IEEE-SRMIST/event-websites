@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
 	return (
 		<section className="pt-24 pb-20">
@@ -6,7 +8,12 @@ const Hero = () => {
 					<source src="/trailer.mp4" type="video/mp4" />
 				</video>
 			</div>
-			<button className="liveBtn block mt-16 mx-auto">Watch Live Stream</button>
+			{/* <button className="liveBtn block mt-16 mx-auto">Watch Live Stream</button> */}
+			<Link href="/register">
+				<a>
+					<button className="liveBtn block mt-16 mx-auto">Register Now!</button>
+				</a>
+			</Link>
 		</section>
 	);
 };
