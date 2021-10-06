@@ -18,11 +18,11 @@ const WatchLive = () => {
 						introduce to you our flagship event CONCEPTO.
 					</div>
 					<div className="p-6 max-w-xl rounded-md bg-background-secondary">
-						Learn from twelve brilliant speakers belonging to a diverse range of
-						fields and industries such as Google and Morgan Stanley, to name
-						just a few. Amass the knowledge that these Titans of experience and
-						wisdom have to offer in their field, expand your horizons with a
-						diverse panel of individuals. Embrace Erudition.
+						Learn from 5 brilliant speakers from diverse range of fields and
+						industries such as OpenMind Microsoft and Adobe to name a few! Amass
+						the knowledge these three days and grab the excellent opportunity to
+						hear the experience and wisdom these Titans have to offer. Expand
+						your horizons. Embrace experience and erudition!
 					</div>
 				</div>
 

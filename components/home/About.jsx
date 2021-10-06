@@ -7,13 +7,12 @@ const About = () => {
 					Innovation is the change that unlocks new value.The crusade for
 					innovation however is one that cannot be traversed alone. Sharing
 					knowledge with the world is one of the cornerstones of innovation and
-					this principle is realized with CONCEPTO. Learn from twelve speakers
-					hailing from various industries such as General Electric, Amazon,
-					Google, and Morgan Stanley, to name just a few. These speakers are
-					some of the most experienced professionals in their field, a diverse
-					panel of individuals indeed because knowledge shared should not be
-					kept exclusive to a field and its people, but instead be within reach
-					of all those who wish to pursue it.
+					this principle is realized with CONCEPTO. Learn from 5 brilliant
+					speakers from diverse range of fields and industries such as OpenMind
+					Microsoft and Adobe to name a few! Amass the knowledge these three
+					days and grab the excellent opportunity to hear the experience and
+					wisdom these Titans have to offer. Expand your horizons. Embrace
+					experience and erudition!
 				</div>
 			</div>
 		</section>

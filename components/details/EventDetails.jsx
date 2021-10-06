@@ -18,11 +18,15 @@ const EventDetails = ({ event }) => {
 				</Link>
 			</section>
 			<section className="mt-6 max-w-xl mx-auto flex flex-col items-center">
-				<img src={event.poster} alt={`${event.speaker.name} Mugshot`} />
+				{event.poster !== null && (
+					<img src={event.poster} alt={`${event.speaker.name} Mugshot`} />
+				)}
 				<div
-					className={`w-28 h-28 xs:w-32 xs:h-32 -mt-14 xs:-mt-16 overflow-hidden rounded-full border-2 xs:border-4 bg-speaker-${
+					className={`w-28 h-28 xs:w-32 xs:h-32 overflow-hidden rounded-full border-2 xs:border-4 bg-speaker-${
 						(event.position % 6) + 1
-					} border-event-${(event.position % 6) + 1}`}
+					} border-event-${(event.position % 6) + 1} ${
+						event.poster !== null ? "-mt-14 xs:-mt-16" : ""
+					}`}
 				>
 					<Image
 						src={event.speaker.image}
@@ -52,12 +56,18 @@ const EventDetails = ({ event }) => {
 			</p>
 			<a href={event.url} target="_blank">
 				<button
-					className={`block border-2 text-lg py-3 px-8 cursor-pointer z-10 rounded-md transition-colors mx-auto mt-16 border-event-${
+					disabled={event.url === null}
+					className={`block disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent border-2 text-lg py-3 px-8 cursor-pointer z-10 rounded-md transition-colors mx-auto mt-16 border-event-${
 						(event.position % 6) + 1
 					} hover:bg-event-${(event.position % 6) + 1}`}
 				>
-					Watch YouTube Stream
+					Join Session
 				</button>
+				{event.url === null && (
+					<div className="mt-2 text-center text-text-secondary text-sm">
+						Please wait for the event to start.
+					</div>
+				)}
 			</a>
 		</main>
 	);

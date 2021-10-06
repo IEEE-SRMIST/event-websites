@@ -18,9 +18,11 @@ const EventDetailsPage = ({ event }) => {
 export default EventDetailsPage;
 
 export async function getStaticProps(context) {
-	const event = eventsData.find((event) => event.id === context.params.eid);
+	const position = eventsData.findIndex(
+		(event) => event.id === context.params.eid
+	);
+	const event = eventsData[position];
 	const speaker = speakers.find((speaker) => speaker.eid === event.id);
-	const position = speakers.findIndex((speaker) => speaker.eid === event.id);
 	return {
 		props: { event: { ...event, speaker, position } },
 	};
