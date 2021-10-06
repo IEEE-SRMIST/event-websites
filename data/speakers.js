@@ -14,7 +14,7 @@ export default [
 		image: rakshit,
 		name: "Rakshit Naidu",
 		designation: "Research Engineer at OpenMind",
-		eid: "event1", // this should be same as event id that this speaker is for
+		eid: "event3", // this should be same as event id that this speaker is for
 		url: "https://www.linkedin.com/in/rakshit-naidu-8b3431166/",
 	},
 	{
@@ -28,7 +28,7 @@ export default [
 		image: tanay,
 		name: "Tanay Pratap",
 		designation: "Senior software engineer at Microsoft",
-		eid: "event3",
+		eid: "techview",
 		url: "https://www.linkedin.com/in/tanaypratap/",
 	},
 	{
