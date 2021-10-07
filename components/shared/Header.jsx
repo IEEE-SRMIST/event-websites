@@ -73,7 +73,7 @@ const Header = () => {
 
 	return (
 		<>
-			<Headroom>
+			<Headroom wrapperStyle={{ height: "92px" }} style={{ height: "92px" }}>
 				<header className="2md:px-8 px-4 py-8 bg-background-primary bg-opacity-60 backdrop-blur-lg">
 					<div className="max-w-7xl mx-auto flex justify-between items-center">
 						<Link href="/">
