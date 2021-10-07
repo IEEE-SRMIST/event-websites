@@ -18,11 +18,11 @@ export default [
 	// 	url: null,
 	// },
 	{
-		image: rakshit,
-		name: "Rakshit Naidu",
-		designation: "Research Engineer at OpenMind",
-		eid: "consilium", // this should be same as event id that this speaker is for
-		url: "https://www.linkedin.com/in/rakshit-naidu-8b3431166/",
+		image: tanay,
+		name: "Tanay Pratap",
+		designation: "Senior Software Engineer at Microsoft",
+		eid: "techview",
+		url: "https://www.linkedin.com/in/tanaypratap/",
 	},
 	{
 		image: priya,
@@ -30,13 +30,6 @@ export default [
 		designation: "Member of Technical Staff at Adobe",
 		eid: "riseandshine",
 		url: "https://www.linkedin.com/in/priya-vajpeyi/",
-	},
-	{
-		image: tanay,
-		name: "Tanay Pratap",
-		designation: "Senior Software Engineer at Microsoft",
-		eid: "techview",
-		url: "https://www.linkedin.com/in/tanaypratap/",
 	},
 	{
 		image: arjun,
@@ -51,5 +44,12 @@ export default [
 		designation: "Senior Software Engineer at Samsung India",
 		eid: "placement-therapy",
 		url: "https://www.linkedin.com/in/arshgoyal/",
+	},
+	{
+		image: rakshit,
+		name: "Rakshit Naidu",
+		designation: "Research Engineer at OpenMind",
+		eid: "consilium", // this should be same as event id that this speaker is for
+		url: "https://www.linkedin.com/in/rakshit-naidu-8b3431166/",
 	},
 ];
