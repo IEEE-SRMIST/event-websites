@@ -48,7 +48,7 @@ export default [
 	{
 		image: rakshit,
 		name: "Rakshit Naidu",
-		designation: "Research Engineer at OpenMind",
+		designation: "Pursuing Masters at Carnegie Mellon University",
 		eid: "consilium", // this should be same as event id that this speaker is for
 		url: "https://www.linkedin.com/in/rakshit-naidu-8b3431166/",
 	},
