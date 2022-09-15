@@ -9,24 +9,24 @@ import Faq from "../components/home/Faq";
 import speakers from "../data/speakers";
 
 const Home = () => {
-	return (
-		<Layout>
-			<Hero />
-			<About />
-			<Speakers speakers={speakers} />
-			<WatchLive />
-			<Sponsor />
-			<Faq />
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Hero />
+      <About />
+      {/* <Speakers speakers={speakers} /> */}
+      <WatchLive />
+      {/* <Sponsor /> */}
+      <Faq />
+    </Layout>
+  );
 };
 
 export default Home;
 
 export async function getStaticProps() {
-	return {
-		props: {
-			speakers,
-		},
-	};
+  return {
+    props: {
+      speakers,
+    },
+  };
 }
