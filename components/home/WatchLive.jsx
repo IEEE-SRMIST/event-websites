@@ -18,11 +18,10 @@ const WatchLive = () => {
             introduce to you our flagship event CONCEPTO.
           </div>
           <div className="p-6 max-w-xl rounded-md bg-background-secondary">
-            Learn from 5 brilliant speakers from diverse range of fields and
-            industries such as OpenMind Microsoft and Adobe to name a few! Amass
-            the knowledge these three days and grab the excellent opportunity to
-            hear the experience and wisdom these Titans have to offer. Expand
-            your horizons. Embrace experience and erudition!
+            This time you are not just at the receiving cease. Our cause is to
+            provide you with understanding and mastering. Ideathon, a platform
+            to share your ideas and get them mentioned. As actual knowledge is
+            acquired while you share it with others.
           </div>
         </div>
 

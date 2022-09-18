@@ -43,7 +43,7 @@ const NavLinks = ({ router, setShowDrawer }) => {
             router.pathname === "/events" ? "text-text-primary" : ""
           }`}
         >
-          Events
+          Tracks
         </a>
       </Link>
       <Link href="/#faq">

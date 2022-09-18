@@ -21,7 +21,7 @@ export default [
     image: tanay,
     name: "Tanay Pratap",
     designation: "Senior Software Engineer at Microsoft",
-    eid: "techview",
+    eid: "edTech",
     url: "https://www.linkedin.com/in/tanaypratap/",
   },
   {
