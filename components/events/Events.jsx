@@ -5,12 +5,12 @@ import Link from "next/link";
 import { VscArrowRight } from "react-icons/vsc";
 import moment from "moment";
 
-const EventsHero = ({ events, speakers }) => {
+const EventsHero = ({ events }) => {
   return (
     <section className="px-4 md:px-8 mx-auto mb-16">
       <div className="mx-auto max-w-6xl grid grid-cols-1 auto-rows-auto 2md:auto-rows-fr 2md:grid-cols-2 gap-x-16 lg:gap-x-40 gap-y-12 md:gap-y-20 pt-8 px-0 2md:px-4 lg:px-12">
         {events.map((event, index) => {
-          const speaker = speakers.find((speaker) => speaker.eid === event.id);
+          //const speaker = speakers.find((speaker) => speaker.eid === event.id);
 
           return (
             <article key={event.id}>

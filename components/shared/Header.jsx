@@ -29,13 +29,13 @@ const NavLinks = ({ router, setShowDrawer }) => {
         </a>
       </Link>
       {/* <Link href="/#speakers">
-				<a
-					onClick={(e) => setShowDrawer(false)}
-					className="navlink text-text-secondary hover:text-text-primary"
-				>
-					Speakers
-				</a>
-			</Link> */}
+        <a
+          onClick={(e) => setShowDrawer(false)}
+          className="navlink text-text-secondary hover:text-text-primary"
+        >
+          Speakers
+        </a>
+      </Link> */}
       <Link href="/events">
         <a
           onClick={(e) => setShowDrawer(false)}

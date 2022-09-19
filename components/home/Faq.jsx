@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 import { FiChevronUp } from "react-icons/fi";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 import faqs from "../../data/faq";
 
@@ -34,7 +34,7 @@ const Faq = () => {
         <a href="https://discord.gg/MheePQdk" target="_blank">
           <button className="border-2 text-lg py-3 px-6 border-telegram hover:bg-telegram cursor-pointer rounded-md transition-colors">
             <div className="flex items-center gap-2 md:gap-4">
-              <FaTelegramPlane className="text-text-primary h-5 w-5" />
+              <FaDiscord className="text-text-primary h-5 w-5" />
               <div className="text-lg md:text-xl">Hop In!</div>
             </div>
           </button>

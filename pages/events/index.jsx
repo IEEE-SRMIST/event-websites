@@ -4,10 +4,10 @@ import EventsHero from "../../components/events/Events";
 import eventsData from "../../data/events";
 import speakerData from "../../data/speakers";
 
-const Events = ({ events, speakers }) => {
+const Events = ({ events }) => {
   return (
     <Layout>
-      <EventsHero events={events} speakers={speakers} />
+      <EventsHero events={events} />
     </Layout>
   );
 };
@@ -16,6 +16,6 @@ export default Events;
 
 export async function getStaticProps() {
   return {
-    props: { events: eventsData, speakers: speakerData },
+    props: { events: eventsData },
   };
 }
