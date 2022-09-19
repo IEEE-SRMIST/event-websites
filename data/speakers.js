@@ -1,6 +1,6 @@
-import sudarshanan from "../public/images/speakers/sudarshanan.png";
+//import sudarshanan from "../public/images/speakers/sudarshanan.png";
 import rakshit from "../public/images/speakers/rakshit.png";
-import mohan from "../public/images/speakers/mohan.png";
+//import mohan from "../public/images/speakers/mohan.png";
 import arjun from "../public/images/speakers/arjun.png";
 import arsh from "../public/images/speakers/arsh.png";
 import tbd from "../public/images/speakers/tbd.png";
@@ -18,14 +18,14 @@ export default [
   //   url: null,
   // },
   {
-    image: sudarshanan,
+    //image: sudarshanan,
     name: "Sudharshanan Ganapathy",
     designation: "Founder, The Social Company",
     // eid: "edTech",
     url: "https://www.linkedin.com/in/sudharsananganapathy/",
   },
   {
-    image: mohan,
+    //image: mohan,
     name: "Mohan Chandar",
     designation: "Owner, MochiSoft Solutions",
     //eid: "riseandshine",
