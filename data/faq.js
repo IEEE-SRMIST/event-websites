@@ -1,7 +1,7 @@
 export default [
   {
     question: "📅 When is the last day of registration?",
-    answer: "Applications close October 22th, 11:59 P.M. IST!",
+    answer: "Applications close September 22th, 11:59 P.M. IST!",
   },
   {
     question: "😵 Who is eligible to participate in CONCEPTO?",
