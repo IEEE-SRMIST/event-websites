@@ -4,6 +4,7 @@ import mohan from "../public/images/speakers/mohan.png";
 import arjun from "../public/images/speakers/arjun.png";
 import arsh from "../public/images/speakers/arsh.png";
 import tbd from "../public/images/speakers/tbd.png";
+import ptb from "../public/images/speakers/prathba.png";
 
 // eid should match the id property under ./events.js
 // it is used to map speaker to their event
@@ -23,6 +24,13 @@ export default [
     designation: "Founder, The Social Company",
     // eid: "edTech",
     url: "https://www.linkedin.com/in/sudharsananganapathy/",
+  },
+  {
+    image: ptb,
+    name: "Prathiba Leo",
+    designation: "Ex-Amazon, Ex-Walmart",
+    // eid: "edTech",
+    url: "https://www.linkedin.com/in/prathibaleo12/",
   },
   {
     image: mohan,
