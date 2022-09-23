@@ -28,7 +28,7 @@ export default [
   {
     image: ptb,
     name: "Prathiba Leo",
-    designation: "Ex-Amazon, Ex-Walmart",
+    designation: "Content Creator and TedX Speaker",
     // eid: "edTech",
     url: "https://www.linkedin.com/in/prathibaleo12/",
   },
