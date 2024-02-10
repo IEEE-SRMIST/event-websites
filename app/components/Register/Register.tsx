@@ -1,3 +1,6 @@
+export default function Home() {
+  return (
+
 <>
   {/* Hero */}
   <div className="overflow-hidden">
@@ -167,3 +170,5 @@
   </div>
   {/* End Hero */}
 </>
+  );
+}
