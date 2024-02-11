@@ -25,7 +25,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
           >
-            Can I cancel at anytime?
+            What is a hackathon?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              Yes, you can cancel anytime no questions are asked while you
-              cancel but we would highly appreciate if you will give us some
-              feedback.
+            A hackathon is an event where individuals or teams come together to collaboratively work on projects, 
+            typically software or hardware-related, within a set time frame, 
+            often ranging from a few hours to a few days.
             </p>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
           >
-            My team has credits. How do we use them?
+            Who can participate in a hackathon?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -111,8 +111,8 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              Once your team signs up for a subscription plan. This is where we
-              sit down, grab a cup of coffee and dial in the details.
+            Anyone with the necessary skills and interest in the theme of the hackathon can participate. 
+            This includes programmers, designers, engineers, entrepreneurs, and anyone else who can contribute to the development process.
             </p>
           </div>
         </div>

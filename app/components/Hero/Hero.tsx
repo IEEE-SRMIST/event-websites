@@ -10,7 +10,7 @@ export default function Home() {
     <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
       <div>
         <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
-          Start your journey with <span className="text-blue-600">Preline</span>
+          Start your journey with <span className="text-orange-600">Preline</span>
         </h1>
         <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
           Hand-picked professionals and expertly crafted components, designed
@@ -19,7 +19,7 @@ export default function Home() {
         {/* Buttons */}
         <div className="mt-7 grid gap-3 w-full sm:inline-flex">
           <a
-            className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-orange-600 text-white hover:bg-orange-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             href="#"
           >
             Get started
