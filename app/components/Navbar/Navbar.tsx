@@ -12,10 +12,10 @@ const Navbar: React.FC = () => {
                         <Link href="/">HOME</Link>
                     </div>
                     <div className="w-full lg:w-[1440px] flex-grow text-center text-2xl font-bold font-montserrat hover:text-orange-600">
-                        <Link href="/components/Gallery/Gallery">GALLERY</Link>
+                        <Link href="/gallery">GALLERY</Link>
                     </div>
                     <div className="w-full lg:w-[1440px] flex-grow text-center text-2xl font-bold font-montserrat hover:text-orange-600">
-                        <Link href="/components/Register/Register">REGISTER</Link>
+                        <Link href="/register">REGISTER</Link>
                     </div>
                 </div>
             </div>
