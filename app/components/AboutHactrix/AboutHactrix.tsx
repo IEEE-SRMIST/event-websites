@@ -40,7 +40,7 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                High quality Co-Living spaces
+                Day 1:Explore and Create
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
                 Our fully furnished spaces are designed and purpose-built with
@@ -71,7 +71,7 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Fostering vibrant communities
+                Day 2: Present and Excel
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
                 Our passion is bringing people together. Beyond creating
@@ -99,7 +99,7 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Simple and all-inclusive
+                Event Highlights
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
                 We worry about the details so that our residents don't have to.
