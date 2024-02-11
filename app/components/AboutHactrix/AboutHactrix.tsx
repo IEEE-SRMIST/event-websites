@@ -9,14 +9,10 @@ export default function Home() {
       <div className="grid gap-12">
         <div>
           <h2 className="text-3xl text-gray-800 font-bold lg:text-4xl dark:text-white">
-            Our vision
+            About Hactrix
           </h2>
           <p className="mt-3 text-gray-800 dark:text-gray-400">
-            For as long as there have been cities, the public square has been a
-            fundamental part of the urban landscape - an open, approachable
-            space to meet and engage with friends and neighbours. Space aims to
-            capture this spirit of bringing people together in an exciting,
-            welcoming environment.
+          Hacktrix aims to foster innovation, skill development, and community building through collaborative problem-solving. Participants work in diverse teams to create innovative solutions to real-world challenges, enhancing technical and non-technical skills while networking with industry professionals. Join us to unleash your creativity and make an impact!"
           </p>
         </div>
         <div className="space-y-6 lg:space-y-10">

@@ -124,7 +124,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
           >
-            How does Preline's pricing work?
+            Do I need to have a project idea before the hackathon?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -160,8 +160,7 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              Our subscriptions are tiered. Understanding the task at hand and
-              ironing out the wrinkles is key.
+            It's not required to have a project idea before the hackathon, but it can be helpful. Some participants come to a hackathon with specific project ideas in mind, while others prefer to brainstorm and form ideas with their team at the event.
             </p>
           </div>
         </div>
@@ -173,7 +172,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
           >
-            How secure is Preline?
+            What are the judging criteria for hackathon projects?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -209,9 +208,7 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              Protecting the data you trust to Preline is our first priority.
-              This part is really crucial in keeping the project in line to
-              completion.
+            Judging criteria vary depending on the hackathon, but common factors include creativity, technical complexity, execution, impact, and presentation. Check the hackathon guidelines or ask organizers for specific judging criteria.
             </p>
           </div>
         </div>
@@ -223,7 +220,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
           >
-            How do I get access to a theme I purchased?
+            What happens if I don't finish my project during the hackathon?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -259,12 +256,7 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              If you lose the link for a theme you purchased, don't panic! We've
-              got you covered. You can login to your account, tap your avatar in
-              the upper right corner, and tap Purchases. If you didn't create a
-              login or can't remember the information, you can use our handy
-              Redownload page, just remember to use the same email you
-              originally made your purchases with.
+            While the goal of a hackathon is to complete a project within the allotted time, it's common for participants to not finish their projects. Hackathons are also about learning, collaboration, and experimentation, so even if your project isn't complete, you'll still gain valuable experience and feedback.
             </p>
           </div>
         </div>
@@ -276,7 +268,7 @@ export default function Home() {
             className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
           >
-            Upgrade License Type
+            What happens after the hackathon ends?
             <svg
               className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
               xmlns="http://www.w3.org/2000/svg"
@@ -312,10 +304,7 @@ export default function Home() {
             aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
           >
             <p className="text-gray-800 dark:text-gray-200">
-              There may be times when you need to upgrade your license from the
-              original type you purchased and we have a solution that ensures
-              you can apply your original purchase cost to the new license
-              purchase.
+            After the hackathon, teams often have the opportunity to present their projects to judges and other participants. Prizes may be awarded to winning teams, and participants typically have the chance to network with sponsors, mentors, and other attendees. Additionally, some hackathons provide resources or support for teams to continue developing their projects after the event.
             </p>
           </div>
         </div>
