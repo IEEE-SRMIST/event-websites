@@ -7,7 +7,7 @@ export default function Home() {
     {/* Title */}
     <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
       <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-        Our leadership
+        Judges
       </h2>
     </div>
     {/* End Title */}

@@ -30,11 +30,10 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Creative minds
+                Our Founding
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
-                We choose our teams carefully. Our people are the secret to
-                great work.
+                IEEE SRMIST SB was established in 2015 with a vision to inspire, educate, and empower the next generation of engineers and innovators.
               </p>
             </div>
           </div>
@@ -60,11 +59,10 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Effortless updates
+                Our Values
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
-                Benefit from automatic updates to all boards any time you need
-                to make a change to your website.
+                We are driven by innovation, education, community, and excellence. These values guide our actions and initiatives.
               </p>
             </div>
           </div>
@@ -87,11 +85,10 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Strong empathy
+                Our Journey
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
-                We've user tested our own process by shipping over 1k products
-                for clients.
+               Over the years, we've organized impactful events, workshops, and initiatives, fostering talents and technological advancement.
               </p>
             </div>
           </div>
@@ -122,68 +119,10 @@ export default function Home() {
             </svg>
             <div className="ms-5 sm:ms-8">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Conquer the best
+                Membership Benefits
               </h3>
               <p className="mt-1 text-gray-600 dark:text-gray-400">
-                We stay lean and help your product do one thing well.
-              </p>
-            </div>
-          </div>
-          {/* End Icon Block */}
-          {/* Icon Block */}
-          <div className="flex">
-            <svg
-              className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-              <circle cx={9} cy={7} r={4} />
-              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-            </svg>
-            <div className="ms-5 sm:ms-8">
-              <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Designing for people
-              </h3>
-              <p className="mt-1 text-gray-600 dark:text-gray-400">
-                We actively pursue the right balance between functionality and
-                aesthetics, creating delightful experiences.
-              </p>
-            </div>
-          </div>
-          {/* End Icon Block */}
-          {/* Icon Block */}
-          <div className="flex">
-            <svg
-              className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              width={24}
-              height={24}
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M7 10v12" />
-              <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
-            </svg>
-            <div className="ms-5 sm:ms-8">
-              <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Simple and affordable
-              </h3>
-              <p className="mt-1 text-gray-600 dark:text-gray-400">
-                From boarding passes to movie tickets, there's pretty much
-                nothing you can't store with Preline.
+                Joining IEEE opens doors to a world of resources, networking, and professional development opportunities.
               </p>
             </div>
           </div>
