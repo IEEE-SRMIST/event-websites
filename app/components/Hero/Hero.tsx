@@ -9,7 +9,7 @@ const Hero = () => {
             {/* Title */}
             <div className="max-w-[85rem] text-center mx-auto">
 
-              <h1 className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-xl">
+              <h1 className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-xl animate-hactrix">
                 HACKTRIX
 
               </h1>
