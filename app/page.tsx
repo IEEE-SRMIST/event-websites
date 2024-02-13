@@ -16,7 +16,6 @@ const HomePage: React.FC = () => {
   return (
     <div className="bg-white">
       <Navbar />
-
       <Hero />
       <SponsorList />
       <IconSection />
