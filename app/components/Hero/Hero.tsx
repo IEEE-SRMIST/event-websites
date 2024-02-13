@@ -1,23 +1,24 @@
-import React from 'react'
+import React from 'react';
 
 const Hero = () => {
   return (
     <div>
-
       <div className="bg-black">
         <div className="bg-black">
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
             {/* Title */}
             <div className="max-w-[85rem] text-center mx-auto">
-              <h1 className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-xl">
+
+              <h1
+                className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-14xl animate-hactrix"
+              >
                 HACKTRIX
               </h1>
             </div>
             {/* End Title */}
             <div className="max-w-3xl text-center mx-auto">
               <p className="font-body text-lg text-white">
-                Preline is a large open-source project, crafted with Tailwind CSS
-                framework by Hmlstream.
+                Preline is a large open-source project, crafted with Tailwind CSS framework by Hmlstream.
               </p>
             </div>
             {/* Buttons */}
@@ -48,9 +49,8 @@ const Hero = () => {
         </div>
       </div>
       {/* End Hero */}
-
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
