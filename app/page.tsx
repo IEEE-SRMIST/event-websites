@@ -25,7 +25,6 @@ const HomePage: React.FC = () => {
       <Testimonial />
       <Register />
       <FAQ />
-      <Footer />
     </div>
   );
 };
