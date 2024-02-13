@@ -8,10 +8,10 @@ const Hero = () => {
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
             {/* Title */}
             <div className="max-w-[85rem] text-center mx-auto">
-              <h1
-                className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-14xl animate-hactrix"
-              >
-                HACTRIX
+
+              <h1 className="block font-head text-white text-center text-6xl sm:text-8xl md:text-8xl lg:text-xl">
+                HACKTRIX
+
               </h1>
             </div>
             {/* End Title */}
