@@ -1,29 +1,34 @@
+"use client";
+
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
-import SponsorList from './components/SponsorList/SponsorList';
-import FAQ from './components/FAQ/FAQ';
-import Testimonial from './components/Testimonial/Testimonial';
-import IconSection from './components/IconSection/IconSection';
-import AboutHactrix from './components/AboutHactrix/AboutHactrix';
-import Judges from './components/Judges/Judges';
-import Register from './components/Register/Register';
+import Navbar from './components/HomePage/Navbar/Navbar';
+import HeroSection from './components/HomePage/HeroSection/HeroSection';
+import SponsorsSection from './components/HomePage/SponsorsSection/SponsorsSection';
+import AboutSection from './components/HomePage/AboutSection/AboutSection';
+import EventHighlights from './components/HomePage/EventHighlights/EventHighlights';
+import SpeakerSection from './components/HomePage/SpeakerSection/SpeakerSection';
+import FAQ from './components/HomePage/FAQ/FAQ';
+import Testimonial from './components/HomePage/Testimonial/Testimonial';
+import RegistrationSection from './components/HomePage/RegistrationSection/RegistrationSection';
+import Footer from './components/HomePage/Footer/Footer';
 
 import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
     <div className="bg-white">
+
       <Navbar />
-      <Hero />
-      <SponsorList />
-      <IconSection />
-      <AboutHactrix />
-      <Judges />
-      <Testimonial />
-      <Register />
+      <HeroSection />
+      <SponsorsSection />
+      <AboutSection />
+      <EventHighlights />
+      <SpeakerSection />
       <FAQ />
+      <Testimonial />
+      <RegistrationSection />
+      <Footer />
+
     </div>
   );
 };
