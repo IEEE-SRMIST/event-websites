@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../components/HomePage/Navbar/Navbar';
+import Footer from '../components/HomePage/Footer/Footer';
 
 const EventRegisterForm: React.FC = () => {
   const [formData, setFormData] = useState({
