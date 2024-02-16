@@ -6,22 +6,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Quicksand:wght@300..700&display=swap');
 
-/* global.css */
-
 
 @keyframes slideIn {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
+  0% {
+    transform: translateX(100%);
   }
-  
-  .animate-hactrix {
-    animation: slideIn 10s linear infinite;
-    will-change: transform; /* Optimize for hardware acceleration */
-  }
-  
 
-  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-hactrix {
+  animation: slideIn 20s linear infinite;
+  will-change: transform;
+}
