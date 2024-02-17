@@ -4,17 +4,17 @@ const AboutSection = () => {
     return (
         <div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack font-sans text-white">
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black font-sans text-white">
                 <div className="aspect-w-16 aspect-h-7">
                     <img
                         className="w-full object-cover rounded-xl"
-                        src="/img/About_Banner.png"
+                        src="/img/sample_img/AboutBanner.png"
                         alt="IEEE SRM Student Branch"
                     />
                 </div>
                 <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
                     <div className="lg:col-span-1">
-                        <h2 className="font-bold text-2xl md:text-3xl">
+                        <h2 className="font-body font-bold text-2xl md:text-3xl">
                             Discover IEEE SRMIST Student Branch
                         </h2>
                         <p className="mt-2 md:mt-4 text-sm font-body text-gray-300">
@@ -131,7 +131,7 @@ const IconBlock: React.FC<IconBlockProps> = ({ icon, title, content }) => (
     <div className="flex gap-x-5">
         {icon}
         <div className="grow">
-            <h3 className="text-lg font-bold">
+            <h3 className="text-lg font-body font-bold">
                 {title}
             </h3>
             <p className="mt-1 text-sm font-body text-gray-300">

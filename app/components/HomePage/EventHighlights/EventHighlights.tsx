@@ -5,12 +5,12 @@ const EventHighlights = () => {
         <div>
 
             {/* Features */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black">
                 <div className="relative p-6 md:p-16">
                     {/* Grid */}
                     <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
                         <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-                            <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
+                            <h2 className="font-body font-bold text-2xl md:text-3xl">
                                 Fully customizable rules to match your unique needs
                             </h2>
                             {/* Tab Navs */}
@@ -21,7 +21,7 @@ const EventHighlights = () => {
                             >
                                 <button
                                     type="button"
-                                    className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 active"
+                                    className="hs-tab-active:bg-lightGrey hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:lightBlack p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 active"
                                     id="tabs-with-card-item-1"
                                     data-hs-tab="#tabs-with-card-1"
                                     aria-controls="tabs-with-card-1"
@@ -47,10 +47,10 @@ const EventHighlights = () => {
                                             <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
                                         </svg>
                                         <span className="grow ms-6">
-                                            <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                                            <span className="block text-lg font-semibold hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
                                                 Advanced tools
                                             </span>
-                                            <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                            <span className="block mt-1 text-white dark:hs-tab-active:text-gray-200 dark:text-gray-200">
                                                 Use Preline thoroughly thought and automated libraries to
                                                 manage your businesses.
                                             </span>
