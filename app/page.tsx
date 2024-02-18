@@ -11,7 +11,6 @@ import FAQ from './components/HomePage/FAQ/FAQ';
 import Testimonial from './components/HomePage/Testimonial/Testimonial';
 import RegistrationSection from './components/HomePage/RegistrationSection/RegistrationSection';
 import Footer from './components/HomePage/Footer/Footer';
-
 import '../app/globals.css';
 
 const HomePage: React.FC = () => {

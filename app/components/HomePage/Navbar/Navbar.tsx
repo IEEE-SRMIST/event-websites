@@ -12,16 +12,14 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className="bg-black text-white py-4 px-4 lg:px-16 fixed top-0 w-full">
+        <nav className="bg-black text-white py-4 px-4 lg:px-16 fixed top-0 w-full z-50">
             <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                 <div className="text-lg font-regular font-montserrat flex items-center">
                     <img src="/img/hacktrix_logo.png" alt="Logo" className="mr-4 w-8 h-8" />
                 </div>
                 <div className="text-lg font-regular font-montserrat">
                     <button onClick={toggleMenu} className="focus:outline-none">
-                        {menuOpen ? (
-                            <FeatherIcon icon="x" size={24} />
-                        ) : (
+                        {!menuOpen && (
                             <FeatherIcon icon="menu" size={24} />
                         )}
                     </button>
@@ -30,9 +28,9 @@ const Navbar: React.FC = () => {
             {menuOpen && (
                 <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center z-50">
                     <div className="text-lg font-regular font-montserrat text-white text-center">
-                        <div className="my-4">
+                        {/* <div className="my-4">
                             <Link href="/">HOME</Link>
-                        </div>
+                        </div> */}
                         <div className="my-4">
                             <Link href="/EventPage">ABOUT EVENT</Link>
                         </div>
