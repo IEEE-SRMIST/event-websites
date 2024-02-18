@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventHighlights = () => {
     return (
-        <div>
+        <div className="bg-black">
 
             {/* Features */}
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black">
@@ -29,7 +29,7 @@ const EventHighlights = () => {
                                 >
                                     <span className="flex">
                                         <svg
-                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={24}
                                             height={24}
@@ -50,7 +50,7 @@ const EventHighlights = () => {
                                             <span className="block text-lg font-semibold hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
                                                 Advanced tools
                                             </span>
-                                            <span className="block mt-1 text-white dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                            <span className="block mt-1 hs-tab-active:text-white text-gray-800 dark:text-gray-200">
                                                 Use Preline thoroughly thought and automated libraries to
                                                 manage your businesses.
                                             </span>
@@ -59,7 +59,7 @@ const EventHighlights = () => {
                                 </button>
                                 <button
                                     type="button"
-                                    className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-tab-active:bg-lightGrey hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     id="tabs-with-card-item-2"
                                     data-hs-tab="#tabs-with-card-2"
                                     aria-controls="tabs-with-card-2"
@@ -67,7 +67,7 @@ const EventHighlights = () => {
                                 >
                                     <span className="flex">
                                         <svg
-                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={24}
                                             height={24}
@@ -82,10 +82,10 @@ const EventHighlights = () => {
                                             <path d="M3.34 19a10 10 0 1 1 17.32 0" />
                                         </svg>
                                         <span className="grow ms-6">
-                                            <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                                            <span className="block text-lg font-semibold hs-tab-active:text-orange text-gray-800 dark:text-gray-200">
                                                 Smart dashboards
                                             </span>
-                                            <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                            <span className="block mt-1 hs-tab-active:text-white text-gray-800 dark:text-gray-200">
                                                 Quickly Preline sample components, copy-paste codes, and
                                                 start right off.
                                             </span>
@@ -94,7 +94,7 @@ const EventHighlights = () => {
                                 </button>
                                 <button
                                     type="button"
-                                    className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-tab-active:bg-lightGrey hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     id="tabs-with-card-item-3"
                                     data-hs-tab="#tabs-with-card-3"
                                     aria-controls="tabs-with-card-3"
@@ -102,7 +102,7 @@ const EventHighlights = () => {
                                 >
                                     <span className="flex">
                                         <svg
-                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                                            className="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={24}
                                             height={24}
@@ -120,10 +120,10 @@ const EventHighlights = () => {
                                             <path d="M17 19h4" />
                                         </svg>
                                         <span className="grow ms-6">
-                                            <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                                            <span className="block text-lg font-semibold hs-tab-active:text-orange text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
                                                 Powerful features
                                             </span>
-                                            <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                            <span className="block mt-1 hs-tab-active:text-white text-gray-800 dark:text-gray-200">
                                                 Reduce time and effort on building modern look design with
                                                 Preline only.
                                             </span>

@@ -8,7 +8,8 @@ const HeroSection = () => {
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-xl text-center">
           <div className="max-w-full text-center mx-auto">
-              <h1 className="block font-head text-black text-center text-6xl sm:text-8xl md:text-8xl lg:text-8xl">
+              <h1 className="block font-Protest Guerrilla text-black text-center text-6xl sm:text-8xl md:text-8xl lg:text-8xl">
+                
                 HACKTRIX
               </h1>
             </div>

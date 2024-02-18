@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventTimeline = () => {
     return (
-        <div>
+        <div className="bg-black">
 
             <div className="max-w-4xl mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-14 bg-deepBlack text-white">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 text-white font-sans">

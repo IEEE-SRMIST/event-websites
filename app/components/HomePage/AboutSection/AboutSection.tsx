@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSection = () => {
     return (
-        <div>
+        <div className="bg-black">
 
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black font-sans text-white">
                 <div className="aspect-w-16 aspect-h-7">
@@ -131,7 +131,7 @@ const IconBlock: React.FC<IconBlockProps> = ({ icon, title, content }) => (
     <div className="flex gap-x-5">
         {icon}
         <div className="grow">
-            <h3 className="text-lg font-body font-bold">
+            <h3 className="text-2xl font-body font-bold">
                 {title}
             </h3>
             <p className="mt-1 text-sm font-body text-gray-300">

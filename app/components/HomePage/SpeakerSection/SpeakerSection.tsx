@@ -2,7 +2,7 @@ import React from 'react'
 
 const SpeakerSection = () => {
     return (
-        <div>SpeakerSection</div>
+        <div >SpeakerSection</div>
     )
 }
 

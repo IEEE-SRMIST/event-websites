@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className="bg-black text-white py-4 px-4 lg:px-16">
+        <nav className="bg-black text-white py-4 px-4 lg:px-16 fixed top-0 w-full">
             <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                 <div className="text-lg font-regular font-montserrat flex items-center">
                     <img src="/img/hacktrix_logo.png" alt="Logo" className="mr-4 w-8 h-8" />
