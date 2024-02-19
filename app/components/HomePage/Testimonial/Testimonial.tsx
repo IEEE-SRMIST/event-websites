@@ -4,7 +4,7 @@ const Testimonial = () => {
     return (
         <div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-orange text-white">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
                     <div className="lg:col-span-5 lg:col-start-1">
                         <div className="mb-8">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RegistrationSection = () => {
+const Registration = () => {
     return (
         <div>
 
@@ -215,4 +215,4 @@ const RegistrationSection = () => {
     )
 }
 
-export default RegistrationSection
+export default Registration

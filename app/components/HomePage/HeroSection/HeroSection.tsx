@@ -4,38 +4,26 @@ const HeroSection = () => {
   return (
     <div>
 
-      <section className="bg-gray-50">
-        <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-          <div className="mx-auto max-w-xl text-center">
-          <div className="max-w-full text-center mx-auto">
-              <h1 className="block font-Protest Guerrilla text-black text-center text-6xl sm:text-8xl md:text-8xl lg:text-8xl">
-                
-                HACKTRIX
-              </h1>
-            </div>
-            <p className="mt-4 sm:text-xl/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-              tenetur fuga ducimus numquam ea!
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-
-              <button type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                Button
-              </button>
-              <button type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                Button
-              </button>
-
-            </div>
-          </div>
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-10">
+        <div className="mt-2 text-center mx-auto">
+          <h1 className="block font-head text-orange text-7xl sm:text-6xl md:text-8xl lg:text-12xl">
+            HACKTRIX
+          </h1>
         </div>
-      </section>
+        <div className="mt-2 max-w-3xl text-center mx-auto">
+          <h2 className="font-body font-bold text-2xl md:text-3xl">
+            Welcome to Hacktrix-24, where innovation meets collaboration in the realm of technology!
+          </h2>
+        </div>
+        <div className="mt-6 gap-3 flex justify-center">
+          <button type="button" className="py-4 px-6 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-black text-white hover:bg-orange disabled:opacity-50 disabled:pointer-events-none">
+            REGISTER
+          </button>
+        </div>
+      </div>
 
     </div>
   );
 };
-
 
 export default HeroSection;

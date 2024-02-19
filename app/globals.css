@@ -17,7 +17,7 @@
   }
 }
 
-.animate-hactrix {
+.animate-hacktrix {
   animation: slideIn 20s linear infinite;
   will-change: transform;
 }
