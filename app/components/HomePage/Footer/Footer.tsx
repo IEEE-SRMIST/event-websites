@@ -12,7 +12,7 @@ const Footer = () => {
                         href="#"
                         aria-label="Brand"
                     >
-                        Hacktrix
+                        HACKTRIX
                     </a>
                 </div>
 

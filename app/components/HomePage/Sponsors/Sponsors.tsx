@@ -8,13 +8,13 @@ const Sponsors = () => {
             <section className="bg-white text-black mt-16 mb-16 overflow-hidden">
                 <div className="sponsors-container">
                     <div className="sponsor">
-                        <img className="sponsor-logo" src="/img/Sponsors/Axure.png" alt="COMSOC" />
+                        <img className="sponsor-logo" src="/img/Sponsors/Axure.svg" alt="COMSOC" />
                     </div>
                     <div className="sponsor">
-                        <img className="sponsor-logo" src="/img/Sponsors/InterviewCake.png" alt="CTS" />
+                        <img className="sponsor-logo" src="/img/Sponsors/xyzDomain.svg" alt="IAS" />
                     </div>
                     <div className="sponsor">
-                        <img className="sponsor-logo" src="/img/Sponsors/xyzDomain.png" alt="IAS" />
+                        <img className="sponsor-logo" src="/img/Sponsors/InterviewCake.svg" alt="CTS" />
                     </div>
                 </div>
             </section>

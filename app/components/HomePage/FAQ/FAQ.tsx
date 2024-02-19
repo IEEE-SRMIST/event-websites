@@ -3,7 +3,7 @@ import React from 'react'
 const FAQ = () => {
     return (
 
-        <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black text-white">
+        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black text-white">
             <div className="grid md:grid-cols-5 gap-10">
                 <div className="md:col-span-2">
                     <div className="max-w-xs">

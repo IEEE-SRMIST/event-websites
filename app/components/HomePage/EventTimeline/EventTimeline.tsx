@@ -3,14 +3,14 @@ import React from 'react'
 const EventTimeline = () => {
     return (
 
-        <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-lightBlack text-white">
+        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-500 text-black">
             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 text-white font-sans">
                 <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
                     Event Timeline
                 </h2>
             </div>
 
-            {/* Day 1 & 2 - 23rd - 24th January */}
+            {/* Day 1 - 4th March */}
             <div>
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 text-white font-body">
                     <h2 className="text-lg font-semibold md:text-xl md:leading-tight dark:text-white">
@@ -144,7 +144,7 @@ const EventTimeline = () => {
                 </div>
             </div>
 
-            {/* Day 3 - 25th January */}
+            {/* Day 2 - 5th March */}
             <div>
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 text-white mt-8 font-body">
                     <h2 className="text-lg font-semibold md:text-xl md:leading-tight dark:text-white">

@@ -25,8 +25,6 @@ const HomePage: React.FC = () => {
       <Sponsors />
       <AboutSection />
       <EventHighlights />
-      <EventTimeline />
-      <JudgingCriteriaSection />
       <MentorProfiles />
       <FAQ />
       <Testimonial />

@@ -11,7 +11,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="mt-2 max-w-3xl text-center mx-auto">
-          <h2 className="font-body font-bold text-2xl md:text-3xl">
+          <h2 className="font-body font-bold lg:text-3xl md:text-3xl">
             Welcome to Hacktrix-24, where innovation meets collaboration in the realm of technology!
           </h2>
         </div>

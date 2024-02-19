@@ -2,7 +2,7 @@ import React from 'react'
 
 const JudgingCriteriaSection = () => {
     return (
-        <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-lightBlack text-white">
+        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-lightBlack text-white">
 
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
