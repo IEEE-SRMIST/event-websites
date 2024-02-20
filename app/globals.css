@@ -7,17 +7,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Quicksand:wght@300..700&display=swap');
 
 
-@keyframes slideIn {
-  0% {
-    transform: translateX(100%);
+@keyframes moveLeftRight {
+
+  0%,
+  100% {
+    transform: translateX(0);
   }
 
-  100% {
-    transform: translateX(-100%);
+  50% {
+    transform: translateX(36px);
   }
 }
 
 .animate-hacktrix {
-  animation: slideIn 20s linear infinite;
-  will-change: transform;
+  animation: moveLeftRight 5s ease-in-out infinite;
 }

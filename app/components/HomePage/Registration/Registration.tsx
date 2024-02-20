@@ -5,12 +5,12 @@ const Registration = () => {
         <div>
 
             <section>
-                <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black text-white">
+                <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black font-body text-white">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                             <div className="mx-auto max-w-xl text-left">
                                 <h2 className="text-2xl font-bold text-white md:text-3xl">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                                    Register Now!
                                 </h2>
                                 <p className="hidden text-white/90 sm:mt-4 sm:block">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas

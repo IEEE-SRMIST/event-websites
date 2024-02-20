@@ -3,14 +3,14 @@ import React from 'react'
 const FAQ = () => {
     return (
 
-        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black text-white">
+        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto font-body bg-black text-white">
             <div className="grid md:grid-cols-5 gap-10">
                 <div className="md:col-span-2">
                     <div className="max-w-xs">
-                        <h2 className="font-bold text-2xl md:text-5xl">
+                        <h2 className="font-bold text-2xl md:text-4xl">
                             Frequently Asked Questions
                         </h2>
-                        <p className="mt-1 hidden md:block font-body text-gray-300 text-3xl">
+                        <p className="mt-1 hidden md:block font-body text-gray-300 text-2xl">
                             Answers to the most frequently asked questions.
                         </p>
                     </div>
