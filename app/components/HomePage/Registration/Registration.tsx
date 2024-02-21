@@ -23,7 +23,9 @@ const Registration = () => {
                                         REGISTER
                                     </button>
                                 </div>
+
                             </div>
+                            <div className="mt-8 animated-cube"></div>
                         </div>
                         <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
                             <img

@@ -22,3 +22,20 @@
 .animate-hacktrix {
   animation: moveLeftRight 5s ease-in-out infinite;
 }
+
+.animated-cube {
+  width: 24px;
+  height: 24px;
+  background-color: #F54703;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
