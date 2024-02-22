@@ -117,7 +117,7 @@ const EventTimeline = () => {
                             Hackathon Coding Session
                         </h3>
                         <p className="mt-1 text-sm text-lightGrey">
-                            Official start of the 48-hour hackathon.
+                            Official start of the 24-hour hackathon.
                             Teams can start working on their projects.
                         </p>
                     </div>
@@ -164,11 +164,11 @@ const EventTimeline = () => {
                     </div>
                     <div className="grow pt-0.5 pb-8">
                         <h3 className="flex gap-x-1.5 font-semibold text-dartGrey">
-                            Hackathon Ends
+                            Hackathon Coding Session
                         </h3>
                         <p className="mt-1 text-sm text-lightGrey">
-                            All development activities cease.
-                            Teams prepare for the showcase.
+                            final hours of the hackathon.
+                            Teams can start wraping up their projects.
                         </p>
                     </div>
                 </div>

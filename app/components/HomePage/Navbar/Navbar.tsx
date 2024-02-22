@@ -10,8 +10,9 @@ const Navbar = () => {
                 </a>
 
                 {/* QR Code */}
-                <a href="#" className="flex-none">
-                    <img src="/img/reference_img/qrcode.png" alt="QR Code" className="w-24 h-24" />
+                <a href="#" className="flex-none relative group">
+                    <img src="/img/reference_img/qrcode.png" alt="QR Code" className="w-24 h-24 transition-all duration-300 transform group-hover:border-4 group-hover:border-orange rounded-md" />
+                    <div className="absolute inset-0 border-4 border-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 rounded-md"></div>
                 </a>
             </header>
         </div>

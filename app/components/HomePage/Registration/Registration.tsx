@@ -9,7 +9,7 @@ const Registration = () => {
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                             <div className="mx-auto max-w-xl text-left">
-                                <h2 className="text-2xl font-bold text-orange md:text-3xl">
+                                <h2 className="text-2xl font-bold text-white hover:text-orange md:text-3xl">
                                     Register Now for the Ultimate Coding Experience!
                                 </h2>
                                 <p className="text-white/90 sm:mt-4">
@@ -28,16 +28,22 @@ const Registration = () => {
                             <div className="mt-8 animated-cube"></div>
                         </div>
                         <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
-                            <img
-                                alt=""
-                                src="/img/reference_img/IMG_2010.png"
-                                className="h-40 w-full rounded-4xl object-cover sm:h-56 md:h-full"
-                            />
-                            <img
-                                alt=""
-                                src="/img/reference_img/IMG_1997.png"
-                                className="h-40 w-full rounded-4xl object-cover sm:h-56 md:h-full"
-                            />
+                            <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300 hover:scale-105">
+                                <img
+                                    alt=""
+                                    src="/img/reference_img/IMG_2010.png"
+                                    className="h-40 w-full rounded-4xl object-cover sm:h-56 md:h-full"
+                                />
+                                <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
+                            </div>
+                            <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300 hover:scale-105">
+                                <img
+                                    alt=""
+                                    src="/img/reference_img/IMG_1997.png"
+                                    className="h-40 w-full rounded-4xl object-cover sm:h-56 md:h-full"
+                                />
+                                <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

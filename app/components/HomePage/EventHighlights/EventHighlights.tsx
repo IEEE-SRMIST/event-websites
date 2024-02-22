@@ -7,12 +7,13 @@ const EventHighlights = () => {
             <section>
                 <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-500 text-white">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                        <div className="relative h-64 overflow-hidden rounded-4xl sm:h-80 lg:order-last lg:h-full">
+                        <div className="relative h-64 overflow-hidden rounded-4xl sm:h-80 lg:order-last lg:h-full group">
                             <img
                                 alt="hacktrix-image"
                                 src="/img/reference_img/IMG_1986.png"
-                                className="absolute inset-0 h-full w-full object-cover"
+                                className="absolute inset-0 h-full w-full object-cover rounded-4xl transition-transform transform group-hover:scale-105"
                             />
+                            <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-opacity"></div>
                         </div>
                         <div className="lg:py-24">
                             <h2 className="font-body font-bold text-2xl md:text-3xl">Event Highlights</h2>

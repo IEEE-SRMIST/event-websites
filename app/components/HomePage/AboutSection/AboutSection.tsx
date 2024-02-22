@@ -4,16 +4,17 @@ const AboutSection = () => {
     return (
 
         <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black text-white">
-            <div className="aspect-w-16 aspect-h-9">
+            <div className="group aspect-w-16 aspect-h-9 relative overflow-hidden">
                 <img
-                    className="w-full object-cover rounded-xl lg:rounded-4xl"
+                    className="w-full object-cover rounded-xl lg:rounded-xl transition-transform transform group-hover:scale-105"
                     src="/img/sample_img/About_Banner.png"
                     alt="IEEE SRM Student Branch"
                 />
+                <div className="absolute inset-0 rounded-xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
             <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
                 <div className="lg:col-span-1">
-                    <h2 className="font-body font-bold text-2xl md:text-3xl">
+                    <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                         Discover IEEE SRMIST Student Branch
                     </h2>
                     <p className="mt-2 md:mt-4 text-sm font-body text-gray-300">
@@ -51,17 +52,28 @@ interface IconBlockProps {
     content: string;
 }
 
-const IconBlock: React.FC<IconBlockProps> = ({ title, content }) => (
-    <div className="flex gap-x-5">
-        <div className="grow">
-            <h3 className="text-2xl font-body font-bold">
-                {title}
-            </h3>
-            <p className="mt-1 text-sm font-body text-gray-300">
-                {content}
-            </p>
+const IconBlock: React.FC<IconBlockProps> = ({ title, content }) => {
+    const [isHovered, setIsHovered] = React.useState(false);
+
+    return (
+        <div
+            className="flex gap-x-5"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+            style={{
+                transition: 'all 0.3s ease-in-out',
+            }}
+        >
+            <div className="grow">
+                <h3 className={`text-2xl font-body font-bold cursor-auto ${isHovered ? 'text-orange' : ''}`}>
+                    {title}
+                </h3>
+                <p className="mt-1 text-sm font-body text-gray-300">
+                    {content}
+                </p>
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 export default AboutSection;

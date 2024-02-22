@@ -14,38 +14,16 @@ const Speakers = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                    <div className="group relative block bg-black rounded-4xl">
+                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
                         <img
                             alt="Web & App Development Head"
                             src="/img/Mentors/WAD.png"
                             className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
                         />
-
-                        <div className="relative p-4 sm:p-6 lg:p-8">
-                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Code Whisperer</p>
-
-                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 1</p>
-
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
-                                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                                    <p className="text-sm font-body font-medium text-white">
-                                        I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="group relative block bg-black rounded-4xl">
-                        <img
-                            alt="Web & App Development Head"
-                            src="/img/Mentors/WAD.png"
-                            className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
-                        />
+                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
 
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
-
                             <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
 
                             <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -58,17 +36,17 @@ const Speakers = () => {
                         </div>
                     </div>
 
-                    <div className="group relative block bg-black rounded-4xl">
+                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
                         <img
                             alt="Web & App Development Head"
                             src="/img/Mentors/WAD.png"
                             className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
                         />
+                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
 
                         <div className="relative p-4 sm:p-6 lg:p-8">
-                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Visionary Trailblazer</p>
-
-                            <p className="text-xl font-body font-bold text-white sm:text-xl">Speaker 3</p>
+                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
+                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
 
                             <div className="mt-32 sm:mt-48 lg:mt-64">
                                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
@@ -80,6 +58,28 @@ const Speakers = () => {
                         </div>
                     </div>
 
+
+                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
+                        <img
+                            alt="Web & App Development Head"
+                            src="/img/Mentors/WAD.png"
+                            className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
+                        />
+                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
+
+                        <div className="relative p-4 sm:p-6 lg:p-8">
+                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
+                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
+
+                            <div className="mt-32 sm:mt-48 lg:mt-64">
+                                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                                    <p className="text-sm font-body font-medium text-white">
+                                        I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

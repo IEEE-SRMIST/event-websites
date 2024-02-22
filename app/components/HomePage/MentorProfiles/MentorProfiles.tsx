@@ -12,16 +12,16 @@ const MentorProfiles = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="group relative block bg-black rounded-4xl">
+                <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
                     <img
                         alt="Web & App Development Head"
                         src="/img/Mentors/WAD.png"
                         className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
                     />
+                    <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                         <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">Web & App Development Head</p>
-
                         <p className="text-xl font-body font-bold text-white sm:text-2xl">Akash Sasikumar</p>
 
                         <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -34,16 +34,16 @@ const MentorProfiles = () => {
                     </div>
                 </div>
 
-                <div className="group relative block bg-black rounded-4xl">
+                <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
                     <img
                         alt="Web & App Development Head"
                         src="/img/Mentors/WAD.png"
                         className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
                     />
+                    <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                         <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">Web & App Development Head</p>
-
                         <p className="text-xl font-body font-bold text-white sm:text-2xl">Akash Sasikumar</p>
 
                         <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -56,16 +56,16 @@ const MentorProfiles = () => {
                     </div>
                 </div>
 
-                <div className="group relative block bg-black rounded-4xl">
+                <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
                     <img
                         alt="Web & App Development Head"
                         src="/img/Mentors/WAD.png"
                         className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
                     />
+                    <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                         <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">Web & App Development Head</p>
-
                         <p className="text-xl font-body font-bold text-white sm:text-2xl">Akash Sasikumar</p>
 
                         <div className="mt-32 sm:mt-48 lg:mt-64">
