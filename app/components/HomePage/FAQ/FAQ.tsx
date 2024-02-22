@@ -23,10 +23,10 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-one"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
                             >
-                                Who can participate in TechTrek: Code Your Commerce Canvas?
+                                Who can participate in Hacktrix: Code Your Commerce Canvas?
                                 <svg
                                     className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const FAQ = () => {
                                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
                             >
                                 <p className="text-md font-body text-gray-300">
-                                    TechTrek is open to everyone, regardless of skill level. Whether you're a beginner or an experienced developer, everyone is encouraged to participate.
+                                    Hacktrix is open to everyone, regardless of skill level. Whether you're a beginner or an experienced developer, everyone is encouraged to participate.
                                 </p>
                             </div>
                         </div>
@@ -71,10 +71,10 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-two"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
                             >
-                                How can I register for TechTrek?
+                                How can I register for Hacktrix?
                                 <svg
                                     className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -110,12 +110,12 @@ const FAQ = () => {
                                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
                             >
                                 <p className="text-md font-body text-gray-300">
-                                    To register for TechTrek, simply visit our registration page{" "}
+                                    To register for Hacktrix, simply visit our registration page{" "}
                                     <a
                                         href="https://registrations.ieeesrmist.com/"
                                         target="_blank"  // Add this line if you want to open the link in a new tab
                                         rel="noopener noreferrer"  // Recommended for security reasons when using target="_blank"
-                                        className="text-blue-500 hover:underline"
+                                        className="text-orange hover:underline"
                                     >
                                         Register Here
                                     </a>{" "}
@@ -128,7 +128,7 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-three"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
                             >
                                 Can I participate as an individual, or do I need to form a team?
@@ -167,7 +167,7 @@ const FAQ = () => {
                                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
                             >
                                 <p className="text-md font-body text-gray-300">
-                                    While individual participation is allowed, we encourage forming teams of three. Teamwork often enhances the hackathon experience and fosters collaboration.
+                                    Participation in teams of two to five members is encouraged. No individual entries are allowed. Teamwork often enhances the hackathon experience and fosters collaboration.
                                 </p>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-four"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
                             >
                                 Is there a specific technology or framework I need to use for the hackathon?
@@ -224,7 +224,7 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-five"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
                             >
                                 What happens during the Introduction & Speaker Session?
@@ -272,7 +272,7 @@ const FAQ = () => {
                             id="hs-basic-with-title-and-arrow-stretched-heading-six"
                         >
                             <button
-                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-2xl font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-orange dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
                             >
                                 How will the Project Showcase be conducted, and what is the evaluation criteria?

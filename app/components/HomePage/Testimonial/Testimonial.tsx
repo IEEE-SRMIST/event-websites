@@ -29,7 +29,7 @@ const Testimonial = () => {
                             </svg>
                             <div className="relative z-10">
                                 <p className="text-lg italic font-body">
-                                    As we gear up for the inaugural TechTrek, the excitement is palpable! The prospect of diving into web development, collaborating with like-minded enthusiasts, and unleashing our coding creativity is something we eagerly look forward to. The journey of innovation is about to begin, and we can't wait to see the groundbreaking projects that will emerge!
+                                Participating in Hacktrix was a transformative experience that exceeded all my expectations. From collaborating with talented individuals from diverse backgrounds to pushing the boundaries of innovation, the event empowered me to unleash my creativity and problem-solving skills. I not only gained invaluable hands-on experience but also forged lasting connections and friendships. I am eagerly looking forward to the next edition of Hacktrix!
                                 </p>
                             </div>
                             <footer className="mt-6">
