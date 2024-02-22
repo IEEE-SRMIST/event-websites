@@ -9,14 +9,14 @@ const Registration = () => {
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                             <div className="mx-auto max-w-xl text-left">
-                                <h2 className="text-2xl font-bold text-white md:text-3xl">
-                                    Register Now!
+                                <h2 className="text-2xl font-bold text-orange md:text-3xl">
+                                    Register Now for the Ultimate Coding Experience!
                                 </h2>
-                                <p className="hidden text-white/90 sm:mt-4 sm:block">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-                                    tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
-                                    et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-                                    tincidunt duis.
+                                <p className="text-white/90 sm:mt-4">
+                                    Gear up for an exhilarating journey into the world of coding and innovation at HackTrix! Join forces with like-minded enthusiasts, collaborate seamlessly, and unleash your coding creativity. This hackathon promises to be a platform where groundbreaking projects come to life.
+                                </p>
+                                <p className="text-white/90 sm:mt-4">
+                                    Whether you're a seasoned developer or just starting your coding journey, HackTrix is the place to be. Don't miss out on the chance to connect with fellow tech enthusiasts, learn, and create something extraordinary together!
                                 </p>
                                 <div className="mt-6 gap-3 flex">
                                     <button type="button" className="py-2 px-6 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-orange text-white hover:bg-white hover:text-orange disabled:opacity-50 disabled:pointer-events-none">
