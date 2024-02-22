@@ -249,7 +249,7 @@ const EventTimeline = () => {
                         <h3 className="flex gap-x-1.5 font-semibold text-dartGrey">
                             Closing Ceremony and Awards Announcement
                         </h3>
-                        <p className="mt-1 text-sm text-lightGrey"> 
+                        <p className="mt-1 text-sm text-lightGrey">
                             Stay tuned for the crowning moment as we announce the winners and conclude this thrilling hackathon journey!
                         </p>
                     </div>
@@ -317,7 +317,7 @@ const EventTimeline = () => {
                 </div> */}
 
             </div>
-            
+
         </div>
 
 

@@ -9,7 +9,6 @@ import EventHighlights from './components/HomePage/EventHighlights/EventHighligh
 import Speakers from './components/HomePage/Speakers/Speakers';
 import EventTimeline from './components/HomePage/EventTimeline/EventTimeline';
 import JudgingCriteriaSection from './components/HomePage/JudgingCriteriaSection/JudgingCriteriaSection';
-import MentorProfiles from './components/HomePage/MentorProfiles/MentorProfiles';
 import FAQ from './components/HomePage/FAQ/FAQ';
 import Testimonial from './components/HomePage/Testimonial/Testimonial';
 import Registration from './components/HomePage/Registration/Registration';
@@ -28,7 +27,6 @@ const HomePage: React.FC = () => {
       <Speakers />
       <EventTimeline />
       <JudgingCriteriaSection />
-      <MentorProfiles />
       <FAQ />
       <Testimonial />
       <Registration />
