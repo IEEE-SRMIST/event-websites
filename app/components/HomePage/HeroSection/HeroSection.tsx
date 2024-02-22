@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h2 className="font-body font-bold lg:text-3xl md:text-3xl">
             Welcome to Hacktrix-24, where innovation meets collaboration in the realm of technology!
           </h2>
-          <div className="mt-8 animated-cube"></div>
+          <div className="animated-cube"></div>
         </div>
         <div className="animated-shapes"></div>
         <div className="mt-6 gap-3 flex justify-center">

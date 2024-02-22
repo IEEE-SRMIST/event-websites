@@ -5,7 +5,7 @@ const EventHighlights = () => {
         <div>
 
             <section>
-                <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-800 text-white">
+                <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-500 text-white">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                         <div className="relative h-64 overflow-hidden rounded-4xl sm:h-80 lg:order-last lg:h-full">
                             <img
