@@ -5,9 +5,12 @@ const EventTimeline = () => {
 
         <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
             <div className="max-w-2xl mx-auto text-center mb-2 lg:mb-2 text-black font-body">
-                <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
+                <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                     Event Timeline
                 </h2>
+                <h3 className="mt-1 mb-4 md:mt-4 text-sm text-normal font-body font-medium text-gray-500">
+                    A Chronological Journey Through Unforgettable Moments
+                </h3>
             </div>
 
             {/* Day 1 - 4th March */}
@@ -42,7 +45,7 @@ const EventTimeline = () => {
                 {/* Opening Ceremony and Welcome Address */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">09:30 AM</span>
+                        <span className="text-xxs lg:text-xs text-orange">09:30 AM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -63,7 +66,7 @@ const EventTimeline = () => {
                 {/* Theme Introduction and Hackathon Kickoff */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">10:00 AM</span>
+                        <span className="text-xxs lg:text-xs text-orange">10:00 AM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -84,7 +87,7 @@ const EventTimeline = () => {
                 {/* Networking, Team Building, Tech Setup etc. */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">11:30 AM</span>
+                        <span className="text-xxs lg:text-xs text-orange">11:30 AM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -105,7 +108,7 @@ const EventTimeline = () => {
                 {/* Hackathon Coding Session */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">12:30 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">12:30 PM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -126,9 +129,9 @@ const EventTimeline = () => {
                 {/* Hackathon Continues */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange"></span>
+                        <span className="text-xxs lg:text-xs text-orange">24 Hr</span>
                     </div>
-                    <div className="relative last:after:hidden">
+                    <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
                             <div className="rotating-bullet-square"></div>
                         </div>
@@ -155,7 +158,7 @@ const EventTimeline = () => {
                 {/* Hackathon Ends */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">09:00 AM</span>
+                        <span className="text-xxs lg:text-xs text-orange">09:00 AM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -167,7 +170,7 @@ const EventTimeline = () => {
                             Hackathon Coding Session
                         </h3>
                         <p className="mt-1 text-sm text-lightGrey">
-                            final hours of the hackathon.
+                            Final hours of the hackathon.
                             Teams can start wraping up their projects.
                         </p>
                     </div>
@@ -176,7 +179,7 @@ const EventTimeline = () => {
                 {/*Lunch Break*/}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">12:00 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">12:00 PM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -196,7 +199,7 @@ const EventTimeline = () => {
                 {/* Project Submission and demo preperation */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">01:00 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">01:00 PM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -217,7 +220,7 @@ const EventTimeline = () => {
                 {/* Project Presentation and Judging */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">02:30 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">02:30 PM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -238,7 +241,7 @@ const EventTimeline = () => {
                 {/* Closing Ceremony and Awards Announcement */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">04:00 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">04:00 PM</span>
                     </div>
                     <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-300">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -258,7 +261,7 @@ const EventTimeline = () => {
                 {/* Closing and Thank You */}
                 <div className="flex gap-x-3 font-body">
                     <div className="w-16 text-end">
-                        <span className="text-xs text-orange">04:30 PM</span>
+                        <span className="text-xxs lg:text-xs text-orange">04:30 PM</span>
                     </div>
                     <div className="relative last:after:hidden ">
                         <div className="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -319,8 +322,6 @@ const EventTimeline = () => {
             </div>
 
         </div>
-
-
 
     )
 }

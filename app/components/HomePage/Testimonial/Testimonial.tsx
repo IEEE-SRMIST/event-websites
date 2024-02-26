@@ -8,7 +8,7 @@ const Testimonial = () => {
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
                     <div className="lg:col-span-5 lg:col-start-1">
                         <div className="mb-8">
-                            <h2 className="mb-2 font-bold text-2xl md:text-3xl">
+                            <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                                 Voices from Our Participants
                             </h2>
                         </div>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                             </svg>
                             <div className="relative z-10">
                                 <p className="text-lg italic font-body">
-                                Participating in Hacktrix was a transformative experience that exceeded all my expectations. From collaborating with talented individuals from diverse backgrounds to pushing the boundaries of innovation, the event empowered me to unleash my creativity and problem-solving skills. I not only gained invaluable hands-on experience but also forged lasting connections and friendships. I am eagerly looking forward to the next edition of Hacktrix!
+                                    Participating in Hacktrix was a transformative experience that exceeded all my expectations. From collaborating with talented individuals from diverse backgrounds to pushing the boundaries of innovation, the event empowered me to unleash my creativity and problem-solving skills. I not only gained invaluable hands-on experience but also forged lasting connections and friendships. I am eagerly looking forward to the next edition of Hacktrix!
                                 </p>
                             </div>
                             <footer className="mt-6">
@@ -45,7 +45,7 @@ const Testimonial = () => {
                                         <div className="font-body font-semibold text-orange">
                                             Kristen Talukdar
                                         </div>
-                                        <div className="text-xs font-body text-lightOrange">
+                                        <div className="text-xs font-body text-gray-500">
                                             Pythonic Maestro, WAD | IEEE SRM
                                         </div>
                                     </div>

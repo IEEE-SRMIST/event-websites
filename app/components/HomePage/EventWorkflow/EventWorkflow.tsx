@@ -1,14 +1,17 @@
 import React from 'react'
 
-const JudgingCriteriaSection = () => {
+const EventWorkflow = () => {
     return (
-        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
+        <div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black font-body">
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="font-bold text-2xl md:text-3xl">
-                        Key Highlights of the Event Workflow
+                    <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
+                        Key Highlights of HackTrix
                     </h2>
+                    <h3 className="mt-1 md:mt-4 text-normal font-body font-medium text-gray-500">
+                        A Showcase of Innovation and Excellence
+                    </h3>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
                     {/* Icon Block */}
@@ -95,11 +98,14 @@ const JudgingCriteriaSection = () => {
                 </div>
             </div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black font-body">
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+                    <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                         Event Workflow in Action
                     </h2>
+                    <h3 className="mt-1 md:mt-4 text-normal font-body font-medium text-gray-500">
+                        Navigating Seamless Execution and Engagement
+                    </h3>
                 </div>
                 <div className="max-w-4xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
@@ -186,7 +192,7 @@ const JudgingCriteriaSection = () => {
                                         Project Showcase
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
-                                    Teams present innovative solutions to judges and the audience, showcasing problem-solving, technical prowess, and creativity in their prototypes.
+                                        Teams present innovative solutions to judges and the audience, showcasing problem-solving, technical prowess, and creativity in their prototypes.
                                     </p>
                                 </div>
                             </div>
@@ -215,4 +221,4 @@ const JudgingCriteriaSection = () => {
     )
 }
 
-export default JudgingCriteriaSection
+export default EventWorkflow

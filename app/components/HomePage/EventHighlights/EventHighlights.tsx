@@ -4,31 +4,16 @@ const EventHighlights = () => {
     return (
         <div>
 
-            <section>
-                <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gray-500 text-white">
-                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                        <div className="relative h-64 overflow-hidden rounded-4xl sm:h-80 lg:order-last lg:h-full group">
-                            <img
-                                alt="hacktrix-image"
-                                src="/img/reference_img/IMG_1986.png"
-                                className="absolute inset-0 h-full w-full object-cover rounded-4xl transition-transform transform group-hover:scale-105"
-                            />
-                            <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        </div>
-                        <div className="lg:py-24">
-                            <h2 className="font-body font-bold text-2xl md:text-3xl">Event Highlights</h2>
-                            <p className="mt-2 md:mt-4 text-md font-body font-medium text-white">
-                                Hactrix-24 is a celebration of teamwork, creativity, and technological prowess. It's a platform for students to come together, showcase their talents, and contribute to building a vibrant tech community. Our goal is to create an environment where innovation thrives, and everyone can stay on the pulse of the latest tech trends.
-                            </p>
-                            <div className="mt-6 gap-3 flex">
-                                <button type="button" className="py-2 px-6 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-black text-white hover:bg-white hover:text-orange disabled:opacity-50 disabled:pointer-events-none">
-                                    REGISTER
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-auto lg:max-w-[85rem] lg:mt-8 lg:rounded-6xl mx-auto"
+            >
+                <source src="/video/Event_Highlights.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
 
             {/* Slider */}
             <div
@@ -38,7 +23,7 @@ const EventHighlights = () => {
   }'
                 className="relative"
             >
-                <div className="hs-carousel relative overflow-hidden max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto lg:min-h-[720px] bg-white rounded-lg">
+                <div className="hs-carousel relative overflow-hidden max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto lg:min-h-[720px] bg-white rounded-lg">
                     <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
                         <div className="hs-carousel-slide">
                             <div className="flex justify-center h-full bg-orange p-6">

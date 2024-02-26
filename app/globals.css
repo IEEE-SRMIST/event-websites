@@ -78,7 +78,7 @@
   }
 }
 
-/* 3D Rotating Cube Container */
+/* 3D Rotating Cube Container 
 .cube-container {
   perspective: 20px;
   margin: 0;
@@ -124,3 +124,5 @@
     transform: rotateY(360deg) translateZ(50px) rotateX(360deg);
   }
 }
+
+*/
