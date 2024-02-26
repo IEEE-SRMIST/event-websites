@@ -26,7 +26,7 @@ const EventWorkflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Intensive Collaboration
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -44,7 +44,7 @@ const EventWorkflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Rapid Prototyping
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -62,7 +62,7 @@ const EventWorkflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Innovation and Creativity
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -87,7 +87,7 @@ const EventWorkflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Celebrate Innovation
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -118,7 +118,7 @@ const EventWorkflow = () => {
                                     <path d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Introduction & Speaker Session
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -134,7 +134,7 @@ const EventWorkflow = () => {
                                     <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Hackathon Kickoff
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -149,7 +149,7 @@ const EventWorkflow = () => {
                                     <path d="M10 19l-3.388 -5.808a.2 .2 0 0 1 .09 -.283l15.298 -6.909l-2.5 4" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Mentorship and Collaboration
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -168,7 +168,7 @@ const EventWorkflow = () => {
                                     <path d="M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Project Showcase Preparation
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -188,7 +188,7 @@ const EventWorkflow = () => {
                                     <path d="M9 20h6" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Project Showcase
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -203,8 +203,8 @@ const EventWorkflow = () => {
                                     <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
                                     <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
                                 </svg>
-                                <div className=" mt-6 ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                <div className="ms-5 sm:ms-8">
+                                    <h3 className="text-xl font-body font-bold">
                                         Prize Distribution and Closing
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">

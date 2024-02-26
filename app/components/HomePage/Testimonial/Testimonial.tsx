@@ -54,12 +54,12 @@ const Testimonial = () => {
                         </blockquote>
                     </div>
 
-                    <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
+                    <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13 font-body">
                         <div className="space-y-6 sm:space-y-8">
                             <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        51+
+                                        160+
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Anticipated enthusiastic participants.
@@ -67,7 +67,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        17+
+                                        40+
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Envisioning a wave of creative projects.
@@ -75,7 +75,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        48
+                                        24
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Hours of Coding
