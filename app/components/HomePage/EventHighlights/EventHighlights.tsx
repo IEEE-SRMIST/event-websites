@@ -76,10 +76,10 @@ const EventHighlights = () => {
             </div>
 
             {/* Download Button */}
-            <div className="text-center mt-4">
+            <div className="text-center">
                 <button
                     onClick={handleDownloadPDF}
-                    className="py-4 px-6 mt-8 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-black text-white hover:bg-orange transform transition-transform duration-300 hover:scale-105 disabled:opacity-50 disabled:pointer-events-none">
+                    className="py-4 px-6 mt-4 mb-8 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-black text-white hover:bg-orange transform transition-transform duration-300 hover:scale-105 disabled:opacity-50 disabled:pointer-events-none">
                     Download Problem Statements
                 </button>
             </div>

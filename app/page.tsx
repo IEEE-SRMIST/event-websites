@@ -37,6 +37,7 @@ const HomePage: React.FC = () => {
       <Sponsors />
       <AboutSection />
       <EventHighlights />
+      <Speakers />
       <EventTimeline />
       <EventWorkflow />
       <FAQ />

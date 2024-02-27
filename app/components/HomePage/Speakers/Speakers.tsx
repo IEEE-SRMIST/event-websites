@@ -1,91 +1,47 @@
-import React from 'react'
+import React from 'react';
 
 const Speakers = () => {
     return (
         <div>
 
-            <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
-                <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="font-body font-bold text-2xl text-black md:text-3xl">
-                        Meet Our Visionaries
-                    </h2>
-                    <p className="mt-1 font-body font-medium text-black">Presenting Trailblazers Who Ignite Innovation</p>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
-                        <img
-                            alt="Web & App Development Head"
-                            src="/img/Mentors/WAD.png"
-                            className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
-                        />
-                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
-
-                        <div className="relative p-4 sm:p-6 lg:p-8">
-                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
-                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
-
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
-                                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                                    <p className="text-sm font-body font-medium text-white">
-                                        I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
-                                    </p>
-                                </div>
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black font-body text-white">
+                <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+                    <div className="mt-5 sm:mt-10 lg:mt-0">
+                        <div className="space-y-6 sm:space-y-8 mb-8">
+                            <div className="space-y-2 md:space-y-4">
+                                <h2 className="font-bold text-2xl text-orange md:text-3xl">
+                                    Dr. Bernaurdshaw Neppolian
+                                </h2>
+                                <h2 className="font-bold text-xl md:text-xl">
+                                    Inspiring Excellence in Chemistry and Environmental Research
+                                </h2>
+                                <p className="text-sm font-body text-gray-300">
+                                    Dr. Bernaurdshaw Neppolian stands as a distinguished figure in the realm of chemistry, his contributions recognized both nationally and globally. His expertise has earned him a notable position as one of the top scientists in the field, with a commendable National Ranking of 149 and a Worldwide Ranking of 10269 by com for Chemistry Research in 2022.
+                                </p>
+                                <p className="text-sm font-body text-gray-300">
+                                    Furthermore, his consistent excellence places him within the esteemed Top 2% of Researchers worldwide, according to Stanford University, USA, an honor conferred upon him in 2022, 2021, 2019, and 2017.
+                                    Beyond his academic prowess, Dr. Neppolian has also garnered recognition for his leadership in higher education, being honored as an Outstanding Dean by Elets Technomedia in 2022.
+                                </p>
+                                <p className="text-sm font-body text-gray-300">
+                                    His dedication to environmental research has been celebrated internationally, exemplified by the prestigious Hiyoshi Environmental Award from Japan's Hiyoshi Corporation in 2015. Dr. Neppolian's remarkable achievements include receiving the INSA, presented by the Cabinet Minister of Science and Technology in 2019.
+                                    His multifaceted contributions underscore his commitment to advancing knowledge and addressing pressing global challenges, establishing him as a luminary in both academic and environmental spheres.
+                                </p>
                             </div>
+                            <div className="mt-8 animated-cube"></div>
                         </div>
                     </div>
-
-                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
+                    <div>
                         <img
-                            alt="Web & App Development Head"
-                            src="/img/Mentors/WAD.png"
-                            className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
+                            className="rounded-4xl w-full h-full object-cover aspect-w-4 aspect-h-5 hover:scale-105"
+                            src="/img/reference_img/NP.png"
+                            alt="Dr. Bernaurdshaw Neppolian"
                         />
-                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
-
-                        <div className="relative p-4 sm:p-6 lg:p-8">
-                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
-                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
-
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
-                                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                                    <p className="text-sm font-body font-medium text-white">
-                                        I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="group relative block bg-black rounded-4xl overflow-hidden transition-all ease-in-out duration-300">
-                        <img
-                            alt="Web & App Development Head"
-                            src="/img/Mentors/WAD.png"
-                            className="absolute inset-0 rounded-4xl h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
-                        />
-                        <div className="absolute inset-0 rounded-4xl border-4 border-orange opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500"></div>
-
-                        <div className="relative p-4 sm:p-6 lg:p-8">
-                            <p className="text-sm font-body font-bold uppercase tracking-widest text-orange">The Innovation Alchemist</p>
-                            <p className="text-xl font-body font-bold text-white sm:text-2xl">Speaker 2</p>
-
-                            <div className="mt-32 sm:mt-48 lg:mt-64">
-                                <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                                    <p className="text-sm font-body font-medium text-white">
-                                        I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
             </div>
 
         </div>
-    )
-}
+    );
+};
 
-export default Speakers
+export default Speakers;
