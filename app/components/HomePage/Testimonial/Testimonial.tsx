@@ -58,8 +58,8 @@ const Testimonial = () => {
                         <div className="space-y-6 sm:space-y-8">
                             <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
-                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        160+
+                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-orange group-hover:text-black mb-2">
+                                        500+
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Anticipated enthusiastic participants.
@@ -67,7 +67,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        40+
+                                        105+
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Envisioning a wave of creative projects.
@@ -83,7 +83,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        2x
+                                        5x
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Innovative Spirit

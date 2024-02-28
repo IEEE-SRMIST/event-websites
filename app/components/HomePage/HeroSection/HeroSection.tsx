@@ -19,7 +19,7 @@ const HeroSection = () => {
         </div>
         <div className="mt-2 max-w-3xl text-center mx-auto">
           <h2 className="font-body font-bold lg:text-3xl md:text-3xl">
-            Welcome to Hacktrix-24, where innovation meets collaboration in the realm of technology!
+            Welcome to HackTrix-24, where innovation meets collaboration in the realm of technology!
           </h2>
           <div className="animated-cube"></div>
         </div>
