@@ -24,17 +24,20 @@ const HeroSection = () => {
           <div className="animated-cube"></div>
         </div>
         <div className="animated-shapes"></div>
+
         <div className="mt-6 gap-3 flex justify-center">
           <a
-            href="https://registrations.ieeesrmist.com"
+            href="/Docs/Hacktricks Submission Template (1).pptx"
+            download="presentation_template.ppt"
             target="_blank"
             rel="noopener noreferrer"
             className="py-4 px-6 inline-flex items-center gap-x-2 text-md font-bold rounded-full border border-transparent bg-black text-white hover:bg-orange transform transition-transform duration-300 hover:scale-105 disabled:opacity-50 disabled:pointer-events-none">
-            REGISTER
+            DOWNLOAD PPT TEMPLATE
           </a>
         </div>
+
       </div>
-    </div>
+    </div >
 
   );
 };
