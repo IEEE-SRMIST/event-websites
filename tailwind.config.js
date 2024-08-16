@@ -7,7 +7,6 @@ module.exports = {
       // Or if using `src` directory:
       "./src/**/*.{js,ts,jsx,tsx,mdx}",
     ],
-    darkMode: 'class', // Enable dark mode via a class
     theme: {
       extend: {
         fontFamily: {
@@ -34,24 +33,16 @@ module.exports = {
           semibold: '600',
           bold: '700',
         },
+
         colors: {
-          white: '#ffffff',
-          black: '#000000',
-          
-          // Light Theme Colors
-          'primary-light': '#A91D3A',  // Deep Red
-          'secondary-light': '#C73659', // Lighter Red
-          'background-light': '#EEEEEE', // Light Grey
-          'text-light': '#151515',  // Dark Grey for text on light background
-          'highlight-light': '#FFB800',  // Yellow for highlights
-  
-          // Dark Theme Colors
-          'primary-dark': '#151515',  // Dark Grey/Black
-          'secondary-dark': '#A91D3A', // Deep Red for accents
-          'background-dark': '#151515', // Dark Grey/Black for background
-          'text-dark': '#EEEEEE',  // Light Grey for text on dark background
-          'highlight-dark': '#FFB800',  // Yellow for highlights
+          black: "#000000",          // Background
+          neonCyan: "#00F0FF",       // Highlights, buttons, accent lines
+          neonMagenta: "#FF00FF",    // Text highlights, interactive elements
+          brightYellow: "#FFD700",   // Call-to-action buttons, accents
+          deepPurple: "#2E003E",     // Secondary backgrounds, header/footer
+          white: "#FFFFFF",          // Text on dark backgrounds
         },
+
         spacing: {
           xl: '0.75rem',
           '2xl': '1rem',
