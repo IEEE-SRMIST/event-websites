@@ -55,13 +55,12 @@ const Timeline = () => {
         </div>
         
         <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
-          <div className="relative lg:aspect-none">
+          <div className="relative lg:aspect-none h-[500px]">
             <Image 
               src="/images/gentimeline.png" 
               alt="E-volve timeline Image" 
-              width={500}
-              height={700}
-              className="mx-auto mb-8 md:mb-0 object-cover" 
+              layout="fill" 
+              className="object-cover" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent"></div>
           </div>
@@ -81,11 +80,8 @@ const Timeline = () => {
                 onToggle={() => handleToggle(index)}
               />
             ))}
-
           </div>
-
         </div>
-        
       </div>
     </section>
   )
