@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa'; // Import icons
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 interface TimelineInfoProps {
   index: number;
