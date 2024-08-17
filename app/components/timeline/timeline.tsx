@@ -24,8 +24,8 @@ const Timeline = () => {
   ];
 
   return (
-    <>
-      <div className="bg-neutral-900">
+    <section>
+      {/* <div className="bg-neutral-900"> */}
         <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
           
           <div className="max-w-3xl mb-10 lg:mb-14">
@@ -51,7 +51,7 @@ const Timeline = () => {
             
             <div>
               <div className="mb-4">
-                <h3 className="text-brightYellow text-xs font-medium uppercase">Flow of Events</h3>
+                <h3 className="text-brightYellow text-xs text-neonCyan font-medium uppercase">Flow of Events</h3>
               </div>
 
               {TimelineData.map((timeline, index) => {
@@ -96,9 +96,9 @@ const Timeline = () => {
           </div>
           
         </div>
-      </div>
+      {/* </div> */}
       
-    </>
+    </section>
   )
 }
 
