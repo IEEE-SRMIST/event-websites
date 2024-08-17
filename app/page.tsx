@@ -5,6 +5,7 @@ import Head from 'next/head';
 
 import Navbar from '../app/components/navbar/navbar';
 import Hero from './components/hero/hero';
+import About from './components/about/about';
 import Speakers from './components/speakers/speakers';
 import Timeline from './components/timeline/timeline';
 import FAQ from './components/faq/faq';
@@ -24,10 +25,7 @@ const HomePage: React.FC = () => {
 
       <Navbar />
       <Hero />
-      
-    <div className='items-center justify-center flex text-5xl'>
-      About
-    </div>
+      <About />
       <Speakers />
       <Timeline />
       <FAQ />
