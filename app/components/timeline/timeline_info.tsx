@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SpeakerInfo = ({ index, title, description }: {index:number; title:String; description:String;}) => {
+const TimelineInfo = ({ index, title, description }: {index:number; title:String; description:String;}) => {
     return (
       <div className="flex gap-x-5 ms-1">
         <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
@@ -20,4 +20,4 @@ const SpeakerInfo = ({ index, title, description }: {index:number; title:String;
     );
   };
 
-export default SpeakerInfo
+export default TimelineInfo
