@@ -12,6 +12,8 @@ module.exports = {
       extend: {
         fontFamily: {
           sans: ['Montserrat', 'sans-serif'],
+          roboto: ['Roboto Mono', 'monospace'],
+          cloudsters: ['Cloudsters', 'cursive'],
         },
         fontSize: {
           xs: '0.75rem',
@@ -40,6 +42,7 @@ module.exports = {
           neonCyan: "#00F0FF",       // Highlights, buttons, accent lines
           neonMagenta: "#FF00FF",    // Text highlights, interactive elements
           brightYellow: "#FFD700",   // Call-to-action buttons, accents
+          lightYellow: "#FFE6A6",
           deepPurple: "#2E003E",     // Secondary backgrounds, header/footer
           white: "#FFFFFF",          // Text on dark backgrounds
         },
