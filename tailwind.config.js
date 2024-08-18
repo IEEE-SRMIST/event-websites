@@ -6,6 +6,7 @@ module.exports = {
       "./components/**/*.{js,ts,jsx,tsx,mdx}",
       // Or if using `src` directory:
       "./src/**/*.{js,ts,jsx,tsx,mdx}",
+      './node_modules/preline/preline.js',
     ],
     theme: {
       extend: {
@@ -73,11 +74,14 @@ module.exports = {
           xl: '1280px',
           '2xl': '1536px',
         },
+
       },
     },
     variants: {
       extend: {},
     },
-    plugins: [],
+    plugins: [
+      require('preline/plugin'),
+  ],
   }
   
