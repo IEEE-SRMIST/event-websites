@@ -16,7 +16,7 @@ const Chat: React.FC<ChatProps> = ({ key, question, answer }) => {
         const answerTimer = setTimeout(() => {
             setShowGenerating(true);
             setShowAnswer(true);
-        }, 500);
+        }, 400);
 
         const generatingTimer = setTimeout(() => {
             setShowGenerating(false);
@@ -32,7 +32,7 @@ const Chat: React.FC<ChatProps> = ({ key, question, answer }) => {
     <div key={key} className="flex flex-col space-y-2">
       
       <div className='flex flex-row space-x-2 max-w-xs self-end fade-in-right'>
-        <div className="bg-[#2f2f2f] text-white text-base font-light p-3 rounded-3xl my-2">
+        <div className="bg-[#2f2f2f] text-white text-xs md:text-base font-light p-3 rounded-3xl my-2">
           {question}
         </div>
         <img src='/images/hero_image.png' alt="Logo" className="w-8 h-8 rounded-full my-3" />
@@ -70,7 +70,6 @@ const Answer: React.FC<AnswerProps> = ({ key, showGenerating, answer }) => {
             }
             
             else if (currentIndex === answer.length - 1) {
-                console.log(displayedText);
               clearInterval(intervalId);
               setCompleted(true);
             }
@@ -85,7 +84,7 @@ const Answer: React.FC<AnswerProps> = ({ key, showGenerating, answer }) => {
     return (
       <div
         key={key}
-        className="answer-content bg-gray-300 text-gray-800 p-3 rounded-3xl my-4"
+        className="answer-content bg-gray-300 text-gray-800 text-sm md:text-base p-3 rounded-3xl my-4"
         style={{ maxHeight: '200px', minWidth: '200px' }}
       >
         {showGenerating 

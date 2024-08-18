@@ -14,7 +14,7 @@ const FAQ = () => {
     {
       no: 1,
       question: "What is the purpose of this website?",
-      answer: "This website serves as a platform for showcasing our services and providing information to our users.",
+      answer: "Thhis website serves as a platform for showcasing our services and providing information to our users.",
     },
     {
       no: 2,
@@ -24,17 +24,17 @@ const FAQ = () => {
     {
       no: 3,
       question: "What payment methods do you accept?",
-      answer: "We accept various payment methods including credit/debit cards, PayPal, and bank transfers.",
+      answer: "Wee accept various payment methods including credit/debit cards, PayPal, and bank transfers.",
     },
     {
       no: 4,
       question: "How can I contact customer support?",
-      answer: "You can reach out to our customer support team via the 'Contact Us' page or by emailing support@website.com.",
+      answer: "Yoou can reach out to our customer support team via the 'Contact Us' page or by emailing support@website.com.",
     },
     {
       no: 5,
       question: "Can I cancel my registration?",
-      answer: "Yes, you can cancel your registration by contacting our support team within 48 hours of registration.",
+      answer: "Yees, you can cancel your registration by contacting our support team within 48 hours of registration.",
     },
   ]);
 
@@ -47,7 +47,7 @@ const FAQ = () => {
       setChatScreen([...chatScreen, faq]);
       setFaqs(faqs.filter((_, i) => i !== index));
       setExitingIndex(null);
-    }, 500); // Match this duration with your CSS animation duration
+    }, 200);
   };
 
   return (
@@ -74,7 +74,7 @@ const FAQ = () => {
           <div className="max-w-2xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 p-4 md:p-6">
               {faqs.length === 0 ? (
-                <div className="flex items-center justify-center mt-6">
+                <div className="flex items-center justify-center col-span-full mt-6">
                   <p className="text-center text-neonCyan">All questions have been answered!</p>
                 </div>
               ) : (
@@ -83,7 +83,7 @@ const FAQ = () => {
                     key={faq.no}
                     question={faq.question}
                     handleClick={() => handleFaqClick(faq, index)}
-                    className={index === exitingIndex ? 'fade-out-left' : 'fade-in-left'}
+                    className={index === exitingIndex ? 'shrink' : 'grow'}
                   />
                 ))
               )}
