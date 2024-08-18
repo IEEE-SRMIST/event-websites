@@ -1,73 +1,5 @@
-/* General styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000000; /* Background color */
-    color: #FFFFFF; /* Default text color */
-}
 
-/* Container styles */
-.container {
-    max-width: 85rem;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: linear-gradient(135deg, #2E003E, #3D0056, #00F0FF, #FFD700); /* Mixed colors with a lighter gradient */
-    border-radius: 1rem;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Content styles */
-.content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-}
-
-/* Profile text and info */
-.profile-info {
-    color: #FFD700; /* Bright Yellow for text highlights */
-}
-
-.profile-info h2 {
-    font-size: 2.5rem;
-    color: #00F0FF; /* Neon Cyan for the name */
-    margin-bottom: 0.5rem;
-    font-family: 'Roboto Slab', serif; /* More stylish serif font */
-    font-weight: bold;
-}
-
-.profile-info h3 {
-    font-size: 1.8rem;
-    color: #FF00FF; /* Neon Magenta for the title */
-    font-family: 'Playfair Display', serif; /* More stylish serif font */
-    font-weight: semi-bold;
-}
-
-.profile-info p {
-    color: #E6E6E6; /* Light gray text color */
-    line-height: 1.6;
-    font-family: 'Lora', serif; /* Stylish serif font */
-    font-weight: 400;
-}
-
-/* Image styles */
-.profile-image {
-    border-radius: 1rem;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    position: relative;
-    transition: transform 0.3s ease;
-}
-
-.profile-image:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-.profile-image::before {
+/* .profile-image::before {
     content: "";
     position: absolute;
     top: -5px;
@@ -76,11 +8,19 @@ body {
     height: calc(100% + 10px);
     border-radius: 1rem;
     border: 2px solid transparent;
-    background: linear-gradient(45deg, #00F0FF, #FF00FF, #FFD700, #00F0FF);
-    background-size: 400% 400%;
-    z-index: -1;
-    animation: borderAnimation 4s linear infinite, glowingBorder 1.5s linear infinite;
+    background: linear-gradient(45deg , #5a0d55, #0d5a5b, #131314);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
 }
+
+@keyframes shimmer  {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0; 
+    }
+  } */
 
 /* 3D diamond shape styles */
 .shapes {
@@ -155,3 +95,42 @@ body {
         transform: rotate(360deg);
     }
 }
+  
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+    background: linear-gradient(45deg, #5a0d55, #0d5a5b, #131314);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+    width: 72px; /* Added width for consistency */
+    height: 72px; /* Added height for consistency */
+    border-radius: 8px; /* Added border-radius for better appearance */
+  }
+  
+  .shimmer-text {
+    color: white; /* Added color for visibility */
+    text-align: center; /* Centered text */
+  }
+
+@keyframes shimmer  {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0; 
+    }
+  }
+
+  @keyframes grow {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .grow {
+    animation: grow 0.2s ease-out forwards;
+  }
