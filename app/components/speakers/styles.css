@@ -1,0 +1,136 @@
+
+/* .profile-image::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg , #5a0d55, #0d5a5b, #131314);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer  {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0; 
+    }
+  } */
+
+/* 3D diamond shape styles */
+.shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Shapes should not interfere with interactions */
+    z-index: 0;
+}
+
+.shape {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    mix-blend-mode: multiply;
+    animation: rotateDiamond 10s linear infinite;
+}
+
+.shape1 {
+    top: 10%;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 255, 0.3);
+}
+
+.shape2 {
+    bottom: 10%;
+    right: 10%;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 255, 255, 0.3);
+}
+
+/* Keyframes for border animation */
+@keyframes borderAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* Keyframes for glowing border */
+@keyframes glowingBorder {
+    0% {
+        border-color: rgba(255, 0, 255, 0.5);
+    }
+    50% {
+        border-color: rgba(0, 255, 255, 0.5);
+    }
+    100% {
+        border-color: rgba(255, 0, 255, 0.5);
+    }
+}
+
+/* Keyframes for rotating diamond shapes */
+@keyframes rotateDiamond {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+    background: linear-gradient(45deg, #5a0d55, #0d5a5b, #131314);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+    width: 72px; /* Added width for consistency */
+    height: 72px; /* Added height for consistency */
+    border-radius: 8px; /* Added border-radius for better appearance */
+  }
+  
+  .shimmer-text {
+    color: white; /* Added color for visibility */
+    text-align: center; /* Centered text */
+  }
+
+@keyframes shimmer  {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0; 
+    }
+  }
+
+  @keyframes grow {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .grow {
+    animation: grow 0.2s ease-out forwards;
+  }
