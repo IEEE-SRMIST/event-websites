@@ -31,3 +31,35 @@ body {
     text-wrap: balance;
   }
 }
+
+.gradient-border-container {
+  padding: 2px; 
+  border-radius: 8px; 
+  background: transparent; 
+}
+
+.gradient-border-wrapper {
+  border-radius: 8px; 
+  padding: 4px; 
+  background: linear-gradient(90deg, #ff00ff, #00ffff, #00ff00, #ffff00, #ff0000, #ff00ff);
+  background-size: 600% 600%;
+  animation: gradient-flow 10s ease infinite;
+}
+
+.gradient-border-content {
+  background-color: #1a1a1a; 
+  border-radius: 8px; 
+  padding: 20px; 
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
