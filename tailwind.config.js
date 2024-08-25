@@ -43,7 +43,7 @@ module.exports = {
         black: "#000000",          // Background
         neonCyan: "#00F0FF",       // Highlights, buttons, accent lines
         neonMagenta: "#FF00FF",    // Text highlights, interactive elements
-        brightYellow: "#FFD700",   // Call-to-action buttons, accents
+        // brightYellow: "#FFD700",   // Call-to-action buttons, accents
         lightYellow: "#FFE6A6",
         deepPurple: "#2E003E",     // Secondary backgrounds, header/footer
         white: "#FFFFFF",          // Text on dark backgrounds
