@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
-import GenContent from './gen_content'; 
 
 interface TimelineInfoProps {
   index: number;
@@ -11,12 +10,6 @@ interface TimelineInfoProps {
 }
 
 const TimelineInfo: React.FC<TimelineInfoProps> = ({ index, title, description, isOpen, onToggle }) => {
-  const [titleCompleted, setTitleCompleted] = useState(false);
-  const [descCompleted, setDescCompleted] = useState(false);
-
-  const titleGen = () => { setTitleCompleted(true) };
-  const descGen = () => { setDescCompleted(true) };
-
   return (
     <div className="flex gap-x-5 ms-1 relative">
       <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
@@ -29,30 +22,16 @@ const TimelineInfo: React.FC<TimelineInfoProps> = ({ index, title, description, 
 
       <div className="grow pt-0.5 pb-8 sm:pb-12">
         <div className="flex items-center cursor-pointer" onClick={onToggle}>
-          <GenContent 
-            className='text-sm lg:text-base text-neutral-400 flex-grow'
-            showGenerating={false}
-            text={title}
-            speed={30}
-            complete={titleGen}
-          />
+          <h4 className='text-sm lg:text-base text-neutral-400 flex-grow'>{title}</h4>
           <span className="text-neonCyan ml-2 transition-transform duration-300">
             {isOpen ? <FaChevronUp /> : <FaChevronDown />}
           </span>
         </div>
-        {titleCompleted && (
-          <div
-            className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-40 opacity-100 mt-2' : 'max-h-0 opacity-0 mt-0'}`}
-          >
-            <GenContent 
-              className='text-sm lg:text-base text-neutral-400'
-              showGenerating={false}
-              text={description}
-              speed={25}
-              complete={descGen}
-            />
-          </div>
-        )}
+        <div
+          className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-200 opacity-100' : 'max-h-0 opacity-0'}`}
+        >
+          <p className='text-sm lg:text-base text-neutral-400 mt-2'>{description}</p>
+        </div>
       </div>
     </div>
   );
