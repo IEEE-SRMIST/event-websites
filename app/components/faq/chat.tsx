@@ -38,12 +38,12 @@ const Chat: React.FC<ChatProps> = ({ key, question, answer }) => {
             {question}
           </div>
         </div>
-        <img src='/images/hero_image3.jpeg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
+        <img src='/images/characters/user.jpg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
       </div>
 
       {showAnswer && (
         <div className='flex flex-row space-x-2 max-w-xs self-start fade-in-left'>
-          <img src='/images/lucia.jpg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
+          <img src='/images/characters/lucia.jpg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
           <Answer key={key} showGenerating={showGenerating} answer={answer} />
         </div>
       )}

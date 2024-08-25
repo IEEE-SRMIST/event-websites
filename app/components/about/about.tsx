@@ -40,17 +40,17 @@ const About: React.FC = () => {
     switch (tab) {
       case 'what':
         return {
-          src: '/images/about_poster2.jpg',
+          src: '/images/about/poster_sq.png',
           alt: 'What Image',
         };
       case 'where':
         return {
-          src: '/images/hero_image.png',
+          src: '/images/about/bt_block.png',
           alt: 'Where Image',
         };
       case 'when':
         return {
-          src: '/images/hero_image2.png',
+          src: '/images/about/calender.png',
           alt: 'When Image',
         };
       default:

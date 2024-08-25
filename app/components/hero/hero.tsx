@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <>
       <header
         className="relative w-full h-screen bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/Hero-img-1.jpg')" }}
+        style={{ backgroundImage: "url('/images/hero_section.jpg')" }}
       >
         <Navbar />
         <div className="flex flex-col items-center justify-center h-full text-center p-4 lg:px-36">
