@@ -93,8 +93,8 @@ const GenContent: React.FC<GenContentProps> = ({ className, showGenerating, text
       className={className}
     >
       {showGenerating 
-          ? (<span>⚫</span>)
-          : (<div>{displayedText}{!completed ? <span>⚫</span> : null}</div>)
+          ? (<span>⚪</span>)
+          : (<div>{displayedText}{!completed ? <span>⚪</span> : null}</div>)
       }
     </div>
   );

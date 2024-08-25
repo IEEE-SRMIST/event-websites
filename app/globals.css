@@ -41,7 +41,7 @@ body {
 .gradient-border-wrapper {
   border-radius: 8px; 
   padding: 4px; 
-  background: linear-gradient(90deg, #ff00ff, #00ffff, #00ff00, #ffff00, #ff0000, #ff00ff);
+  background: linear-gradient(90deg, #ec3c85, #1dd9e9, #ae7365, #fcce80, #032639);
   background-size: 600% 600%;
   animation: gradient-flow 10s ease infinite;
 }

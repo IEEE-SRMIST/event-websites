@@ -31,16 +31,19 @@ const Chat: React.FC<ChatProps> = ({ key, question, answer }) => {
   return (
     <div key={key} className="flex flex-col space-y-2">
       
-      <div className='flex flex-row space-x-2 max-w-xs self-end fade-in-right'>
-        <div className="bg-[#2f2f2f] text-white text-xs md:text-base font-light p-3 rounded-3xl my-2">
-          {question}
+        <div className='flex flex-row space-x-2 max-w-xs self-end fade-in-right'>
+        <div className="flex flex-col items-end space-y-1 max-w-xs">
+          <div className="text-xs text-gray-500 mr-4">User</div>
+          <div className="bg-[#2f2f2f] text-white text-xs md:text-base font-light p-3 rounded-3xl">
+            {question}
+          </div>
         </div>
-        <img src='/images/hero_image.png' alt="Logo" className="w-8 h-8 rounded-full my-3" />
+        <img src='/images/hero_image3.jpeg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
       </div>
 
       {showAnswer && (
         <div className='flex flex-row space-x-2 max-w-xs self-start fade-in-left'>
-          <img src='/images/hero_image.png' alt="Logo" className="w-8 h-8 rounded-full my-3" />
+          <img src='/images/lucia.jpg' alt="Logo" className="w-8 h-8 rounded-full my-3" />
           <Answer key={key} showGenerating={showGenerating} answer={answer} />
         </div>
       )}
@@ -82,15 +85,18 @@ const Answer: React.FC<AnswerProps> = ({ key, showGenerating, answer }) => {
       }, [showGenerating, answer]);
   
     return (
-      <div
-        key={key}
-        className="answer-content bg-gray-300 text-gray-800 text-sm md:text-base p-3 rounded-3xl my-4"
-        style={{ maxHeight: '200px', minWidth: '200px' }}
-      >
-        {showGenerating 
-            ? (<span>⚫</span>)
-            : (<div>{displayedText}{!completed ? <span>⚫</span> : null}</div>)
-        }
+      <div className="flex flex-col items-start space-y-1 max-w-xs">
+        <div className="text-xs text-gray-500 ml-4">Lucia</div>
+        <div
+          key={key}
+          className="answer-content bg-gray-300 text-gray-800 text-sm md:text-base p-3 rounded-3xl my-4"
+          style={{ maxHeight: '200px', minWidth: '200px' }}
+        >
+          {showGenerating 
+              ? (<span>⚫</span>)
+              : (<div>{displayedText}{!completed ? <span>⚫</span> : null}</div>)
+          }
+        </div>
       </div>
     );
   };

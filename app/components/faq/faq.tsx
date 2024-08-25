@@ -58,17 +58,17 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="mt-1 text-gray-600 dark:text-neutral-400">
-            What queries do you have?
+            Have questions about the E-VOLVE event? I am here to guide you through everything you need to know. Let's explore some common queries!
           </p>
         </div>
 
-        <div className="p-4 max-w-xl mx-auto rounded-lg shadow-md">
+        {chatScreen.length === 0 ? null : (<div className="p-4 max-w-xl mx-auto rounded-lg shadow-md">
           <div className="space-y-4">
             {chatScreen.map((chat, index) => (
               <Chat key={index} question={chat.question} answer={chat.answer} />
             ))}
           </div>
-        </div>
+        </div>)}
 
         <div className="flex items-center justify-center h-auto">
           <div className="max-w-2xl mx-auto">
