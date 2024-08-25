@@ -3,7 +3,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from '../app/components/navbar/navbar';
+// import Navbar from '../app/components/navbar/navbar';
 import Hero from './components/hero/hero';
 import About from './components/about/about';
 import Speakers from './components/speakers/speakers';
@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
         <link rel="icon" href="/favicon.ico?v=3" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Speakers />
