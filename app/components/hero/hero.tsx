@@ -13,11 +13,14 @@ const Hero: React.FC = () => {
           <h1 className="mt-28 mb-8 lg:mb-12 font-sans font-bold text-white text-6xl xl:text-10xl 2xl:text-14xl">
             E-VOLVE
           </h1>
-          <p className="mb-4 md:mb-8 font-sans font-medium text-white text-lg sm:text-2xl">
+          <p className="mb-2 font-sans font-medium text-white text-lg sm:text-2xl">
             CONCEPTS TO CREATIONS
           </p>
-          <p className="font-sans font-medium text-cyan-400 text-lg sm:text-2xl">
+          <p className="mb-8 font-sans font-medium text-cyan-400 text-lg sm:text-2xl">
             A Gen-AI Workshop
+          </p>
+          <p className="font-sans font-medium text-cyan-400 pb-4 text-lg sm:text-2xl">
+            Lucia will assisting you with the informations
           </p>
         </div>
       </header>

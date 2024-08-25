@@ -29,7 +29,7 @@ const Speakers = () => {
 
                 {!showContent && (
                     <div className={`transition-opacity duration-1000 ${fadeOut ? 'opacity-0' : 'opacity-100'} text-center text-white text-3xl tracking-wider font-bold font-roboto`}>
-                        Who is the speaker?
+                        So who's gonna be speaking at the event?
                     </div>
                 )}
 
