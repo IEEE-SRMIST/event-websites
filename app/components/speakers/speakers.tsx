@@ -24,7 +24,7 @@ const Speakers = () => {
     }, [fadeOut]);
 
     return (
-        <section className='max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto'>
+        <section className='max-w-5xl px-4 xl:px-0 py-5 lg:py-10 mx-auto'>
             <div className="min-h-48 flex items-center justify-center mx-auto my-8 p-8 bg-[#131314] border-2 border-[#00F0FF] rounded-2xl relative overflow-hidden">
 
                 {!showContent && (
