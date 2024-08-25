@@ -134,3 +134,31 @@
   .grow {
     animation: grow 0.2s ease-out forwards;
   }
+
+  .gradient-border {
+    padding: 4px; 
+    border-radius: 16px; 
+    background: linear-gradient(90deg, #ff00ff, #00ffff, #00ff00, #ffff00, #ff0000, #ff00ff);
+    background-size: 600% 600%;
+    animation: gradient-flow 10s ease infinite;
+    border: 2px solid transparent; 
+  }
+  
+  .bg-background-gradient {
+    background-color: #131314; 
+    border-radius: 16px; 
+  }
+  
+
+  @keyframes gradient-flow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
