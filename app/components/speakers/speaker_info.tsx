@@ -1,6 +1,6 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 
-const SpeakerInfo = () => {
+const SpeakerInfo: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationComplete }) => {
   
   const name = 'Drr. Bernaurdshaw Neppolian';
   const desig = 'Innspiring Excellence in Chemistry and Environmental Research';
@@ -19,9 +19,17 @@ const SpeakerInfo = () => {
 
   const [nameCompleted, setNameCompleted] = useState(false);
   const [desigCompleted, setDesigCompleted] = useState(false);
+  const [contentCompleted, setContentCompleted] = useState(false);
 
   const nameGen = () => {setNameCompleted(true)};
   const desigGen = () => {setDesigCompleted(true)};
+  const contentGen = () => {setContentCompleted(true)};
+
+  useEffect(() => {
+    if (contentCompleted) {
+      onGenerationComplete();
+    }
+  }, [contentCompleted]);
 
   return (
     <div className="color-[#FFD700]">
@@ -44,7 +52,7 @@ const SpeakerInfo = () => {
           showGenerating={false} 
           text={content} 
           speed={10}
-          complete={() => {}} 
+          complete={contentGen} 
         />}
     </div>
   );

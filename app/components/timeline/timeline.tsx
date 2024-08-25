@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import TimelineInfo from './timeline_info';
 import './timelinestyles.css';
+import { useInView } from 'react-intersection-observer';
 
-const Timeline = () => {
+const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationComplete }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [showGenerating, setShowGenerating] = useState(true);
   const [titleGenOver, setTitleGenOver] = useState(false);
@@ -10,6 +11,11 @@ const Timeline = () => {
   const [showFlow, setShowFlow] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
+
+  const { ref: inViewRef, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.7,
+  });
 
   const TimelineData = [
     {
@@ -44,7 +50,6 @@ const Timeline = () => {
       title: 'Interactive Session & Feedback',
       description: 'Wrap up the day with a fun interactive session to connect with your peers and solidify what you’ve learned. Before you go, share your thoughts and suggestions through a feedback form to help us tailor future events to your needs.',
     },
-
   ];
 
   const handleToggle = (index: number) => {
@@ -65,22 +70,30 @@ const Timeline = () => {
   }, []);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setFadeOut(true); 
-    }, 1000);
+    if (inView) {
+      const timer = setTimeout(() => {
+        setFadeOut(true);
+      }, 1000);
 
-    const showContentTimer = setTimeout(() => {
-      setShowGenerating(false);
-    }, 2000); 
+      const showContentTimer = setTimeout(() => {
+        setShowGenerating(false);
+      }, 2000);
 
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(showContentTimer);
-    };
-  }, []);
+      return () => {
+        clearTimeout(timer);
+        clearTimeout(showContentTimer);
+      };
+    }
+  }, [inView]);
+
+  useEffect(() => {
+    if (showFlow) {
+      onGenerationComplete();
+    }
+  }, [showFlow]);
 
   return (
-    <section>
+    <section ref={inViewRef}>
       <div className="gradient-border-container mx-auto max-w-5xl px-4 xl:px-0 py-5 lg:py-10">
         <div className="gradient-border-wrapper">
           <div ref={containerRef} className="gradient-border-content">
@@ -120,6 +133,7 @@ const Timeline = () => {
                     complete={() => {
                       const timer = setTimeout(() => {
                         setShowFlow(true);
+
                       }, 2000);
                       return () => clearTimeout(timer);
                     }}

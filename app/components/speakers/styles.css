@@ -1,6 +1,6 @@
 .speakers-section {
     position: relative;
-    margin: 0 auto 3rem; /* Center align and add bottom margin */
+    margin: 0 auto 3rem;
     max-width: 1024px; /* Match the width of the timeline section */
     width: 100%; /* Ensure full width within the max-width constraint */
 }
