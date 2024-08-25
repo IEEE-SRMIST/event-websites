@@ -3,7 +3,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from '../app/components/navbar/navbar';
+// import Navbar from '../app/components/navbar/navbar';
 import Hero from './components/hero/hero';
 import About from './components/about/about';
 import Speakers from './components/speakers/speakers';
@@ -16,6 +16,7 @@ import '../app/globals.css';
 const HomePage: React.FC = () => {
   return (
     <div className='bg-black'>
+      
       <Head>
         <title>GenAI Workshop | IEEE SRMIST</title>
         <meta name="description" content="Explore the future of artificial intelligence with hands-on experience in Generative AI. Join the GenAI Workshop at IEEE SRMIST to learn, innovate, and create AI-powered solutions." />
@@ -23,7 +24,7 @@ const HomePage: React.FC = () => {
         <link rel="icon" href="/favicon.ico?v=3" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Speakers />

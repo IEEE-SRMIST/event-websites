@@ -60,7 +60,7 @@ const Timeline = () => {
 
   return (
     <section>
-      <div className="gradient-border-container mx-auto max-w-5xl px-4 xl:px-0 py-10 lg:py-20">
+      <div className="gradient-border-container mx-auto max-w-5xl px-4 xl:px-0 py-5 lg:py-10">
         <div className="gradient-border-wrapper">
           <div ref={containerRef} className="gradient-border-content">
             <div className="max-w-3xl mx-auto text-center mb-10 lg:mb-14">

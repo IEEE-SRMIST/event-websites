@@ -23,14 +23,14 @@ const Speakers = () => {
     }, [fadeOut]);
 
     return (
-        <section className="max-w-5xl px-4 xl:px-0 py-5 lg:py-10 mx-auto">
-            <div className="relative min-h-48 flex items-center justify-center mx-auto my-8 gradient-border rounded-2xl overflow-hidden">
-                <div className="relative p-8 bg-background-gradient rounded-2xl w-full h-full flex items-center justify-center">
-                    {!showContent && (
-                        <div className={`transition-opacity duration-1000 ${fadeOut ? 'opacity-0' : 'opacity-100'} text-center text-white text-3xl tracking-wider font-bold font-roboto`}>
-                            So who's gonna be speaking at the event?
-                        </div>
-                    )}
+        <section className='max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto'>
+            <div className="min-h-48 flex items-center justify-center mx-auto my-8 p-8 bg-[#131314] border-2 border-[#00F0FF] rounded-2xl relative overflow-hidden">
+
+                {!showContent && (
+                    <div className={`transition-opacity duration-1000 ${fadeOut ? 'opacity-0' : 'opacity-100'} text-center text-white text-3xl tracking-wider font-bold font-roboto`}>
+                        Who is the speaker?
+                    </div>
+                )}
 
                     {showContent && (
                         <div className="flex flex-col-reverse lg:flex-row gap-6 items-center z-10">

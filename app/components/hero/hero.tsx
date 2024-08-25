@@ -1,48 +1,30 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';;
+import Navbar from '../navbar/navbar';
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
-    <section className="relative bg-black text-white h-auto flex items-center justify-center py-8 px-8">
-      <div className="absolute inset-0 overflow-hidden">
-
-      </div>
-      
-      <div className="relative z-10 mx-auto max-w-6xl flex flex-col md:flex-row items-center text-center md:text-left">
-
-      <div className="md:w-1/2 md:pr-8">
-          <Image 
-            src="/images/hero_image3.jpeg" 
-            alt="E-volve Hero Image" 
-            width={500}
-            height={500}
-            className="mx-auto mb-8 md:mb-0 fade-border" 
-          />
-        </div>
-
-        <div className="md:w-1/2">
-
-          <h1 className="text-5xl text-white mb-0">
-            <span className="font-light">E-</span>
-            <span className="font-bold">VOLVE</span>
+    <>
+      <header
+        className="relative w-full h-screen bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/Hero-img-1.jpg')" }}
+      >
+        <Navbar />
+        <div className="flex flex-col items-center justify-center h-full text-center p-4 lg:px-36">
+          <h1 className="mt-28 mb-8 lg:mb-12 font-sans font-bold text-white text-6xl xl:text-10xl 2xl:text-14xl">
+            E-VOLVE
           </h1>
-          
-          <p className="text-lg font-roboto text-neonCyan mb-4">A Gen-AI Workshop</p>
-
-          <p className="text-lg font-roboto text-lightYellow mb-8">Concepts to Creations</p>
-          
-
-          <a 
-            href=" " 
-            className="bg-brightYellow text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-600 transition"
-          >
-            Register
-          </a>
+          <p className="mb-2 font-sans font-medium text-white text-lg sm:text-2xl">
+            CONCEPTS TO CREATIONS
+          </p>
+          <p className="mb-8 font-sans font-medium text-cyan-400 text-lg sm:text-2xl">
+            A Gen-AI Workshop
+          </p>
+          <p className="font-sans font-medium text-cyan-400 pb-4 text-lg sm:text-2xl">
+            Lucia will assisting you with the informations
+          </p>
         </div>
-        
-        
-      </div>
-    </section>
+      </header>
+    </>
   );
 };
 
