@@ -12,6 +12,7 @@ import Speakers from './components/speakers/speakers';
 import Timeline from './components/timeline/timeline';
 import FAQ from './components/faq/faq';
 import Footer from './components/footer/footer';
+import FootRegister from './components/footRegister/footRegister';
 
 import '../app/globals.css';
 
@@ -23,6 +24,7 @@ const HomePage: React.FC = () => {
   const { ref: speakersRef, inView: isSpeakersVisible } = useInView({ triggerOnce: true, threshold: 0.7 });
   const { ref: timelineRef, inView: isTimelineVisible } = useInView({ triggerOnce: true, threshold: 0.7 });
   const { ref: faqRef, inView: isFaqVisible } = useInView({ triggerOnce: true, threshold: 0.6 });
+  const { ref: footRegisterRef, inView: isfootRegisterVisible } = useInView({ triggerOnce: true, threshold: 0.4 });
 
   // Slide and fade-in animation
   const slideInFromBottom = {
@@ -86,6 +88,15 @@ const HomePage: React.FC = () => {
         variants={slideInFromBottom}
       >
         <FAQ />
+      </motion.div>)}
+
+      {isTimelineGenerated && (<motion.div
+        ref={footRegisterRef}
+        initial="hidden"
+        animate={isfootRegisterVisible ? "visible" : "hidden"}
+        variants={slideInFromBottom}
+      >
+        <FootRegister/>
       </motion.div>)}
 
       <Footer />
