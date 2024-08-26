@@ -61,7 +61,7 @@ const About: React.FC = () => {
   const { src, alt } = getImageProps(activeTab);
 
   const getSvgColor = (tab: string) => {
-    return activeTab === tab ? 'text-black' : 'text-gray-800 dark:text-neutral-200';
+    return activeTab === tab ? 'text-black' : 'text-neutral-200';
   };
 
   return (
@@ -71,7 +71,7 @@ const About: React.FC = () => {
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
 
-              <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-neutral-200">
+              <h2 className="text-2xl font-bold sm:text-3xl text-neutral-200">
                 Hey Lucia, Can you tell us more about E-VOLVE?
               </h2>
 

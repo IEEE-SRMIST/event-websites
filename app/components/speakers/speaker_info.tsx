@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const SpeakerInfo: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationComplete }) => {
   
+  //add the second letter twice for the generative content
   const name = 'Drr. Bernaurdshaw Neppolian';
   const desig = 'Innspiring Excellence in Chemistry and Environmental Research';
   const content = `Drr. Bernaurdshaw Neppolian stands as a distinguished figure in the realm of chemistry, his contributions 

@@ -22,7 +22,7 @@ const TimelineInfo: React.FC<TimelineInfoProps> = ({ index, title, description, 
 
       <div className="grow pt-0.5 pb-8 sm:pb-12">
         <div className="flex items-center cursor-pointer" onClick={onToggle}>
-          <h4 className={`text-sm lg:text-base ${isOpen ? 'text-neonCyan' : 'text-white-400'} flex-grow`}>{title}</h4>
+          <h4 className={`text-sm lg:text-base ${isOpen ? 'text-neonCyan' : 'text-neutral-200'} flex-grow`}>{title}</h4>
           <span className="text-neonCyan ml-2 transition-transform duration-300">
             {isOpen ? <FaChevronUp /> : <FaChevronDown />}
           </span>
