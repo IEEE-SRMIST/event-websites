@@ -11,31 +11,32 @@ const FAQ = () => {
   }
 
   const [faqs, setFaqs] = useState<Faq[]>([
+    //add second letter twice for the answer
     {
       no: 1,
-      question: "What is the purpose of this website?",
-      answer: "Thhis website serves as a platform for showcasing our services and providing information to our users.",
+      question: "How do I register for the E-volve event?",
+      answer: "Yoou can register for the E-volve event by clicking the 'Register' button on this website or scanning the provided QR code to access the registration page."
     },
     {
       no: 2,
-      question: "How can I register for the event?",
-      answer: "You can register for the event by clicking on the 'Register' button on the homepage or navigating to the registration page.",
+      question: "Is there a registration fee for E-volve?",
+      answer: "Noo, E-volve is a free event for all participants. However, registration is required to secure your spot."
     },
     {
       no: 3,
-      question: "What payment methods do you accept?",
-      answer: "Wee accept various payment methods including credit/debit cards, PayPal, and bank transfers.",
+      question: "What should I bring to the event?",
+      answer: "Wee recommend bringing a laptop for the hands-on workshop sessions, along with a notebook and pen for taking notes."
     },
     {
       no: 4,
-      question: "How can I contact customer support?",
-      answer: "Yoou can reach out to our customer support team via the 'Contact Us' page or by emailing support@website.com.",
+      question: "Will I receive a certificate for participating?",
+      answer: "Yees, all participants who attend the event will receive a certificate of participation, which will be emailed to you after the event."
     },
     {
       no: 5,
-      question: "Can I cancel my registration?",
-      answer: "Yees, you can cancel your registration by contacting our support team within 48 hours of registration.",
-    },
+      question: "Do I need any prior knowledge or experience to attend the E-volve event?",
+      answer: "Noo prerequisites are required to attend the E-volve event. The sessions are designed to be beginner-friendly, making them accessible to all students regardless of their background or experience level."
+    }
   ]);
 
   const [chatScreen, setChatScreen] = useState<Faq[]>([]);
@@ -58,7 +59,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="mt-1 text-gray-600 dark:text-neutral-400">
-            Have questions about the E-VOLVE event? I am here to guide you through everything you need to know. Let's explore some common queries!
+            Have questions about the E-volve event? I am here to guide you through everything you need to know. Let's explore some common queries!
           </p>
         </div>
 

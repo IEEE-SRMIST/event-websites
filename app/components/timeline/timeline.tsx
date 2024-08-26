@@ -19,36 +19,32 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
 
   const TimelineData = [
     {
-      title: 'Welcome & Orientation',
-      description: "Begin your journey with a warm welcome to IEEE SRM SB, where you will discover the perks of membership. We will provide you with essential tips on building a strong professional profile using tools like LinkedIn and GitHub, and introduce you to exciting tech domains like Web Development, Machine Learning, and more."
+      title: 'Inaugural Programs (9:00 am - 10:00 am)',
+      description: "Kick off the day with a welcome speech followed by an introduction to our keynote speaker. This session will set the tone for the event and give you a glimpse of what to expect."
     },
     {
-      title: 'Introduction to GenAI',
-      description: 'Dive into the world of Generative AI (GenAI) as we explore its fascinating history and real-world applications. Learn the basics of Machine Learning and get hands-on experience with Python programming, giving you a strong foundation in this cutting-edge field.',
+      title: 'Speaker Session 1 (10:00 am - 11:30 am)',
+      description: 'Engage in the first speaker session where industry experts will share insights and knowledge on cutting-edge topics in technology. This session will be an eye-opener for all tech enthusiasts.'
     },
     {
-      title: 'Project-Based Learning',
-      description: 'Put your new knowledge into practice by working on a project using prebuilt models. Then, challenge yourself with a more advanced project, such as creating an image recognition system. These activities are designed to boost your confidence and skills in applying what you have learned.',
+      title: 'Break (11:30 am - 11:45 am)',
+      description: 'Take a short break to recharge with refreshments before diving into the next session.'
     },
     {
-      title: 'Interactive Session & Feedback',
-      description: 'Wrap up the day with a fun interactive session to connect with your peers and solidify what you’ve learned. Before you go, share your thoughts and suggestions through a feedback form to help us tailor future events to your needs.',
+      title: 'Speaker Session 2 (11:45 am - 1:00 pm)',
+      description: 'Join the second speaker session, which will delve deeper into specific tech domains and provide practical advice for budding professionals.'
     },
     {
-      title: 'Welcome & Orientation',
-      description: "Begin your journey with a warm welcome to IEEE SRM SB, where you will discover the perks of membership. We will provide you with essential tips on building a strong professional profile using tools like LinkedIn and GitHub, and introduce you to exciting tech domains like Web Development, Machine Learning, and more."
+      title: 'Lunch Break & Ice Breaker (1:00 pm - 2:00 pm)',
+      description: "Enjoy a lunch break to relax and network with fellow attendees. The break will conclude with an ice-breaker activity to foster connections."
     },
     {
-      title: 'Introduction to GenAI',
-      description: 'Dive into the world of Generative AI (GenAI) as we explore its fascinating history and real-world applications. Learn the basics of Machine Learning and get hands-on experience with Python programming, giving you a strong foundation in this cutting-edge field.',
+      title: 'Speaker Session 3 (2:00 pm - 3:30 pm)',
+      description: 'Participate in the final speaker session of the day, featuring an in-depth discussion on advanced topics and future trends in technology.'
     },
     {
-      title: 'Project-Based Learning',
-      description: 'Put your new knowledge into practice by working on a project using prebuilt models. Then, challenge yourself with a more advanced project, such as creating an image recognition system. These activities are designed to boost your confidence and skills in applying what you have learned.',
-    },
-    {
-      title: 'Interactive Session & Feedback',
-      description: 'Wrap up the day with a fun interactive session to connect with your peers and solidify what you’ve learned. Before you go, share your thoughts and suggestions through a feedback form to help us tailor future events to your needs.',
+      title: 'Orientation & IEEE Promotion (3:30 pm - 5:00 pm)',
+      description: 'Wrap up the event with an orientation session covering LinkedIn, GitHub, and resume building. Learn about IEEE promotion and recruitment opportunities to boost your professional journey.'
     },
   ];
 

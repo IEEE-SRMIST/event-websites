@@ -16,7 +16,7 @@ import Footer from './components/footer/footer';
 import '../app/globals.css';
 
 const HomePage: React.FC = () => {
-  const [isSpeakersGenerated, setIsSpeakersGenerated] = useState(false);
+  const [isSpeakersGenerated, setIsSpeakersGenerated] = useState(true); // change to false when speaker is updated
   const [isTimelineGenerated, setIsTimelineGenerated] = useState(false);
 
   const { ref: aboutRef, inView: isAboutVisible } = useInView({ triggerOnce: true, threshold: 0.3 });
@@ -57,14 +57,16 @@ const HomePage: React.FC = () => {
         <About />
       </motion.div>
 
-      <motion.div
+      {/* change isSpeakersGenerated to false before uncommenting the code */}
+
+      {/* <motion.div
         ref={speakersRef}
         initial="hidden"
         animate={isSpeakersVisible ? "visible" : "hidden"}
         variants={slideInFromBottom}
       >
         <Speakers onGenerationComplete={() => setIsSpeakersGenerated(true)} />
-      </motion.div>
+      </motion.div> */}
       
       {isSpeakersGenerated && (
         <motion.div

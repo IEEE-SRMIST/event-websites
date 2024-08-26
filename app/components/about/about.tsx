@@ -76,7 +76,7 @@ const About: React.FC = () => {
               </h2>
 
               <p className="mt-4 text-justify text-neutral-300">
-                Sure! Here is some information about the event. At E-VOLVE, you'll delve into the theoretical foundations of Generative AI, exploring its principles, methodologies, and the latest advancements in the field. This session is perfect for those looking to deepen their understanding of AI concepts and its applications.
+                Sure! Here is some information about the event. At E-volve, you'll delve into the theoretical foundations of Generative AI, exploring its principles, methodologies, and the latest advancements in the field. This session is perfect for those looking to deepen their understanding of AI concepts and its applications.
               </p>
 
               <nav
@@ -105,7 +105,7 @@ const About: React.FC = () => {
                       ></path>
                     </svg>
                   )}
-                  description="E-VOLVE is a hands-on workshop on Generative AI, guiding participants from AI concepts to creative applications."
+                  description="E-volve is a hands-on workshop on Generative AI, guiding participants from AI concepts to creative applications."
                   isActive={activeTab === 'what'}
                   onClick={() => handleTabClick('what')}
                   scale={scale}
@@ -163,7 +163,7 @@ const About: React.FC = () => {
                       <path d="M17 19h4" />
                     </svg>
                   )}
-                  description="17th September \n 9:00 AM"
+                  description="9:00 AM on 17th September 2024"
                   isActive={activeTab === 'when'}
                   onClick={() => handleTabClick('when')}
                   scale={scale}
