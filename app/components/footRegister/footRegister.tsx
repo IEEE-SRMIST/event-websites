@@ -14,7 +14,7 @@ const FootRegister = () => {
                     <div className="flex-grow text-left px-4">
                         <p className="text-sm text-gray-500">Lucia</p>
                         <p className="text-white text-md">Have more questions? Contact us at:</p>
-                        <a className="text-md text-neonCyan" href='mailto:ieeesrmist@srmist.edu.in'>ieeesrmist@srmist.edu.in</a>
+                        <a className="text-md text-neonCyan" href='mailto:ieee@srmist.edu.in'>ieee@srmist.edu.in</a>
                     </div>
                 </div>
                 <a
