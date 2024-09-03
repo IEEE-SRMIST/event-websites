@@ -32,7 +32,7 @@ E-VOLVE is a cutting-edge workshop designed to immerse participants in the world
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/AkashSasikumar47/ieee-evolve-website.git`
+1. Clone the repository: `git clone hhttps://github.com/IEEE-SRMIST/ieee-evolve-website.git`
 2. Navigate to the project directory: `cd ieee-evolve-website`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
