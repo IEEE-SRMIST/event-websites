@@ -90,13 +90,13 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
 
   return (
     <section ref={inViewRef}>
-      <div className="gradient-border-container mx-auto max-w-5xl px-4 xl:px-0 py-5 lg:py-10">
+      <div className="gradient-border-container max-w-screen-2xl mx-auto px-4 py-6 md:px-8 md:py-10 mb-8">
         <div className="gradient-border-wrapper">
           <div ref={containerRef} className="gradient-border-content">
             {showGenerating ? (
               <div className={`fade-out ${fadeOut ? 'fade-out-active' : ''}`}>
                 <p className='text-white text-2xl md:text-3xl tracking-wider font-bold text-center font-roboto'>
-                  Alright Lucia, What will be the flow of events?
+                  What will be the Flow of events?
                 </p>
               </div>
             ) : (
@@ -104,7 +104,7 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
                 <div className="max-w-3xl mx-auto text-center mb-10 lg:mb-14">
 
                   <GenContent 
-                    className="text-neonCyan font-semibold text-2xl md:text-4xl md:leading-tight" 
+                    className="text-white font-semibold text-2xl md:text-4xl md:leading-tight" 
                     showGenerating={showGenerating} 
                     text="Tiimeline" 
                     speed={20}
@@ -122,7 +122,7 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
 
                 {contentGenOver && !showFlow &&(
                   <GenContent 
-                    className="text-neonMagenta text-sm font-medium text-center mb-6" 
+                    className="text-neonCyan text-sm font-medium text-center mb-6" 
                     showGenerating={showGenerating} 
                     text="Gaatherting the flow of events..." 
                     speed={25}
@@ -139,7 +139,7 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
                 {showFlow && (<div className="flex justify-center">
                   <div className="w-full max-w-3xl">
                     <div className="mb-6">
-                      <h3 className="text-neonMagenta text-sm font-medium uppercase text-center">
+                      <h3 className="text-neonCyan text-sm font-medium uppercase text-center">
                         Flow of Events
                       </h3>
                     </div>
