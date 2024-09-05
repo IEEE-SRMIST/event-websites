@@ -7,8 +7,8 @@
 .speakers-container {
     position: relative;
     padding: 4px;
-    border-radius: 8px;
-    background: linear-gradient(90deg, #ec3c85, #1dd9e9, #ae7365, #fcce80, #032639);
+    border-radius: 12px;
+    background: linear-gradient(90deg, #2e3a47, #1f2a38, #2e3a47, #1f2a38);
     background-size: 600% 600%;
     animation: gradient-flow 10s ease infinite;
     box-sizing: border-box;
@@ -16,14 +16,15 @@
 
 .speakers-wrapper {
     border-radius: 8px;
-    background: #131314;
+    background: #1a1b1d;
     padding: 24px;
     position: relative;
     box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .gradient-border-content {
-    background-color: #131314;
+    background-color: #1a1b1d;
     border-radius: 8px;
     position: relative;
     overflow: hidden;
@@ -61,9 +62,9 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 10%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     mix-blend-mode: multiply;
     animation: rotateDiamond 10s linear infinite;
 }
@@ -73,7 +74,7 @@
     left: 10%;
     width: 200px;
     height: 200px;
-    background: rgba(255, 0, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .shape2 {
@@ -81,7 +82,7 @@
     right: 10%;
     width: 250px;
     height: 250px;
-    background: rgba(0, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 @keyframes rotateDiamond {
@@ -98,7 +99,7 @@
     position: relative;
     overflow: hidden;
     color: transparent;
-    background: linear-gradient(45deg, #5a0d55, #0d5a5b, #131314);
+    background: linear-gradient(45deg, #3a3a3a, #4e4e4e);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite linear;
     width: 72px;
@@ -107,7 +108,7 @@
 }
 
 .shimmer-text {
-    color: white;
+    color: #e0e0e0;
     text-align: center;
 }
 

@@ -3,10 +3,9 @@ import React, { useEffect, useState } from 'react'
 const SpeakerInfo: React.FC<{ onGenerationComplete: () => void; }> = ({ onGenerationComplete }) => {
 
   //add the second letter twice for the generative content
-  const name = 'Drr. Bernaurdshaw Neppolian';
-  const desig = 'Innspiring Excellence in Chemistry and Environmental Research';
-  const content = `Drr. Bernaurdshaw Neppolian stands as a distinguished figure in the realm of chemistry, his contributions 
-    recognized both nationally and globally.
+  const name = 'Yoohan Vergis Vinu';
+  const desig = 'Appplied AI Engineer';
+  const content = `Yoohan Vergis Vinu is a final-year Computer Science student at SRM Institute of Science and Technology, where his focus is on applied machine learning and artificial intelligence. He has gained practical experience through a research internship at Samsung R&D, where he worked on an advanced computer vision project. Currently, Yohan is an AI engineer at Moative, where he focuses on developing applied AI and LLM-based Software-as-a-Service (SaaS) products. He is also an undergraduate researcher at SRM currently working on vision-language models in human biometrics. As a public speaker and AI enthusiast, Yohan is passionate about sharing his knowledge of generative AI and its applications with aspiring students.
   `;
 
   const [nameCompleted, setNameCompleted] = useState(false);
@@ -24,23 +23,23 @@ const SpeakerInfo: React.FC<{ onGenerationComplete: () => void; }> = ({ onGenera
   }, [contentCompleted]);
 
   return (
-    <div className="color-[#FFD700]">
+    <div>
       <GenContent
-        className='text-xl md:text-3xl text-neonCyan mb-2 font-bold mb-2 md:mb-4'
+        className='mb-4 md:mb-6 font-sans font-bold text-white text-2xl sm:text-4xl'
         showGenerating={false}
         text={name}
         speed={30}
         complete={nameGen}
       />
       {nameCompleted && <GenContent
-        className='text-lg md:text-2xl text-neonMagenta font-semibold mb-2 md:mb-4'
+        className='mb-4 md:mb-6 text-xl text-neonCyan font-sans font-bold'
         showGenerating={false}
         text={desig}
         speed={25}
         complete={desigGen}
       />}
       {desigCompleted && <GenContent
-        className='text-justify text-gray-300 text-sm md:text-base leading-7'
+        className='text-justify mx-auto font-sans font-base text-neutral-400 text-sm sm:text-lg'
         showGenerating={false}
         text={content}
         speed={10}

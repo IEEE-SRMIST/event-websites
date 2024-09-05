@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SpeakerInfo from './speaker_info';
 import SpeakerImage from './speaker_image';
 import { useInView } from 'react-intersection-observer';
-import './styles.css';
+import './speakerstyles.css';
 
 const Speaker: React.FC<{ onGenerationComplete: () => void; }> = ({ onGenerationComplete }) => {
 

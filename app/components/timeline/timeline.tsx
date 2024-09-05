@@ -3,7 +3,7 @@ import TimelineInfo from './timeline_info';
 import './timelinestyles.css';
 import { useInView } from 'react-intersection-observer';
 
-const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationComplete }) => {
+const Timeline: React.FC<{ onGenerationComplete: () => void }> = ({ onGenerationComplete }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [showGenerating, setShowGenerating] = useState(true);
   const [titleGenOver, setTitleGenOver] = useState(false);
@@ -89,7 +89,7 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
   }, [showFlow]);
 
   return (
-    <section ref={inViewRef}>
+    <section ref={inViewRef} className="timeline-section">
       <div className="gradient-border-container max-w-screen-2xl mx-auto px-4 py-6 md:px-8 md:py-10 mb-8">
         <div className="gradient-border-wrapper">
           <div ref={containerRef} className="gradient-border-content">
@@ -102,62 +102,64 @@ const Timeline: React.FC<{onGenerationComplete: () => void;}> = ({ onGenerationC
             ) : (
               <>
                 <div className="max-w-3xl mx-auto text-center mb-10 lg:mb-14">
-
-                  <GenContent 
-                    className="text-white font-semibold text-2xl md:text-4xl md:leading-tight" 
-                    showGenerating={showGenerating} 
-                    text="Tiimeline" 
+                  <GenContent
+                    className="mb-4 md:mb-6 font-sans font-bold text-white text-2xl sm:text-4xl"
+                    showGenerating={showGenerating}
+                    text="Tiimeline"
                     speed={20}
-                    complete={() => {setTitleGenOver(true)}}
+                    complete={() => { setTitleGenOver(true) }}
                   />
 
-                  {titleGenOver && (<GenContent 
-                    className="mt-2 text-neutral-400" 
-                    showGenerating={showGenerating} 
-                    text="Exxperience a day of focused learning and hands-on tech exploration. Each session is crafted to empower you with practical skills and insights. Let's dive in!" 
-                    speed={20}
-                    complete={() => {setContentGenOver(true)}}
-                  />)}
+                  {titleGenOver && (
+                    <GenContent
+                      className="max-w-screen-sm mx-auto font-sans font-base text-neutral-400 text-sm sm:text-lg"
+                      showGenerating={showGenerating}
+                      text="Exxperience a day of focused learning and hands-on tech exploration. Each session is crafted to empower you with practical skills and insights. Let's dive in!"
+                      speed={20}
+                      complete={() => { setContentGenOver(true) }}
+                    />
+                  )}
                 </div>
 
-                {contentGenOver && !showFlow &&(
-                  <GenContent 
-                    className="text-neonCyan text-sm font-medium text-center mb-6" 
-                    showGenerating={showGenerating} 
-                    text="Gaatherting the flow of events..." 
+                {contentGenOver && !showFlow && (
+                  <GenContent
+                    className="text-neonCyan text-sm font-medium text-center mb-6"
+                    showGenerating={showGenerating}
+                    text="Gathering the flow of events..."
                     speed={25}
                     complete={() => {
                       const timer = setTimeout(() => {
                         setShowFlow(true);
-
                       }, 2000);
                       return () => clearTimeout(timer);
                     }}
                   />
                 )}
 
-                {showFlow && (<div className="flex justify-center">
-                  <div className="w-full max-w-3xl">
-                    <div className="mb-6">
-                      <h3 className="text-neonCyan text-sm font-medium uppercase text-center">
-                        Flow of Events
-                      </h3>
-                    </div>
+                {showFlow && (
+                  <div className="flex justify-center">
+                    <div className="w-full max-w-3xl">
+                      <div className="mb-6">
+                        <h3 className="text-neonCyan text-sm font-medium uppercase text-center">
+                          Flow of Events
+                        </h3>
+                      </div>
 
-                    <div className="space-y-4">
-                      {TimelineData.map((timeline, index) => (
-                        <TimelineInfo
-                          key={index}
-                          index={index}
-                          title={timeline.title}
-                          description={timeline.description}
-                          isOpen={openIndex === index}
-                          onToggle={() => handleToggle(index)}
-                        />
-                      ))}
+                      <div className="space-y-4">
+                        {TimelineData.map((timeline, index) => (
+                          <TimelineInfo
+                            key={index}
+                            index={index}
+                            title={timeline.title}
+                            description={timeline.description}
+                            isOpen={openIndex === index}
+                            onToggle={() => handleToggle(index)}
+                          />
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>)}
+                )}
               </>
             )}
           </div>
@@ -183,36 +185,36 @@ const GenContent: React.FC<GenContentProps> = ({ className, showGenerating, text
   const [completed, setCompleted] = useState(false);
 
   useEffect(() => {
-      if (!showGenerating) {
-        let currentIndex = 0;
-        const intervalId = setInterval(() => {
+    if (!showGenerating) {
+      let currentIndex = 0;
+      const intervalId = setInterval(() => {
 
 
-          if (currentIndex < text.length - 1) {
-            setDisplayedText((prev) => prev + text[currentIndex]);
-            currentIndex++;
-          }
-          
-          else if (currentIndex === text.length - 1) {
-            clearInterval(intervalId);
-            setCompleted(true);
-            complete();
-          }
-        }, speed);
-    
-        return () => clearInterval(intervalId);
-      } else {
-        setDisplayedText('');
-      }
-    }, [showGenerating, text]);
+        if (currentIndex < text.length - 1) {
+          setDisplayedText((prev) => prev + text[currentIndex]);
+          currentIndex++;
+        }
+
+        else if (currentIndex === text.length - 1) {
+          clearInterval(intervalId);
+          setCompleted(true);
+          complete();
+        }
+      }, speed);
+
+      return () => clearInterval(intervalId);
+    } else {
+      setDisplayedText('');
+    }
+  }, [showGenerating, text]);
 
   return (
     <div
       className={className}
     >
-      {showGenerating 
-          ? (<span>⚪</span>)
-          : (<div>{displayedText}{!completed ? <span>⚪</span> : null}</div>)
+      {showGenerating
+        ? (<span>⚪</span>)
+        : (<div>{displayedText}{!completed ? <span>⚪</span> : null}</div>)
       }
     </div>
   );
