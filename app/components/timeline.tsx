@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { Work, School, Star } from "@mui/icons-material";
+import { School, Star } from "@mui/icons-material";
 
 // Data for all timeline elements
 const timelineData = [
@@ -16,8 +16,8 @@ const timelineData = [
     location: 'Miami, FL',
     description: 'Creative Direction, User Experience, Visual Design, Project Management, Team Leading',
     icon: <School />,
-    iconBgColor: '#f3de21',
-    arrowColor: '#f3de21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'work',
@@ -26,8 +26,8 @@ const timelineData = [
     location: 'San Francisco, CA',
     description: 'Creative Direction, User Experience, Visual Design, SEO, Online Marketing',
     icon: <School />,
-    iconBgColor: '#f3de21',
-    arrowColor: '#f3de21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'work',
@@ -36,8 +36,8 @@ const timelineData = [
     location: 'Los Angeles, CA',
     description: 'User Experience, Visual Design',
     icon: <School />,
-    iconBgColor: '#f3de21',
-    arrowColor: '#f3de21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'work',
@@ -46,8 +46,8 @@ const timelineData = [
     location: 'San Francisco, CA',
     description: 'User Experience, Visual Design',
     icon: <School />,
-    iconBgColor: '#f3de21',
-    arrowColor: '#f3de21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'education',
@@ -56,8 +56,8 @@ const timelineData = [
     location: 'Online Course',
     description: 'Strategy, Social Media',
     icon: <School />,
-    iconBgColor: '#f34b21',
-    arrowColor: '#f34b21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'education',
@@ -66,8 +66,8 @@ const timelineData = [
     location: 'Certification',
     description: 'Creative Direction, User Experience, Visual Design',
     icon: <School />,
-    iconBgColor: '#f34b21',
-    arrowColor: '#f34b21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'education',
@@ -76,13 +76,13 @@ const timelineData = [
     location: 'Bachelor Degree',
     description: 'Creative Direction, Visual Design',
     icon: <School />,
-    iconBgColor: '#f34b21',
-    arrowColor: '#f34b21',
+    iconBgColor: '#FDDC4F',
+    arrowColor: '#FDDC4F',
   },
   {
     type: 'star',
     icon: <Star />,
-    iconBgColor: '#f3de21',
+    iconBgColor: '#FDDC4F',
   }
 ];
 
@@ -90,31 +90,31 @@ const timelineData = [
 export function Timeline() {
   return (
     <>
-    {/* Event Timeline title */}
-    <div className="text-center text-7xl text-[#f3de21] font-bold my-6">
+      {/* Event Timeline title */}
+      <div className="text-center text-7xl text-[#f3de21] font-bold my-6">
         Event Timeline
       </div>
-    <VerticalTimeline className="relative p-5">
-      <div className="absolute top-0 bottom-0 left-1/2 w-px bg-gray-300 z-0 transform -translate-x-1/2" /> {/* Vertical line */}
-      {
-        timelineData.map((item, index) => (
-          <VerticalTimelineElement
-            key={index}
-            visible={true}
-            className={`vertical-timeline-element--${item.type}`}
-            contentClassName="bg-transparent text-black p-6 rounded-lg shadow-lg shadow-yellow-50 border border-gray-200"
-            contentArrowClassName={`border-r-8 border-[${item.arrowColor}]`}
-            date={item.date}
-            iconClassName={`bg-[${item.iconBgColor}] text-white`}
-            icon={item.icon}
-          >
-            {item.title && <h3 className="text-black font-bold">{item.title}</h3>}
-            {item.location && <h4 className="text-gray-700">{item.location}</h4>}
-            {item.description && <p>{item.description}</p>}
-          </VerticalTimelineElement>
-        ))
-      }
-    </VerticalTimeline>
+      <VerticalTimeline className="relative p-5">
+        <div className="absolute top-0 bottom-0 left-1/2 w-px bg-gray-300 z-0 transform -translate-x-1/2" /> {/* Vertical line */}
+        {
+          timelineData.map((item, index) => (
+            <VerticalTimelineElement
+              key={index}
+              visible={true}
+              className={`vertical-timeline-element--${item.type}`}
+              contentClassName="bg-transparent text-black p-6 rounded-lg shadow-lg shadow-yellow-50 border border-gray-200"
+              contentArrowStyle={{ borderRight: `8px solid ${item.arrowColor}` }}  
+              date={item.date}
+              iconStyle={{ backgroundColor: item.iconBgColor, color: 'white' }}  
+              icon={item.icon}
+            >
+              {item.title && <h3 className="text-black font-bold">{item.title}</h3>}
+              {item.location && <h4 className="text-gray-700">{item.location}</h4>}
+              {item.description && <p>{item.description}</p>}
+            </VerticalTimelineElement>
+          ))
+        }
+      </VerticalTimeline>
     </>
   );
 }
