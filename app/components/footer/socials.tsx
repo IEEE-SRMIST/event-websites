@@ -4,7 +4,7 @@ import { faLinkedin, faInstagram, faGithub, faTwitter } from '@fortawesome/free-
 
 const Socials = () => {
   return (
-    <div className="md:text-end space-x-2">
+    <div className="mt-3 md:text-end space-x-2">
       <a
         className="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent focus:outline-none disabled:opacity-50 disabled:pointer-events-none text-neutral-400 hover:text-neonCyan hover:bg-neutral-700 focus:bg-neutral-700"
         href="https://www.linkedin.com/company/ieeesrmist/"

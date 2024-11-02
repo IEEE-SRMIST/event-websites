@@ -14,7 +14,7 @@ const TabButton: React.FC<TabButtonProps> = ({ label, icon, description, isActiv
     <button
       type="button"
       className={`text-start hover:bg-gray-200 focus:outline-none focus:bg-gray-200 p-4 md:p-5 rounded-xl ${
-        isActive ? 'bg-white shadow-md text-black' : 'bg-neutral-700 hover:bg-neutral-700 focus:bg-neutral-700 text-neutral-200'
+        isActive ? 'bg-white shadow-md text-black' : 'bg-gray-900 hover:bg-gray-900 focus:bg-gray-900 text-neutral-200'
       } transition-transform duration-300 ease-in-out`}
       onClick={onClick}
       aria-selected={isActive}

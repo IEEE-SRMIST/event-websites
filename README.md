@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-VOLVE | Gen-AI Workshop
 
-## Getting Started
+Welcome to E-VOLVE, the next frontier in Generative AI! 🚀
 
-First, run the development server:
+![E-VOLVE Website](public/assets/Posters/evolve-website.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+E-VOLVE is a cutting-edge workshop designed to immerse participants in the world of Generative AI. Hosted by IEEE SRMIST, this event is dedicated to exploring the possibilities of AI-driven creativity and innovation. Whether you're a student, developer, or AI enthusiast, E-VOLVE provides the perfect platform to learn, collaborate, and create.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Event Countdown**: Keep track of the time remaining until the workshop begins.
+- **About Us**: Get to know the mission and vision of IEEE SRM.
+- **About Event**: Understand the core objectives and themes of the Gen-AI workshop.
+- **Event Video**: Watch a brief introduction to what E-VOLVE is all about.
+- **Speaker**: Learn about the industry experts and thought leaders presenting at the workshop.
+- **Timeline**: Stay updated with the workshop schedule and important milestones.
+- **Event Highlights**: Discover key aspects of the workshop that make it stand out.
+- **Mentors**: Connect with experienced mentors for guidance and insights during the workshop.
+- **FAQ**: Find answers to frequently asked questions about E-VOLVE.
+- **CTA**: Join the conversation and become a part of E-VOLVE's dynamic community.
+- **Footer**: Learn more about the E-VOLVE event's affiliation with IEEE and legal information.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository: `git clone hhttps://github.com/IEEE-SRMIST/ieee-evolve-website.git`
+2. Navigate to the project directory: `cd ieee-evolve-website`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We encourage contributions from the community! If you'd like to contribute to the E-VOLVE Website project, please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/my-feature`
+3. Make your changes and commit them: `git commit -am 'Add my feature'`
+4. Push to the branch: `git push origin feature/my-feature`
+5. Submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions regarding the E-VOLVE Website project, feel free to contact us at [ieee@srmist.edu.in](mailto:ieee@srmist.edu.in).

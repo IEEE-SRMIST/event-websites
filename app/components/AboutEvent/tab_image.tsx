@@ -27,7 +27,7 @@ const TabImage: React.FC<TabImageProps> = ({ src, alt }) => {
   }, [src, displayedSrc]);
 
   return (
-    <div className="relative overflow-hidden max-h-[500px]">
+    <div className="relative overflow-hidden">
       {/* Image container with fade and pop animation */}
       <div
         className={`transition-all duration-500 ease-in-out transform ${
@@ -39,7 +39,7 @@ const TabImage: React.FC<TabImageProps> = ({ src, alt }) => {
           alt={alt}
           width={500}
           height={500}
-          className="w-full h-auto object-cover shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20"
+          className="w-full h-auto object-cover rounded-xl"
         />
       </div>
     </div>
