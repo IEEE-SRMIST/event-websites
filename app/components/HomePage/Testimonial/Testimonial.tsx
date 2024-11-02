@@ -75,7 +75,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        48
+                                        24
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Hours of Coding
