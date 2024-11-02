@@ -1,14 +1,17 @@
 import React from 'react'
 
-const JudgingCriteriaSection = () => {
+const EventWorkflow = () => {
     return (
-        <div className="max-w-[85rem] lg:mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
+        <div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black font-body">
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="font-bold text-2xl md:text-3xl">
-                        Key Highlights of the Event Workflow
+                    <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
+                        Key Highlights of HackTrix
                     </h2>
+                    <h3 className="mt-1 md:mt-4 text-normal font-body font-medium text-gray-500">
+                        A Showcase of Innovation and Excellence
+                    </h3>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
                     {/* Icon Block */}
@@ -23,7 +26,7 @@ const JudgingCriteriaSection = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Intensive Collaboration
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -41,7 +44,7 @@ const JudgingCriteriaSection = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Rapid Prototyping
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -59,7 +62,7 @@ const JudgingCriteriaSection = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Innovation and Creativity
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -84,7 +87,7 @@ const JudgingCriteriaSection = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-bold">
+                            <h3 className="text-xl font-body font-bold">
                                 Celebrate Innovation
                             </h3>
                             <p className="mt-1 text-sm font-body text-gray-400">
@@ -95,11 +98,14 @@ const JudgingCriteriaSection = () => {
                 </div>
             </div>
 
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black font-body">
+            <div className="max-w-[85rem] mt-8 lg:rounded-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white text-black">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+                    <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                         Event Workflow in Action
                     </h2>
+                    <h3 className="mt-1 md:mt-4 text-normal font-body font-medium text-gray-500">
+                        Navigating Seamless Execution and Engagement
+                    </h3>
                 </div>
                 <div className="max-w-4xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
@@ -112,7 +118,7 @@ const JudgingCriteriaSection = () => {
                                     <path d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Introduction & Speaker Session
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -128,7 +134,7 @@ const JudgingCriteriaSection = () => {
                                     <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Hackathon Kickoff
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -143,7 +149,7 @@ const JudgingCriteriaSection = () => {
                                     <path d="M10 19l-3.388 -5.808a.2 .2 0 0 1 .09 -.283l15.298 -6.909l-2.5 4" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Mentorship and Collaboration
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -162,7 +168,7 @@ const JudgingCriteriaSection = () => {
                                     <path d="M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Project Showcase Preparation
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -182,11 +188,11 @@ const JudgingCriteriaSection = () => {
                                     <path d="M9 20h6" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-xl font-body font-bold">
                                         Project Showcase
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
-                                    Teams present innovative solutions to judges and the audience, showcasing problem-solving, technical prowess, and creativity in their prototypes.
+                                        Teams present innovative solutions to judges and the audience, showcasing problem-solving, technical prowess, and creativity in their prototypes.
                                     </p>
                                 </div>
                             </div>
@@ -197,8 +203,8 @@ const JudgingCriteriaSection = () => {
                                     <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
                                     <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
                                 </svg>
-                                <div className=" mt-6 ms-5 sm:ms-8">
-                                    <h3 className="text-lg font-bold">
+                                <div className="ms-5 sm:ms-8">
+                                    <h3 className="text-xl font-body font-bold">
                                         Prize Distribution and Closing
                                     </h3>
                                     <p className="mt-1 text-sm font-body text-gray-400">
@@ -215,4 +221,4 @@ const JudgingCriteriaSection = () => {
     )
 }
 
-export default JudgingCriteriaSection
+export default EventWorkflow

@@ -1,6 +1,35 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
+import { db } from '../../../firebase_config';
+import { collection, doc, getDoc } from "firebase/firestore";
 
 const Testimonial = () => {
+    const [participants,setparticipants]=useState("");
+    const [projects,setprojects]=useState(0);
+    async function readDataFromFirestore() {
+        try {
+            
+            const squadDocRef = doc(collection(db, "metadata"), "squad_names");
+            const squadDocSnapshot = await getDoc(squadDocRef);
+
+            if (squadDocSnapshot.exists()) {
+                const data = squadDocSnapshot.data();
+                
+                setparticipants(data.participants);
+                setprojects(data.squadNames.length-1);
+            } 
+    
+            
+    
+        } catch (e) {
+            console.error(e);
+        }
+    
+    }
+    useEffect(() => {
+        readDataFromFirestore();
+
+    },[])
     return (
         <div>
 
@@ -8,7 +37,7 @@ const Testimonial = () => {
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
                     <div className="lg:col-span-5 lg:col-start-1">
                         <div className="mb-8">
-                            <h2 className="mb-2 font-bold text-2xl md:text-3xl">
+                            <h2 className="font-body font-bold text-2xl hover:text-orange md:text-3xl">
                                 Voices from Our Participants
                             </h2>
                         </div>
@@ -29,7 +58,7 @@ const Testimonial = () => {
                             </svg>
                             <div className="relative z-10">
                                 <p className="text-lg italic font-body">
-                                Participating in Hacktrix was a transformative experience that exceeded all my expectations. From collaborating with talented individuals from diverse backgrounds to pushing the boundaries of innovation, the event empowered me to unleash my creativity and problem-solving skills. I not only gained invaluable hands-on experience but also forged lasting connections and friendships. I am eagerly looking forward to the next edition of Hacktrix!
+                                    Participating in Hacktrix was a transformative experience that exceeded all my expectations. From collaborating with talented individuals from diverse backgrounds to pushing the boundaries of innovation, the event empowered me to unleash my creativity and problem-solving skills. I not only gained invaluable hands-on experience but also forged lasting connections and friendships. I am eagerly looking forward to the next edition of Hacktrix!
                                 </p>
                             </div>
                             <footer className="mt-6">
@@ -45,7 +74,7 @@ const Testimonial = () => {
                                         <div className="font-body font-semibold text-orange">
                                             Kristen Talukdar
                                         </div>
-                                        <div className="text-xs font-body text-lightOrange">
+                                        <div className="text-xs font-body text-gray-500">
                                             Pythonic Maestro, WAD | IEEE SRM
                                         </div>
                                     </div>
@@ -54,12 +83,12 @@ const Testimonial = () => {
                         </blockquote>
                     </div>
 
-                    <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
+                    <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13 font-body">
                         <div className="space-y-6 sm:space-y-8">
                             <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        51+
+                                        {participants}
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Anticipated enthusiastic participants.
@@ -67,7 +96,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        17+
+                                        {projects}+
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Envisioning a wave of creative projects.
@@ -83,7 +112,7 @@ const Testimonial = () => {
                                 </li>
                                 <li className="group flex flex-col -m-0.5 p-4 sm:p-8 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-orange">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-black group-hover:text-orange mb-2">
-                                        2x
+                                        5x
                                     </div>
                                     <p className="text-sm sm:text-base font-body text-gray-400">
                                         Innovative Spirit
