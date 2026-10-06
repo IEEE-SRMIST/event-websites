@@ -1,0 +1,23 @@
+.mentors-container {
+    display: flex;
+    align-items: center;
+    max-height: auto;
+    max-width: auto;
+    overflow: hidden;
+}
+
+.mentor {
+    margin-right: 32px;
+    flex: 1;
+    animation: loopMentors 20s linear infinite;
+}
+
+@keyframes loopMentors {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

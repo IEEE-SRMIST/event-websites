@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Quicksand:wght@300..700&display=swap');
+
+
+@keyframes moveLeftRight {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(36px);
+  }
+}
+
+.animate-hacktrix {
+  animation: moveLeftRight 5s ease-in-out infinite;
+}
+
+.animated-cube {
+  width: 24px;
+  height: 24px;
+  background-color: #F54703;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.rotating-triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 16px solid #F54703;
+  animation: rotateTriangle 3s linear infinite;
+}
+
+@keyframes rotateTriangle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-bullet-square {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-color: #F54703;
+  animation: rotateSquare 8s linear infinite;
+}
+
+@keyframes rotateSquare {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 3D Rotating Cube Container 
+.cube-container {
+  perspective: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 50px;
+  height: 50px;
+  transform: rotateX(45deg) rotateY(45deg);
+  animation: rotateCube 4s linear infinite;
+}
+
+.orbiting-cube {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #F54703;
+  transform-origin: center center -100px;
+  animation: orbitAround 8s linear infinite;
+}
+
+@keyframes rotateCube {
+  from {
+    transform: rotateX(45deg) rotateY(45deg);
+  }
+
+  to {
+    transform: rotateX(405deg) rotateY(405deg);
+  }
+}
+
+@keyframes orbitAround {
+  from {
+    transform: rotateY(0deg) translateZ(50px) rotateX(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg) translateZ(50px) rotateX(360deg);
+  }
+}
+
+*/

@@ -1,0 +1,29 @@
+.sponsors-container {
+    display: flex;
+    align-items: center;
+    max-height: auto;
+    overflow: hidden;
+    animation: loopSponsors 20s linear infinite;
+}
+
+.sponsor {
+    margin-right: 32px;
+    flex: 1;
+}
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    transition: filter 0.3s ease;
+}
+
+@keyframes loopSponsors {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
